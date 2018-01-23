@@ -14,6 +14,8 @@ module.exports = {
     devServer: {
         contentBase: path.resolve(__dirname, 'public'),
         compress: true,
+        useLocalIp: true,
+        host: '0.0.0.0',
         port: 7500,
         open: true,
         stats: 'errors-only'
@@ -50,8 +52,9 @@ module.exports = {
         new webpack.LoaderOptionsPlugin({ minimize: true }),
         new webpack.ProvidePlugin({   
             jQuery: 'jquery',
-            //$: 'jquery',
-            jquery: 'jquery'
+            $: 'jquery',
+            jquery: 'jquery',
+            'window.jQuery': 'jquery'
         })
     ]
 };
