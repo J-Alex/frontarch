@@ -1,0 +1,37 @@
+@media screen and (min-width: 1201px) {
+    .header > .row {
+        width: 1200px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .logo {
+        width: 150px;
+    }
+    .nav-component {
+        position: initial;
+        display: block;
+    }
+    .nav {
+        width: auto;
+        height: auto;
+        background-color: transparent;
+    }
+    .nav .row {
+        display: block;
+    }
+    .nav .nav__link-wrapper {
+        display: block;
+        width: 100%;
+    }
+    .nav__link {
+        color: $black;
+        font-size: 1em;
+        margin: 0 1rem;
+    }
+    .nav__link--is-active {
+        color: $black;
+    }
+    .menu-wrapper {
+        display: none;
+    }
+}

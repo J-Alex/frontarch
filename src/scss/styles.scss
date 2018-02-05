@@ -1,3 +1,12 @@
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+// @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
 
+@import 'framework/_reset.scss';
 @import 'framework/_variables.scss';
+@import 'framework/_responsive.scss';
+@import 'framework/_grid.scss';
+
+@import 'layouts/header/_header.scss';
+@import 'layouts/nav/_nav.scss';
+
+
+@import 'framework/_mediaqueries.scss';

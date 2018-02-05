@@ -1,0 +1,22 @@
+$breakpoints: (
+    'small': "screen and ( min-width: 580px)",
+    'medium': "screen and ( min-width: 960px )",
+    'large': "screen and ( min-width: 1200px )"
+) !default;
+
+@mixin mediaquery($breakpoint){
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media #{inspect(map-get($breakpoints, $breakpoint))} {
+            @content;
+        }
+    } @else {
+        @warn "Breakpoint `#{breakpoint}` no existe!!" + "Los breakpoints disponibles son: #{map-keys(breakpoints)}";
+    }
+}
+
+
+@mixin md {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}

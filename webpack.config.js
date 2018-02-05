@@ -1,7 +1,17 @@
+/*
+*   -Separar el servidor.
+*   -Archivo de configuracion de entornos Dev y Prod.
+*   -Script build de los assets státicos
+*   -Watch Livereload para vistas .html
+*   -Update a la v3 y posteriormente a la v4
+*   -HotReloading de módulos?
+*   -CLI Scaffolding para subir a Yeoman 
+*/
+
 const webpack = require('webpack');
 const path = require('path');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
-const webpackUglifyJsPlugin = require('webpack-uglify-js-plugin')
+//const webpackUglifyJsPlugin = require('webpack-uglify-js-plugin')
 
 module.exports = {
     devtool: 'source-map',
@@ -14,9 +24,12 @@ module.exports = {
     devServer: {
         contentBase: path.resolve(__dirname, 'public'),
         compress: true,
+        useLocalIp: true,
+        host: '0.0.0.0',
         port: 7500,
         open: true,
-        stats: 'errors-only'
+        /*bonjour: true,*/
+        //stats: 'errors-only'
     },
     module: {
         rules:[
@@ -46,12 +59,13 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('styles.min.css'),
-        new webpack.optimize.UglifyJsPlugin({sourceMap: true}),
-        new webpack.LoaderOptionsPlugin({ minimize: true }),
+        //new webpack.optimize.UglifyJsPlugin({sourceMap: true}),
+        new webpack.LoaderOptionsPlugin(/*{ minimize: true }*/),
         new webpack.ProvidePlugin({   
             jQuery: 'jquery',
-            //$: 'jquery',
-            jquery: 'jquery'
+            $: 'jquery',
+            jquery: 'jquery',
+            'window.jQuery': 'jquery'
         })
     ]
 };

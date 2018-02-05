@@ -1,9 +1,9 @@
 import 'jquery';
-import 'bootstrap/dist/js/bootstrap';
+//import 'bootstrap/dist/js/bootstrap';
+
 
 import angular from 'angular';
 import uiRouter from '@uirouter/angularjs';
-
 
 import services from './services/services.module';
 import uiRouting from './uirouting/ui.routing';

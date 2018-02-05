@@ -4,6 +4,7 @@
   "description": "Frontend task manager and module bundler - scaffold",
   "main": "webpack.config.js",
   "scripts": {
+    "webpack-build": "webpack",
     "build": "NODE_ENV=production webpack",
     "webpack": "webpack --watch",
     "webpack-server": "webpack-dev-server --debug --output-pathinfo",
