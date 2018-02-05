@@ -4,19 +4,20 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
     $stateProvider
         .state('/', {
             url: '/',
-            template: '<h1>HOMEINICIOINDEX</h1>'
+            component: 'homeComponent'
+            //template: '<h1>HOMEINICIOINDEX</h1>'
         })
-        .state('/home',{
+        /*.state('/home',{
             url: '/home',
-            component: 'homeComponent'/*,
+            component: 'homeComponent',
             resolve: {
                 test: function(TestService) {    
                     //'ngInject';
 
                     console.log(TestService.getData());
                 }
-            }*/
-        });
+            }
+        });*/
         
     $urlRouterProvider
         .otherwise('/');
