@@ -1,3 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #323232;
+}
+.container{
+    grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+}
+.icon {
+    border-radius: 50%;
+    background: #E13639;
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px 19px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.icon {
+    align-self: flex-end;
+}
+.row {
+    padding: 1.5em 1em;
+}
+//Tamaño del logo de Bigbang
+.logo{
+    width: 100px;
+}
+
+.main-title{
+    font-weight: 700;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
 .red{
-    color: red;
+    color: #E13639;
+}
+.portada {
+    display: flex;
+    //flex-direction: column; 
+    flex-wrap: wrap;
+    align-items: center;
+    //align-content: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.slogan {
+    display: flex;
+    //flex-direction: row; DEFAULT
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.slogan_image-wrappper{
+    margin: 0 auto;
+}
+.slogan_image  {
+    width: 320px;
+/*    animation: mover_edificio 5s ease-in-out infinite;
+    position: absolute;*/
+}
+/*@keyframes mover_edificio{
+  0%  {  top: 50%; }
+  50% {  top: 80%; }
+  100%{  top: 50%; }
+}*/
+
+.dirigible {
+    /*position: static;
+    top: 0;
+    right: 0;*/
+    width: 200px;
+    margin-top: 0.5rem;
+    float: right;
+    position: absolute;
+    animation: mover_dirigible 10s ease-in-out infinite;
+
+}
+
+@keyframes mover_dirigible {
+  0%  {  left: 50%; }
+  50% {  left: 85%; }
+  100%{  left: 50%; }
+}
+/*
+
+@keyframes mover_red-dot {
+  0%  {  left: 90%; }
+  50% {  left: 50%; }
+  100%{  left: 90%; }
+}*/
+
+.red-dot { 
+    clear: both;    
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #E13639;
+    margin-top: 6rem;
+    position: absolute;
+    animation: mover_red-dot 10s ease-in-out infinite;
+
+}
+.slogan_text {
+    font-weight: 800;
+    font-size:  1.5em;
+    margin-top: 9rem;
+}
+.slogan_link {
+    font-weight: 700;
+    //text-decoration: underline;
+    border-bottom: 1px solid #E13639;
+    padding-bottom: 3px;
+}
+
+.ideales{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.aporte{
+    background: #f2f2f2;
+    padding: 40px 20px;
+    width: 360px;
+}
+.ideales_title{
+    font-size: 1.9em;
+    font-weight: 800;
+    text-align: center;
+    line-height:1.1;
+    margin-top: 3.6rem;
+}
+.ideales_text{
+    text-align: center;
+    font-size: 14px;
+}
+.ideales_maintitle{
+    text-align: center;
+    margin-bottom: 20px;
+}
+//#cccccc
+.ideales_before, .ideales_before-2, .ideales_before-3{
+    width: 0;
+    height: 0;
+    max-width: 0;
+    max-height: 0;
+    display: inline;
+    position: absolute;
+}
+.ideales_before:after {
+    content: '01';
+    position: relative;
+    font-weight: 900;
+    top: 4px;
+    left: 1rem;
+    font-size: 6em;
+    opacity: .2;
+}
+.ideales_before-2:after {
+    content: '02';
+    position: relative;
+    font-weight: 900;
+    top: 0;
+    left: 1rem;
+    font-size: 6em;
+    opacity: .2;
+}
+
+.ideales_before-3:after {
+    content: '03';
+    position: relative;
+    font-weight: 900;
+    top: 0;
+    left: .5rem;
+    font-size: 6em;
+    opacity: .2;
+}
+
+.vidaBigbang_maintitle{
+    text-align: center;
+    color: #495966;
+}
+.vidaBigbang{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items:  center;
+
+}
+.actividades{
+    text-align: center;
+}
+.actividades_image{
+    width: 100px;
+    margin-top: 10px;
+}
+.vidaBB_text{
+    color: #495966;
+    font-weight: 700;
+    font-size: .8em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cantidad{
+    font-size: 2.6em;
+}
+
+.conten_pasion{
+    background-color: #495966;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.pasion{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-content:center;
+    padding: 70px 0px;
+}
+.pasion_item{
+    padding: 20px;
+    width: 180px; 
+}
+.pasion_image{
+    width: 80px;
+}
+.pasion_maintitle{
+    color: #fff;
+    text-align: center;
+}
+.pasion_title{
+    color: #fff;
+    font-size: 1.7em;
+}
+
+.clientes_maintitle{
+    text-align: center;
+    margin-top: 40px;
+}
+.clientes{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+.clientes_image{
+    width: 150px;
+}
+
+.video{
+    margin-left: -1.6rem;
+    margin-right: -1.6rem;
+}
+.video_stream{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+// .tecnologico{
+//      background-image: url("../../res/img/Cuadro y numero-03.jpg");
+// }
+@media screen and (min-width: 580px) {
+    .dirigible {        
+        margin-right: 5rem;
+    }
+    .slogan_text {        
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .aporte{        
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .main-title{
+        font-size: 2.7em;
+    }
+    .hiden-movil{
+        display: none;
+    }   
+    .actividades {
+        width: 50%;
+    }
+    .slogan_image-wrappper{
+        width: 100%;
+    }
+    .slogan_text-wrappper{
+        width: 100%;
+    }
+    .dirigible{
+        width: 190px;
+    }
+
+    .h1-responsive{
+        font-size: 1.8em;
+    }
+    .video_stream{
+        width: 100%;
+        height: 380px;
+    }
+
+    @keyframes mover_dirigible {
+        0%  {  left: 10%; }
+        50% {  left: 40%; }
+        100%{  left: 10%; }
+    }
 }
