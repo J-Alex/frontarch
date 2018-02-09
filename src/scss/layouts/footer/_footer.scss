@@ -1,0 +1,149 @@
+/* Inicio de estilos para el footer*/
+.hablemos{
+    //align-items: center;
+    background-color: #E13639;
+    color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    max-width: 100%;
+}
+.hablemos_contenido{
+    text-align: center;
+    width: 100%;
+}
+.hablemos_btn{
+    background-color: #f2f2f2;
+    color: #323232;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding: .6em 2em;
+    margin: 6px;
+    border-radius: 7px;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    white-space: normal;
+    word-wrap: break-word;
+    cursor: pointer;
+    will-change: opacity,transform;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.hablemos_btn:hover,.hablemos_btn:focus {
+    color: #E13639;
+}
+.hablemos_title{
+    margin-top: 6rem;
+    margin-bottom: -5rem;
+}
+.footer{
+    background-color: #323232;
+    color: #f2f2f2;
+    display: flex;
+    flex-wrap: wrap;
+    height: 160px;
+    font-weight: 300;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.footer_logo{
+    width: 15%;
+    text-align: center;
+}
+.footer_contacto{
+    width: 25%;
+}
+.footer_social{
+    width: 35%;
+    text-align: center;
+}
+.footer_copyright{
+    width: 25%;
+}
+.footer_copyright_text{
+    font-size: 0.6em;
+}
+.footer_img{
+    width: 80px;
+}
+
+.btn-social{
+    margin: 0.8rem;
+}
+.icon-social{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    width: 40px;
+    z-index: 1;
+    will-change: opacity,transform;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+}
+
+.icoface:hover,.icoface:focus{
+    background: #3B5998;
+}
+.icoinsta:hover,.icoinsta:focus{
+    background: linear-gradient( 49deg, #ff5252 , #EE2A7B);
+}
+.icotwitter:hover, .icontwitter:focus{
+    background: #00aced;
+}
+.icobehance:hover,.icobehance:focus{
+    background: #000;
+    color: #fff;
+}
+.icolinkedin:hover,.icolinkedin:focus{
+    background: #0077B5;
+}
+
+
+@media screen and (max-width: 580px){
+    .hablemos{
+        height: 250px;
+    }
+    .hablemos_title {
+        margin-top: 3rem;
+        margin-bottom: -2rem
+    }
+    .footer{
+        height: 280px;
+    }
+    .footer_logo{
+        width: 30%;
+        text-align: center;
+    }
+    .footer_contacto{
+        width: 70%;
+    }
+    .footer_social{
+        width: 100%;
+        text-align: center;
+    }
+    .footer_copyright{
+        width: 100%;
+    }
+    .footer_copyright_text{
+        text-align: center;
+        font-size: 0.6em;
+        font-weight: 400;
+    }
+    .footer_img{
+        width: 80px;
+    }
+    .btn-social{
+        margin: 0.4rem;
+    }
+
+}
