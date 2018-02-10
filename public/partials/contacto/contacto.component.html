@@ -6,19 +6,22 @@
 	        
 	        <form class="contact-form">
 				<div class="form-group line-active">
-					<input type="text" class="form-input" placeholder="Nombre*" data-ng-model="$ctrl.mailObj.name">
+                    <input type="text" class="form-input" placeholder="Nombre*" data-ng-model="contacto.mailObj.name">
+                    <div class="line-active"></div>
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-input" placeholder="Correo Electrónico*" data-ng-model="$ctrl.mailObj.email">
+                    <input type="text" class="form-input" placeholder="Correo Electrónico*" data-ng-model="contacto.mailObj.email">
+                    <div class="line-active"></div>
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-input" placeholder="Empresa" data-ng-model="$ctrl.mailObj.phone">
+                    <input type="text" class="form-input" placeholder="Empresa" data-ng-model="contacto.mailObj.phone">
+                    <div class="line-active"></div>
 				</div>
 				<div class="form-group">
-					<textarea class="form-txtarea" placeholder="Detalles del proyecto*" data-ng-model="$ctrl.mailObj.msj"></textarea>
+					<textarea class="form-txtarea" placeholder="Detalles del proyecto*" data-ng-model="contacto.mailObj.msj"></textarea>
 				</div>
 				<div class="form-group flex flex-center_horizontal">
-					<button class="btn btn-default form-button" data-ng-click="$ctrl.sendMail()"> Enviar </button>
+					<button class="btn btn-default form-button" data-ng-click="contacto.sendMail()"> Enviar </button>
 				</div>
 			</form>
 			
