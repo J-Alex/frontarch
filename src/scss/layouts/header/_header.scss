@@ -1,12 +1,12 @@
 .header {
-    .row {
+    #{&}-row {
         display: flex;
         /* flex-direction: row; (row default) */
         flex-wrap: wrap; // (nowrap default)
         justify-content: space-between; // x axis - (flex-start default)
         align-items: center; // y axis | (stretch default)
         align-content: center; // for many lines of items (stretch default)
-
+        padding: 1rem;
         //@include md {
         //    width: 1200px;
         //    max-width: 1200px;

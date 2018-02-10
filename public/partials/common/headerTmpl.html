@@ -1,11 +1,11 @@
 <header class="header">
-    <div class="row">
-        <a href="">
-            <img class="logo" src="res/img/logo.png" srcset="res/img/logo.png 3x, res/img/icon.png 2x, res/img/logo.png 1x" alt="logo">
+    <div class="header-row">
+        <a data-ui-sref="/">
+            <img class="header__logo" src="res/img/logo.png" srcset=" res/img/icon.png 2x, res/img/logo.png 1x" alt="logo">
         </a>
-        <div class="menu-wrapper" data-ng-click="header.showMenu()">
-            <div class="hamburger"></div>
-        </div>
         <nav-component class="nav-component"></nav-component>
-    </div>
+    </div>    
 </header>
+<div class="menu-wrapper" data-ng-click="header.showMenu()">
+    <div class="hamburger"></div>
+</div>

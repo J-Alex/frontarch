@@ -18,7 +18,7 @@
     //z-index: 999;
     width: 100vw;
     height: 100vh;
-    background-color: #002;
+    background-color: rgba(0,0,0, .93);
     color: $white;
     .row {
         display: flex;
@@ -35,6 +35,7 @@
         display: flex;
         flex-direction: column;
         width: 80%;
+        margin-bottom: 10rem;
 
         //@include md {
         //    display: block;
@@ -51,12 +52,15 @@
 }
 .nav--is-visible {
     display: initial;
+    position: fixed;
 }
 .nav__link {
     color: $white;
-    text-align: center;
+    //text-align: center;
     font-size: 2em;
+    font-weight: 700;
     margin: 1rem 0;
+    //padding-left: 19px;
 
     //@include md {
     //    color: $black;
@@ -68,8 +72,18 @@
 //    color: $white;
 //}
 .nav__link--is-active {
-    color: $yellow;
-    
+    //color: $yellow;
+    margin-left: -28px;
+    &::before{
+        content: "·";
+        position: relative;
+        top: 5px;
+        color: $redB;
+        font-size: 2em;
+        //vertical-align: baseline;
+        //text-align: center;
+        //vertical-align: middle;
+    }
     //@include md {
     //    color: $black;
     //}

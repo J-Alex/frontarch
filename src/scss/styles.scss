@@ -4,10 +4,12 @@
 @import 'framework/_variables.scss';
 @import 'framework/_responsive.scss';
 @import 'framework/_grid.scss';
+@import 'framework/_clases.scss';
 
 @import 'layouts/header/_header.scss';
 @import 'layouts/nav/_nav.scss';
 @import 'layouts/footer/_footer.scss';
 @import 'layouts/home/_home.scss';
+@import 'layouts/contacto/_contacto.scss';
 
 @import 'framework/_mediaqueries.scss';
