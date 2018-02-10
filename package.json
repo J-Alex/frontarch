@@ -6,7 +6,7 @@
   "scripts": {
     "webpack-build": "webpack",
     "build": "NODE_ENV=production webpack",
-    "webpack": "webpack --watch",
+    "webpack": "webpack",
     "dev-server": "webpack-dev-server --debug --output-pathinfo",
     "test": "webpack test"
   },
