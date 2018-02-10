@@ -17,6 +17,10 @@ a {
 /*a:visited {
     color: #00f;
 }*/
-div, main, input, textarea {
+div, main, input, textarea, input, textarea {
     box-sizing: border-box;
+}
+
+figure {
+	margin: 0;
 }

@@ -7,6 +7,11 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
             component: 'homeComponent'
             //template: '<h1>HOMEINICIOINDEX</h1>'
         })
+        .state('contacto', {
+            url: '/contacto',
+            component: 'contactoComponent'
+            //template: '<h1>HOMEINICIOINDEX</h1>'
+        })
         /*.state('/home',{
             url: '/home',
             component: 'homeComponent',
