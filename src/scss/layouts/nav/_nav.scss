@@ -35,7 +35,7 @@
         display: flex;
         flex-direction: column;
         width: 80%;
-        margin-bottom: 10rem;
+        margin-bottom: 4.2rem;
 
         //@include md {
         //    display: block;
@@ -49,6 +49,13 @@
     //    height: auto;
     //    background-color: transparent;
     //}
+}
+.menu-icon {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 78px;
+    display: block;
 }
 .nav--is-visible {
     display: initial;
