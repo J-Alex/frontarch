@@ -1,0 +1,132 @@
+.banner_service{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 490px;
+    justify-content:  space-around;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding-top: .2rem; 
+    padding-bottom: 1rem;
+}
+
+.banner_figure{
+    width: 50%;
+    .banner-circle-red{
+        background-color: #E13639;
+        border-radius: 50%;
+        float: right;
+        height: 320px;
+        padding: 4.8rem;
+        width: 320px;
+        margin-right: 3rem;
+    }
+    .banner-vector{
+        margin-left: 2.1rem;
+        width: 160px;
+    }
+}
+
+.banner_services_text{
+    width: 50%;
+    float: left;
+    padding-top: 2.8rem;
+    padding-right: 3rem;
+    font-weight: 600;
+
+    .bannerdev_title{
+        font-size: 3.4rem;
+        font-weight: 800;
+        margin-left: -4.5rem;
+    }
+}
+
+
+.services-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.figure_services_content{
+    height: 430px;
+    width: 100%;
+}
+.services_image{
+    height: 430px;
+    position: absolute;
+    width: 100%;
+}
+
+.services_text_content{
+    position: relative;
+    padding: 2rem 2rem 1rem 2rem;
+    width: 30%;
+    margin-left: 5rem;
+    padding-top: 4rem;
+
+    p{
+        font-weight: 500;
+    }
+}
+.services_title{
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.btn {
+    background-color: #E13639;
+    color: #fff;
+    font-size: .9em;
+    font-weight: 400;
+    padding: .4em 2em;
+    margin-left: 7rem;
+    border-radius: 7px;
+    border: none;
+    position: relative;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    white-space: normal;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 580px){
+    .banner_service{
+        height: 215px;
+    }
+    .banner_figure{
+        width: 25%;
+        .banner-circle-red{
+            background-color: #E13639;
+            border-radius: 50%;
+            height: 130px;
+            padding: 1.8rem;
+            width: 130px;
+            margin-right: 5.2rem;
+            margin-top: -4rem;
+        }
+        .banner-vector{
+            margin-left: .6rem;
+            width: 75px;
+        }
+    }
+
+    .banner_services_text{
+        font-weight: 600;
+        position: absolute;
+        padding-top: 2.1rem;
+        .bannerdev_title{
+            font-size: 1.8em;
+            font-weight: 800;
+            margin-left: 2.3rem;
+            margin-top: .6rem;
+        }
+
+        p{
+            margin-left: 3.7rem;
+            width: 205px;            
+        }
+    }
+
+}
