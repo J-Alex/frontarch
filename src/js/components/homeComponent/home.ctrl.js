@@ -16,43 +16,38 @@ class HomeCtrl {
             clientes: 500,
             proyectos: 500
         }
+        this.cafe = 0;
+        this.cont = 0;
     }
     $onInit() {
-
-        //setTimeout(function(){
-                
-            var stepTime = Math.abs(Math.floor(2000 / 75));
-            console.log(stepTime);
-            let intervalo = setInterval(()=>{
-                console.log("ya");
-
-                while(this.$scope.home.contador.cafe < this.$scope.home.contador.clientes) {
-                    this.$scope.home.contador.cafe += 1;
-                    setTimeout(()=>{ this.$scope.$apply(); },100);
-                    //this.$scope.$apply();
-                    console.log(this.contador.cafe);
-                }
-
-                if(this.$scope.home.contador.cafe == 500){
-                    clearInterval(intervalo);
-                }
-            },stepTime);
-
-        //},5000)
+        setTimeout(()=>{this.contar()}, 2500)   
+        //console.log(this.cafe);         
     }
 
-    /*contar(){
-        while(this.contador.cafe < this.contador.clientes) {
-            this.contador.cafe += 1;
-            console.log(this.contador.cafe);
-        }
-    }*/
+    contar(){
+        let intervalo = setInterval(()=>{
+            //console.log("start");
+
+            while(this.cafe < 1000) {
+                this.cafe += 1;
+                setTimeout(()=>{
+                    this.$scope.home.cont += 1;
+                    this.$scope.$apply();
+                },100);
+                //console.log(this.cafe);
+            }
+
+            if(this.cafe == 500){
+                //console.log("end");
+                clearInterval(intervalo);
+            }
+        },2500);
+    }
 
     scrollDown(){
         var targetOffset = this.$document.find("#slogan").offset().top - (parseInt(jQuery("header").css("padding-bottom")));
         this.$document.find('html,body').stop().animate({scrollTop: targetOffset}, 600);
-        console.log(targetOffset);
-        
+        console.log(targetOffset);        
     }
 }
 

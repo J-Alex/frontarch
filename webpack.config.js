@@ -24,8 +24,8 @@ module.exports = {
     devServer: {
         contentBase: path.resolve(__dirname, 'public'),
         compress: true,
-        useLocalIp: true,
-        host: '0.0.0.0',
+        //useLocalIp: true,
+        host: '127.0.0.1',
         port: 7500,
         open: true,
         /*bonjour: true,*/
@@ -59,8 +59,16 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('styles.min.css'),
-        //new webpack.optimize.UglifyJsPlugin({sourceMap: true}),
-        new webpack.LoaderOptionsPlugin(/*{ minimize: true }*/),
+        /*new webpack.optimize.UglifyJsPlugin({
+            uglifyOptions: {
+                sourceMap: true,
+                beautify: false,
+                ecma: 6,
+                compress: true,
+                comments: false
+            }
+        }),*/
+        new webpack.LoaderOptionsPlugin({ minimize: true }),
         new webpack.ProvidePlugin({   
             jQuery: 'jquery',
             $: 'jquery',
