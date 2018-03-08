@@ -2,12 +2,12 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    height: 490px;
-    justify-content:  space-around;
+    height: 520px;
+    justify-content: space-around;
     max-width: 1200px;
     margin: 0 auto; 
     padding-top: .2rem; 
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
 }
 
 .banner_figure{
@@ -50,25 +50,41 @@
 }
 
 .figure_services_content{
-    height: 430px;
-    width: 100%;
-}
-.services_image{
-    height: 430px;
-    position: absolute;
+    height: 480px;
     width: 100%;
 }
 
+.img-sitioweb{
+    background-image: url(../../res/img/recursos/farem.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img-aplicaciones{
+    background-image: url(../../res/img/recursos/aplicaciones.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img-sistemas{
+    background-image: url(../../res/img/recursos/Isnaya.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
 .services_text_content{
     position: relative;
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 5rem 2rem 1rem 2rem;
     width: 30%;
     margin-left: 5rem;
-    padding-top: 4rem;
+    padding-top: 5rem;
 
     p{
         font-weight: 500;
     }
+}
+.derecha{
+    float: right;
+    padding: 5rem 5rem 1rem;
 }
 .services_title{
     font-size: 2.5em;
@@ -77,10 +93,6 @@
 .btn {
     background-color: #E13639;
     color: #fff;
-    font-size: .9em;
-    font-weight: 400;
-    padding: .4em 2em;
-    margin-left: 7rem;
     border-radius: 7px;
     border: none;
     position: relative;
@@ -89,6 +101,14 @@
     white-space: normal;
     word-wrap: break-word;
     cursor: pointer;
+}
+
+.btn-cotizar{
+    float: left;
+    font-size: .9em;
+    font-weight: 600;
+    padding: .4em 3.4em;
+    margin-top: 0.7rem;
 }
 
 @media screen and (max-width: 580px){
@@ -127,6 +147,53 @@
             margin-left: 3.7rem;
             width: 205px;            
         }
+    }
+
+
+    .figure_services_content {
+        height: 214px;
+        width: 100%;
+    }
+
+    .services_text_content{
+        position: relative;
+        padding: 1.2rem;
+        width: 43%;
+        margin-left: 0rem;
+        padding-top: 1rem;
+
+        p{
+            font-weight: 500;
+            width: 175px;
+            margin-top: .3rem;
+            margin-bottom: .3rem;
+        }
+
+        .services_title{
+            font-size: 1.3em;
+        }
+    }
+
+    .btn-cotizar{
+        margin-top: .4rem;
+        padding: .4em 2.2em;
+    }
+
+    
+    .img-sitioweb{
+        background-image: url(../../res/img/recursos/web-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img-aplicaciones{
+        background-image: url(../../res/img/recursos/aplicacion-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img-sistemas{
+        background-image: url(../../res/img/recursos/isnaya-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 
 }
