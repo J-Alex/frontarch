@@ -28,7 +28,7 @@ module.exports = {
         host: '127.0.0.1',
         port: 7500,
         open: true,
-        /*bonjour: true,*/
+        //bonjour: true,
         //stats: 'errors-only'
     },
     module: {
