@@ -13,7 +13,24 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+@media screen and (max-width: 740px){
+    .img-branding{
+        background-image: url(../../res/img/recursos/papeleria-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img-publicitario{
+        background-image: url(../../res/img/recursos/disenio-publicitario-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img-editorial{
+        background-image: url(../../res/img/recursos/editorial-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
 
+}
 @media screen and (max-width: 580px){  
     .hiden-xs{
         display: none;

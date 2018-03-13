@@ -110,7 +110,184 @@
     padding: .4em 3.4em;
     margin-top: 0.7rem;
 }
+/*Resolucion de pantalla tablet horizontal*/
+@media screen and (max-width: 1024px){
+    .figure_services_content {
+        height: 274px;
+        width: 100%;
+    }
+    .servicio {
+        width: 300px;
+        border-bottom: 5px solid #323232;
+        overflow: hidden;
+        height: 370px;
+    }
+    .servicio__bg-img { 
+        width: 300px;
+    }
 
+    .figure_services_content {
+        height: 366px;
+        width: 100%;
+    }
+    .services_text_content {
+        padding-top: 3rem;
+    }
+    .derecha {
+        float: right;
+        padding: 3rem 5rem 1rem;
+    }
+
+
+}
+/*Resolucion de pantalla tablet vertical*/
+@media screen and (max-width: 768px){
+    .banner_figure .banner-circle-red {
+        height: 290px;
+        padding: 4rem;
+        width: 290px;
+    }
+
+    .banner_figure .banner-vector {
+        margin-left: 2rem;
+    }
+
+    .figure_services_content {
+        height: 274px;
+        width: 100%;
+    }
+
+    .services_text_content {
+        width: 50%;
+        margin-left: 0rem;
+        padding-top: 1.5rem;
+    }
+    .derecha {
+        float: right;
+        padding: 1rem 1rem 0rem;
+    }
+    .btn-cotizar {
+        float: left;
+        padding: .4em 3.4em;
+        margin-top: 0rem;
+    }
+    .services_title {
+        font-size: 2em;
+        font-weight: 800;
+    }
+
+    .servicio {
+        width: 230px;
+        border-bottom: 5px solid #323232;
+        overflow: hidden;
+        height: 400px;
+    }
+    .servicio__bg-img { 
+        width: 256px;
+    }
+
+    .servicio__text-caption {
+        padding: 1rem 1rem 0rem;
+    }
+
+    .banner {
+        height: 385px;
+        margin-left: -1.7rem;
+        margin-right: -1.6rem;
+        margin-top: 0rem;
+        padding: 2rem;
+    }
+
+    .banner_title{
+        font-size: 3em;
+        font-weight: 800;
+    }
+}
+/*Resolucion de pantalla movil vertical*/
+@media screen and (max-width: 740px){
+    .banner{
+        height: 320px;
+    }
+    .icon-white {
+        font-size: 26px;
+        margin-top: 0rem;
+        padding: 1px 10px;
+    }
+    .banner_figure {
+        .banner-circle-red {
+            height: 200px;
+            padding: 2.5rem;
+            width: 200px;
+        }
+        .banner-vector {
+            margin-left: 1rem;
+            width: 120px;
+        }
+    }
+    .icon{
+        display: none;
+    }
+    .banner_services_text .bannerdev_title {
+        /* font-size: 2rem; */
+        margin-top: .9rem;
+    }
+    .banner_service {
+        height: 215px;
+    }
+    .banner_services_text .bannerdev_title {
+        font-size: 2rem;
+    }
+
+    .figure_services_content {
+        height: 330px;
+        width: 100%;
+    }
+    .servicio {
+        width: 190px;
+        height: 425px;
+    }
+    .servicio__bg-img {
+        width: 210px;
+    }
+    .services_text_content {
+        width: 52%;
+        margin-left: 0rem;
+        padding: 1rem 1rem 1rem;
+        padding-top:3rem;
+    }
+    .derecha {
+        float: right;
+        padding: 1rem 0rem;
+        padding-left: 1rem;
+        padding-top: 3rem;
+    }
+    .services_title {
+        font-size: 1.9em;
+        font-weight: 800;
+    }
+    .services_text_content p {
+        width: 330px;
+    }
+
+    .img-sitioweb{
+        background-image: url(../../res/img/recursos/web-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img-aplicaciones{
+        background-image: url(../../res/img/recursos/aplicacion-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img-sistemas{
+        background-image: url(../../res/img/recursos/isnaya-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+
+}
+/*Resolucion de pantalla mobil vertical*/
 @media screen and (max-width: 580px){
     .banner_service{
         height: 215px;

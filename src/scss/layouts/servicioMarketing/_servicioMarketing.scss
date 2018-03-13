@@ -1,42 +1,33 @@
 .img-socialmedia{
-    background-image: url(../../res/img/recursos/Papeleria.jpg);
+    background-image: url(../../res/img/recursos/social-media.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .img-publicidad-google{
-    background-image: url(../../res/img/recursos/disenio-publicitario.jpg);
+    background-image: url(../../res/img/recursos/google-ads.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.img-google-adwords{
-    background-image: url(../../res/img/recursos/editorial.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.img-google-adsense{
-    background-image: url(../../res/img/recursos/disenio-publicitario.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-@media screen and (max-width: 580px){  
+@media screen and (max-width: 740px){
     .img-socialmedia{
-        background-image: url(../../res/img/recursos/Papeleria.jpg);
+        background-image: url(../../res/img/recursos/social-media-mobil.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
     }
     .img-publicidad-google{
-        background-image: url(../../res/img/recursos/disenio-publicitario.jpg);
+        background-image: url(../../res/img/recursos/google-ads-mobil.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
     }
-    .img-google-adwords{
-        background-image: url(../../res/img/recursos/editorial.jpg);
+}
+@media screen and (max-width: 580px){  
+    .img-socialmedia{
+        background-image: url(../../res/img/recursos/social-media-mobil.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
     }
-    .img-google-adsense{
-        background-image: url(../../res/img/recursos/disenio-publicitario.jpg);
+    .img-publicidad-google{
+        background-image: url(../../res/img/recursos/google-ads-mobil.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
     }
