@@ -55,7 +55,7 @@
 }
 
 .img-sitioweb{
-    background-image: url(../../res/img/recursos/farem.jpg);
+    background-image: url(../../res/img/recursos/webfarem.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -137,8 +137,6 @@
         float: right;
         padding: 3rem 5rem 1rem;
     }
-
-
 }
 /*Resolucion de pantalla tablet vertical*/
 @media screen and (max-width: 768px){
@@ -206,12 +204,16 @@
 /*Resolucion de pantalla movil vertical*/
 @media screen and (max-width: 740px){
     .banner{
-        height: 320px;
+        height: 310px;
     }
     .icon-white {
         font-size: 26px;
         margin-top: 0rem;
         padding: 1px 10px;
+    }
+    .banner_text {
+        font-size: 1.2em;
+        width: 510px;
     }
     .banner_figure {
         .banner-circle-red {
@@ -221,33 +223,38 @@
         }
         .banner-vector {
             margin-left: 1rem;
-            width: 120px;
+            width: 110px;
         }
     }
     .icon{
         display: none;
-    }
-    .banner_services_text .bannerdev_title {
-        /* font-size: 2rem; */
-        margin-top: .9rem;
     }
     .banner_service {
         height: 215px;
     }
     .banner_services_text .bannerdev_title {
         font-size: 2rem;
+        margin-top: .9rem;
     }
-
+   
     .figure_services_content {
         height: 330px;
         width: 100%;
+    }
+    .main-servicios-title {
+        margin-top: 1rem;
+        margin-bottom: -0.5rem;
+    }
+    .servicio__bg-img {
+        width: 200px;
     }
     .servicio {
         width: 190px;
         height: 425px;
     }
+    
     .servicio__bg-img {
-        width: 210px;
+        background: none;
     }
     .services_text_content {
         width: 52%;
@@ -264,6 +271,9 @@
     .services_title {
         font-size: 1.9em;
         font-weight: 800;
+    }
+    .servicio__text-caption h3 {
+        font-size: 1.5em;
     }
     .services_text_content p {
         width: 330px;
@@ -285,6 +295,13 @@
         background-size: 100%;
     }
 
+    .footer {
+        height: 95px;
+    }
+
+    .footer_contacto {
+        font-size: 12px;
+    }
 
 }
 /*Resolucion de pantalla mobil vertical*/
@@ -326,16 +343,28 @@
         }
     }
 
-
     .figure_services_content {
         height: 214px;
         width: 100%;
+    }
+    .main-servicios-title {
+        margin-top: 0rem;
+    }
+    .banner {
+        height: 260px;
+    }
+    .servicio{
+        background-color: #fff;
+        border-bottom: 3px solid #bdbdbd;
+        margin-bottom: 1rem;
+        width: 305px; 
+        height: 320px; 
     }
 
     .services_text_content{
         position: relative;
         padding: 1.2rem;
-        width: 43%;
+        width: 44%;
         margin-left: 0rem;
         padding-top: 1rem;
 
@@ -356,7 +385,6 @@
         padding: .4em 2.2em;
     }
 
-    
     .img-sitioweb{
         background-image: url(../../res/img/recursos/web-mobil.jpg);
         background-repeat: no-repeat;
@@ -372,5 +400,14 @@
         background-repeat: no-repeat;
         background-size: 100%;
     }
+    .footer {
+        height: 190px;
+    }
 
+    .footer_contacto {
+        font-size: 10px;
+    }
+    .footer_img {
+        width: 60px;
+    }
 }
