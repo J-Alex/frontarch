@@ -1,67 +1,211 @@
-    <!--Inicio de seccion del banner-->
-    <div class="banner_service">  
-        <div class="banner_figure">
-            <div class="banner-circle-red">
-                <img  src="res/img/recursos/desarrollo.png" alt="" class="banner-vector">
-            </div>
-        </div> 
-
-        <div class="banner_services_text" >
-            <h3 class="bannerdev_title">Desarrollo <br> web<span class="red">.</span></h3>
-            <p>  
-                Creemos que la optimización y automatización de procesos mediante.
-            </p>
+<!--Inicio de seccion del banner-->
+<div class="banner_service">  
+    <div class="banner_figure">
+        <div class="banner-circle-red">
+            <img  src="res/img/recursos/desarrollo.png" alt="" class="banner-vector">
         </div>
+    </div> 
 
-        <a href="" class="icon" data-ng-click="servicioDev.scrollDown()">
-            <span class="fa fa-angle-down"></span>
-        </a>
+    <div class="banner_services_text" >
+        <h3 class="bannerdev_title">Desarrollo <br> web<span class="red">.</span></h3>
+        <p>  
+            Creemos que la optimización y automatización de procesos mediante.
+        </p>
     </div>
-    <!--Fín de seccion del banner-->
 
-    <!--Inicio de seccion del contenido-->
-    <div class="services-content" id="developerService">
-        <figure class="figure_services_content img-sitioweb">
-            <figcaption class="services_text_content">
-                <h1 class="services_title">Sitios <br> web<span class="red">.</span></h1>
-                <p >
-                    Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito
-                    empresarial.<span class="hiden-xs"> Esto lo hace posible mediante el conocimiento de las tecnologias y su aplicación..</span>
-                </p>
+    <a href="" class="icon" data-ng-click="servicioDev.scrollDown()">
+        <span class="fa fa-angle-down"></span>
+    </a>
+</div>
+<!--Fín de seccion del banner-->
 
-                <a href="" class="btn btn-cotizar">
-                    Cotizar
-                </a>
-            </figcaption>
-        </figure>
+<!--Inicio de seccion del contenido-->
+<div class="services-content" id="developerService">
+    <figure class="figure_services_content img-sitioweb">
+        <figcaption class="services_text_content">
+            <h1 class="services_title">Sitios <br> web<span class="red">.</span></h1>
+            <p >
+                Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito
+                empresarial.<span class="hiden-xs"> Esto lo hace posible mediante el conocimiento de las tecnologias y su aplicación..</span>
+            </p>
 
-        <figure class="figure_services_content img-aplicaciones">
-            <figcaption class="services_text_content derecha">
-                <h1 class="services_title">Apps <br> moviles<span class="red">.</span></h1>
-                <p >
-                    Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito
-                    empresarial.<span class="hiden-xs"> Esto lo hace posible mediante el conocimiento de las tecnologias y su aplicación..</span>
-                </p>
+            <a href="" class="btn btn-cotizar" id="btn_sitiosweb">
+                Cotizar
+            </a>
+        </figcaption>
+    </figure>
 
-                <a href="" class="btn btn-cotizar">
-                    Cotizar
-                </a>
-            </figcaption>
-        </figure>
+    <figure class="figure_services_content img-aplicaciones">
+        <figcaption class="services_text_content derecha">
+            <h1 class="services_title">Apps <br> moviles<span class="red">.</span></h1>
+            <p >
+                Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito
+                empresarial.<span class="hiden-xs"> Esto lo hace posible mediante el conocimiento de las tecnologias y su aplicación..</span>
+            </p>
 
-        <figure class="figure_services_content img-sistemas">
-            <figcaption class="services_text_content">
-                <h1 class="services_title">Sistemas <br> web<span class="red">.</span></h1>
-                <p >
-                    Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito
-                    empresarial.<span class="hiden-xs"> Esto lo hace posible mediante el conocimiento de las tecnologias y su aplicación..</span>
-                </p>
+            <a href="" class="btn btn-cotizar" id="btn_appmobil">
+                Cotizar
+            </a>
+        </figcaption>
+    </figure>
 
-                <a href="" class="btn btn-cotizar">
-                    Cotizar
-                </a>
-            </figcaption>
-        </figure>
+    <figure class="figure_services_content img-sistemas">
+        <figcaption class="services_text_content">
+            <h1 class="services_title">Sistemas <br> web<span class="red">.</span></h1>
+            <p >
+                Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito
+                empresarial.<span class="hiden-xs"> Esto lo hace posible mediante el conocimiento de las tecnologias y su aplicación..</span>
+            </p>
+
+            <a href="" class="btn btn-cotizar">
+                Cotizar
+            </a>
+        </figcaption>
+    </figure>
          
+</div>
+<!--Fín de seccion del contenido-->
+
+
+
+<!--Modal Sitios Web-->
+<div id="ModalSitiosweb" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <img src="res/img/B.png" alt="" class="fbicon">
+                <h5 class="modal-title">Cotizar Sitio Web <span class="red">.</span></h5>
+                <button type="button" class="close closeWeb" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        ×
+                    </span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="modal-form ">
+
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Nombres del Contácto">
+                        <div class="line-active"></div>
+                    </div>
+                    <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Correo Electrónico*">
+                            <div class="line-active"></div>
+                    </div> 
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Teléfono">
+                        <div class="line-active"></div>
+                    </div>
+                    <p>
+                        Intervalo de tiempo para entrega del proyecto
+                    </p>
+                    <span class="de">De: </span>
+                    <div class="form-group fecha">
+                        <input type="date" class="form-input">
+                        <div class="line-active"></div>
+                    </div>
+                    <span class="a">A: </span>
+                    <div class="form-group fecha fecha2">
+                        <input type="date" class="form-input">
+                        <div class="line-active"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-txtarea" placeholder="Detalles del proyecto*"></textarea>
+                    </div>
+
+
+                    <div class="flex flex-center_horizontal">
+                        <button class="btn-modal form-button" data-ng-click=""> cotizar </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-    <!--Fín de seccion del contenido-->
+</div>
+
+<!--Modal Apps Mobil-->
+<div id="Modalappmobil" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img src="res/img/B.png" alt="" class="fbicon">
+                <h5 class="modal-title">Cotizar Apps Mobil <span class="red">.</span></h5>
+                <button type="button" class="close closeapp" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="modal-form">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Nombres del Contácto">
+                        <div class="line-active"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Correo Electrónico*">
+                        <div class="line-active"></div>
+                    </div> 
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Teléfono">
+                        <div class="line-active"></div>
+                    </div>
+
+                    <p>
+                        Intervalo de tiempo para entrega del proyecto
+                    </p>
+                    <span class="de">De: </span>
+                    <div class="form-group fecha">
+                        <input type="date" class="form-input">
+                        <div class="line-active"></div>
+                    </div>
+                    <span class="a">A: </span>
+                    <div class="form-group fecha fecha2">
+                        <input type="date" class="form-input">
+                        <div class="line-active"></div>
+                    </div>
+        
+                    <div class="form-group">
+                        <textarea class="form-txtarea" placeholder="Detalles del proyecto*"></textarea>
+                    </div>
+                    <div class="form-group flex flex-center_horizontal">
+                        <button class="btn-modal form-button" data-ng-click=""> Cotizar </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // modal web
+    var modalweb = document.getElementById('ModalSitiosweb');
+    var btnweb = document.getElementById("btn_sitiosweb");
+    var spanweb = document.getElementsByClassName("closeWeb")[0];
+    btnweb.onclick = function() {
+        modalweb.style.display = "block";
+    }
+    spanweb.onclick = function() {
+        modalweb.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalweb) {
+            modalweb.style.display = "none";
+        }
+    }
+    // modal appmobil
+    var modalapp = document.getElementById('Modalappmobil');
+    var btnapp = document.getElementById("btn_appmobil");
+    var spanapp = document.getElementsByClassName("closeapp")[0];
+    btnapp.onclick = function() {
+        modalapp.style.display = "block";
+    }
+    spanapp.onclick = function() {
+        modalapp.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalapp) {
+            modalapp.style.display = "none";
+        }
+    }
+</script>
