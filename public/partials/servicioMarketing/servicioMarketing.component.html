@@ -1,55 +1,209 @@
-    <!--Inicio de seccion del banner-->
-    <div class="banner_service">  
-        <div class="banner_figure">
-            <div class="banner-circle-red">
-                <img  src="res/img/recursos/marketing.png" alt="" class="banner-vector">
-            </div>
-        </div> 
-
-        <div class="banner_services_text" >
-            <h3 class="bannerdev_title">Marketing <br> digital<span class="red">.</span></h3>
-            <p>  
-                Creemos que la optimización y automatización de procesos mediante.
-            </p>
+<!--Inicio de seccion del banner-->
+<div class="banner_service">  
+    <div class="banner_figure">
+        <div class="banner-circle-red">
+            <img  src="res/img/recursos/marketing.png" alt="" class="banner-vector">
         </div>
+    </div> 
 
-        <a href="" class="icon" data-ng-click="servicioMarketing.scrollDown()">
-            <span class="fa fa-angle-down"></span>
-        </a>
+    <div class="banner_services_text" >
+        <h3 class="bannerdev_title">Marketing <br> digital<span class="red">.</span></h3>
+        <p>  
+            Creemos que la optimización y automatización de procesos mediante.
+        </p>
     </div>
-    <!--Fín de seccion del banner-->
 
-    <!--Inicio de seccion del contenido-->
-    <div class="services-content" id="marketing-service">
+    <a href="" class="icon" data-ng-click="servicioMarketing.scrollDown()">
+        <span class="fa fa-angle-down"></span>
+    </a>
+</div>
+<!--Fín de seccion del banner-->
 
-        <figure class="figure_services_content img-socialmedia">
-            <figcaption class="services_text_content">
-                <h1 class="services_title">Social <br> media<span class="red">.</span></h1>
-                <p >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem,
-                    quasi veritatis <span class="hiden-xs"> assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi
-                    eveniet earum itaque.</span>
-                </p>
+<!--Inicio de seccion del contenido-->
+<div class="services-content" id="marketing-service">
 
-                <a href="" class="btn btn-cotizar">
-                    Cotizar
-                </a>
-            </figcaption>
-        </figure>
+    <figure class="figure_services_content img-socialmedia">
+        <figcaption class="services_text_content">
+            <h1 class="services_title">Social <br> media<span class="red">.</span></h1>
+            <p >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem,
+                quasi veritatis <span class="hiden-xs"> assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi
+                eveniet earum itaque.</span>
+            </p>
 
-        <figure class="figure_services_content img-publicidad-google">
-            <figcaption class="services_text_content derecha">
-                <h1 class="services_title">Publicidad <br>en Google<span class="red">.</span></h1>
-                <p >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, quod, debitis! 
-                    Fuga commodi <span class="hiden-xs">nihil natus, quia aliquam ut velit, dignissimos facere ullam reiciendis 
-                    perferendis expedita</span>
-                </p>
+            <a href="" class="btn btn-cotizar" id="btn-Smedia">
+                Cotizar
+            </a>
+        </figcaption>
+    </figure>
 
-                <a href="" class="btn btn-cotizar">
-                    Cotizar
-                </a>
-            </figcaption>
-        </figure>
+    <figure class="figure_services_content img-publicidad-google">
+        <figcaption class="services_text_content derecha">
+            <h1 class="services_title">Publicidad <br>en Google<span class="red">.</span></h1>
+            <p >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, quod, debitis! 
+                Fuga commodi <span class="hiden-xs">nihil natus, quia aliquam ut velit, dignissimos facere ullam reiciendis 
+                perferendis expedita</span>
+            </p>
+
+            <a href="" class="btn btn-cotizar" id="btn-pgoogle">
+                Cotizar
+            </a>
+        </figcaption>
+    </figure>
+</div>
+<!--Fín de seccion del contenido-->
+
+<!--Modal Social media-->
+<div id="ModalSocialMedia" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <img src="res/img/B.png" alt="" class="fbicon">
+                <h5 class="modal-title">Cotizar Social media <span class="red">.</span></h5>
+                <button type="button" class="close closeSmedia" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        ×
+                    </span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="modal-form ">
+
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Nombres del Contácto">
+                        <div class="line-active"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Correo Electrónico*">
+                        <div class="line-active"></div>
+                    </div> 
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Teléfono">
+                        <div class="line-active"></div>
+                    </div>
+                    <!-- <p>Tiempo disponible para entrega del proyecto:</p>     
+                    <div class="center-align"> 
+                            
+                        <div class="radio-buton">   
+                            <input type="radio" name="size" id="Sweb1" value="Tengo tiempo" checked />
+                            <label for="Sweb1">¡Hay tiempo!</l>
+                        </div>
+
+                        <div class="radio-buton Sweb2"> 
+                            <input type="radio" name="size" id="Sweb2" value="Urgente" />
+                            <label for="Sweb2">¡Medio urgente!</label>
+                        </div>
+                        <div class="radio-buton">
+                            <input type="radio" name="size" id="Sweb3" value="ayer" />
+                            <label for="Sweb3">¡Para ayer!</label>
+                        </div>     
+                    </div> -->
+
+                    <div class="form-group">
+                        <textarea class="form-txtarea" placeholder="Detalles del proyecto..."></textarea>
+                    </div>
+
+                    <div class="flex flex-center_horizontal">
+                        <button class="btn-modal form-button" data-ng-click=""> cotizar </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
-    <!--Fín de seccion del contenido-->
+</div>
+
+
+<!--Modal Publicidad en Google-->
+<div id="ModalPublicidadG" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <img src="res/img/B.png" alt="" class="fbicon">
+                <h5 class="modal-title">Cotizar Publicidad en Google <span class="red">.</span></h5>
+                <button type="button" class="close closePublicidadG" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        ×
+                    </span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="modal-form ">
+
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Nombres del Contácto">
+                        <div class="line-active"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Correo Electrónico*">
+                        <div class="line-active"></div>
+                    </div> 
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Teléfono">
+                        <div class="line-active"></div>
+                    </div>
+                    <!-- <p>Tiempo disponible para entrega del proyecto:</p>     
+                    <div class="center-align"> 
+                            
+                        <div class="radio-buton">   
+                            <input type="radio" name="size" id="Sweb1" value="Tengo tiempo" checked />
+                            <label for="Sweb1">¡Hay tiempo!</l>
+                        </div>
+
+                        <div class="radio-buton Sweb2"> 
+                            <input type="radio" name="size" id="Sweb2" value="Urgente" />
+                            <label for="Sweb2">¡Medio urgente!</label>
+                        </div>
+                        <div class="radio-buton">
+                            <input type="radio" name="size" id="Sweb3" value="ayer" />
+                            <label for="Sweb3">¡Para ayer!</label>
+                        </div>     
+                    </div> -->
+
+                    <div class="form-group">
+                        <textarea class="form-txtarea" placeholder="Detalles del proyecto..."></textarea>
+                    </div>
+
+                    <div class="flex flex-center_horizontal">
+                        <button class="btn-modal form-button" data-ng-click=""> cotizar </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // modal Social Media
+    var modalSmedia = document.getElementById('ModalSocialMedia');
+    var btnSmedia = document.getElementById("btn-Smedia");
+    var spanSmedia = document.getElementsByClassName("closeSmedia")[0];
+    btnSmedia.onclick = function() {
+        modalSmedia.style.display = "block";
+    }
+    spanSmedia.onclick = function() {
+        modalSmedia.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalSmedia) {
+            modalSmedia.style.display = "none";
+        }
+    }
+    // modal Publicidad en google
+    var modalPGoogle = document.getElementById('ModalPublicidadG');
+    var btnPGoogle = document.getElementById("btn-pgoogle");
+    var spanPGoogle = document.getElementsByClassName("closePublicidadG")[0];
+    btnPGoogle.onclick = function() {
+        modalPGoogle.style.display = "block";
+    }
+    spanPGoogle.onclick = function() {
+        modalPGoogle.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalPGoogle) {
+            modalPGoogle.style.display = "none";
+        }
+    }
+</script>

@@ -137,6 +137,7 @@
 .fbicon {
     margin-right: 1rem;
     width: 45px;
+    margin-top: .4rem;
 }
 
 .modal {
@@ -176,18 +177,19 @@
     align-items: flex-start;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    padding: 1rem;
+    padding: .6rem;
 }
 
 .modal-header .close {
     padding: 1rem;
-    margin: -1rem -1rem -1rem auto;
+    float: right;
     font-size: 1.5em;
 }
 .modal-title {
-    margin: 0;
+    margin: 0 auto;
     line-height: 1.42857143;
     font-size: 1.7em;
+    margin-top: .6rem;
 }
 .modal-body {
     position: relative;
@@ -239,24 +241,7 @@ button.close {
     width: 48%;
     float: left;
 }
-.de{
-    width: 7%;
-    float: left;
-    margin-top: 29px;
-}
-.a{
-    width: 7%;
-    float: left;
-    margin-top: 29px;
-    margin-left: 30px;
-}
-.fecha{
-    width: 40%;
-    float: left;
-}
-.fecha2{
-    float: right;
-}
+
 .modal-form .form-group:nth-child(3) {
     float: right;
 }
@@ -265,6 +250,39 @@ button.close {
     border: 1px solid #ccc;
     width: 100%;
     height: 220px;
+}
+
+.modal-form .center-align{
+    display: flex;
+    width: 560px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+  
+input[type="radio"]{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+.radio-buton{
+    width:25%;
+}
+.Sweb2{
+    width: 30%;
+}
+label {
+    text-align: center;
+    cursor: pointer;
+    background-color: #323232;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 8px;
+    transition: all .3s ease-out;
+}
+
+input[type="radio"]:checked + label{
+    background-color: #e13639;
 }
 
 @media screen and (max-width: 580px){
@@ -350,4 +368,15 @@ button.close {
         float: left;
     }
 
+
+    .modal-form .center-align{
+        flex-wrap: wrap;
+        width: 240px;
+    }
+    .radio-buton{
+        text-align: left;
+        width: 240px;
+        margin-bottom: 1.2rem;
+        margin-top: .5rem;
+    }
 }
