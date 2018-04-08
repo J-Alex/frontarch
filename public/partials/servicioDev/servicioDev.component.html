@@ -29,7 +29,7 @@
                 empresarial.<span class="hiden-xs"> Esto lo hace posible mediante el conocimiento de las tecnologias y su aplicación..</span>
             </p>
 
-            <a href="" class="btn btn-cotizar" id="btn_sitiosweb">
+            <a href="" data-ng-click="servicioDev.open(ModalSitiosweb,btn_sitiosweb,closeWeb)" class="btn btn-cotizar" id="btn_sitiosweb">
                 Cotizar
             </a>
         </figcaption>
@@ -186,7 +186,18 @@
 </div>
 
 <script>
-    // modal web
+
+    
+    
+
+
+
+
+
+
+
+
+/*     // modal web
     var modalweb = document.getElementById('ModalSitiosweb');
     var btnweb = document.getElementById("btn_sitiosweb");
     var spanweb = document.getElementsByClassName("closeWeb")[0];
@@ -200,7 +211,7 @@
         if (event.target == modalweb) {
             modalweb.style.display = "none";
         }
-    }
+    } */
     // modal appmobil
     var modalapp = document.getElementById('Modalappmobil');
     var btnapp = document.getElementById("btn_appmobil");
