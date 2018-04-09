@@ -20,8 +20,33 @@ class HomeCtrl {
         this.cont = 0;
     }
     $onInit() {
-        setTimeout(()=>{this.contar()}, 2500)   
-        //console.log(this.cafe);         
+        let vidaBigbang = this.$document.find('.vidaBigbang');
+        let document = this.$document;
+        //setTimeout(()=>{this.contar()}, 2500)
+        
+        /*document.scroll(function(e) {
+            if(document.scrollTop() > 1890 ){
+                console.log("true");
+                setInterval(()=>{
+
+                    while(this.$scope.cafe < 1000) {
+                        this.$scope.cafe += 1;
+                        setTimeout(()=>{
+                            this.$scope.home.cont += 1;
+                            this.$scope.$apply();
+                        },100);
+                    }
+        
+                    if(this.$scope.cafe == 500){
+                        clearInterval(intervalo);
+                    }
+                    
+                },2500);
+           
+            }
+        });*/   
+        //console.log(this.cafe);
+        this.contar();
     }
 
     contar(){
