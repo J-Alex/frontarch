@@ -215,23 +215,48 @@ body{
     font-size: 2.6em;
 }
 
-.conten_pasion{
-    background-color: #495966;
-    margin-left: -.6rem;
-    margin-right: -.6rem;
-}
 .pasion{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1100px;
-    margin: 0 auto;
     justify-content: space-around;
     align-content:center;
+    margin-left: -.6rem;
+    margin-right: -.6rem;
+}
+.pasionBlack{
+    background-color: #323232;
+    padding:0px;
+    width: 50%; 
+}
+.contentPasionTitle{
+    color: #f2f2f2;
+    margin-left: 5rem;
+    width: 500px;
+}
+.pasionTitle{
+    font-weight: 900;
+    font-size: 5.8em;
+    text-transform: uppercase;
+    line-height: .8;
+}
+.pasionRed{
+    background-color: #E13639;
     padding: 50px 0px;
+    width: 50%; 
 }
-.pasion_item{
-    width: 31%; 
+
+.contentPasionTex{
+    border: solid 2px #f2f2f2;
+    margin-left: -2.5rem;
+    padding: 2rem 0rem;
+    padding-left: 6rem;
+    width: 640px;
+    p{
+        color: #f2f2f2;
+        font-size: 1.2em;
+    }
 }
+/* 
 .pasion_text{
     color: #fff;
 }
@@ -245,7 +270,7 @@ body{
 .pasion_title{
     color: #fff;
     font-size: 1.7em;
-}
+} */
 
 .clientes_maintitle{
     text-align: center;
