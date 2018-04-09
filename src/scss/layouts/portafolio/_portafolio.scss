@@ -1,0 +1,290 @@
+.portfolioFilter {
+    flex-wrap: wrap;
+    text-align: center;
+}
+  
+.portfolioFilter a {
+    color: #323232;
+    display: inline-block;
+    font-weight: 700;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+.portfolioFilter a:focus, .portfolioFilter a:hover {
+    color: #E13639;
+}
+
+.portfolioFilter .active {
+    color: #E13639;
+}
+
+.portafolioGaleria{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    /*justify-content: space-around;
+    align-content:center; */
+    padding: 1rem;
+}
+
+.portafolio {
+    display: none;
+    height: 350px;
+    margin: 1rem 1rem;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    cursor: pointer;
+}
+
+.portafolio__bg-img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    transition: .3s ease all;
+    display: block;
+   
+}
+.portafolio__text-caption {
+    position: relative;    
+    padding: 15.6rem 2rem 2.2rem 2rem;
+    transition: .3s ease all;
+    background-color: rgba(0,0,0,0.3);
+    h3 {
+        font-size: 1.9em;
+        color: #fff;
+        line-height:1.1;
+    }
+    p{
+        font-weight: 400;
+        display: none;
+    }
+}
+
+.portafolio__text-caption:hover{
+    position: relative;  
+    padding: 10rem 2rem 1rem 2rem;
+    transition: .3s ease all;
+    p{
+        display: block;
+        transition: .3s ease all;
+    }
+}
+
+.portafolio:hover{
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    width: 350px;
+    height: 350px;
+    transition: .3s ease all;
+    .portafolio__text-caption {
+        opacity: 1;
+        transform: translateY(-0px);  
+        padding: 11rem 2rem 1.3rem;
+        transition: margin-top 0.6s;
+        transition: .3s ease all;
+    }
+    p{
+        transition: .3s ease all;
+        color: #fff;
+    } 
+}
+
+.title-proyect{
+    margin-top: -2rem;
+}
+
+.icon-portafolio{
+    border-radius: 50%;
+    background: #e13639;
+    color: #fff;
+    font-size: 15px;
+    margin-top: -1rem;
+    padding: 5px 11px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    z-index: 1;
+    float: right;
+}
+
+.show {
+    display: block;
+}
+@media screen and (max-width: 1024px){
+    .portafolio{
+        height: 290px;
+        margin: .5rem .0rem;
+        width: 290px;
+        margin: 1rem 1.2rem;
+    }
+    .portafolio__text-caption {
+        position: relative;    
+        padding: 12rem 1rem 3.2rem 1rem;
+        transition: .3s ease all;
+        h3 {
+            font-size: 1.4em;
+            color: #fff;
+        }
+    }
+    .title-proyect {
+        margin-top: 0rem;
+    }
+    .portafolio:hover{
+        background-color: rgba(0,0,0,0.7);
+        color: #fff;
+        width: 290px;
+        height: 290px;
+        transition: .3s ease all;
+        .portafolio__text-caption {
+            opacity: 1;
+            transform: translateY(-0px);  
+            padding: 9rem 1rem 2rem;
+            transition: margin-top 0.6s;
+            transition: .3s ease all;
+        }
+    
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .portafolio{
+        height: 310px;
+        margin: .5rem .0rem;
+        width: 310px;
+        margin: 1rem 1.7rem;
+    }
+    .title-proyect {
+        margin-top: 0rem;
+    }
+    .portafolio__text-caption {
+        position: relative;    
+        padding: 14rem 1rem 3rem 1rem;
+        transition: .3s ease all;
+        h3 {
+            font-size: 1.3em;
+            color: #fff;
+        }
+        p{
+            font-weight: 400;
+            display: none;
+        }
+    }
+    
+    .portafolio__bg-img {
+        position: absolute;
+        width: 100%;
+        height: 310px;
+        z-index: -1;
+        transition: .3s ease all;
+        display: block;
+    
+    }
+    .portafolio:hover{
+        background-color: rgba(0,0,0,0.7);
+        color: #fff;
+        width: 310px;
+        height: 310px;
+        transition: .3s ease all;
+        .portafolio__text-caption {
+            opacity: 1;
+            transform: translateY(-0px);  
+            padding: 10rem 1rem 2rem;
+            transition: margin-top 0.6s;
+            transition: .3s ease all;
+        }
+        p{
+            transition: .3s ease all;
+            color: #fff;
+        } 
+    
+    }
+}
+@media screen and (max-width: 720px){
+    .portafolio{
+        height: 281px;
+        margin: .5rem .7rem;
+        width: 281px;
+
+    }
+    .title-proyect {
+        margin-top: -.5rem;
+    }
+    .portafolio__text-caption {
+        position: relative;    
+        padding: 12rem 2rem 4rem 2rem;
+        transition: .3s ease all;
+        h3 {
+            font-size: 1.4em;
+            color: #fff;
+        }
+        p{
+            font-weight: 400;
+            display: none;
+        }
+    }
+    .portafolio__bg-img {
+        position: absolute;
+        width: 100%;
+        height: 281px;
+        z-index: -1;
+        transition: .3s ease all;
+        display: block;
+    
+    }
+    .portafolio:hover{
+        width: 281px;
+        height: 281px;
+        .portafolio__text-caption { 
+            padding: 6rem 2rem 4.2rem;
+        }
+    
+    }
+
+}
+@media screen and (max-width: 580px){
+    .portfolioFilter a {
+        padding: 0 5px;
+    }
+    .title-proyect {
+        margin-top:-1.5rem;
+    }
+    .portafolio{
+        height: 300px;
+        margin: .5rem .0rem;
+        width: 327px;
+
+    }
+    .portafolio__text-caption {
+        position: relative;    
+        padding: 14rem 2rem 4rem 2rem;
+        transition: .3s ease all;
+        h3 {
+            font-size: 1.7em;
+            color: #fff;
+        }
+        p{
+            font-weight: 400;
+            display: none;
+        }
+    }
+    .portafolio__bg-img {
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        z-index: -1;
+        transition: .3s ease all;
+        display: block;
+    
+    }
+    .portafolio:hover{
+        width: 327px;
+        height: 300px;
+        .portafolio__text-caption { 
+            padding: 8rem 2rem 4.2rem;
+        }
+    
+    }
+}

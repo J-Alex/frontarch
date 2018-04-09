@@ -1,5 +1,5 @@
 
-class serviciosCtrl {
+class servicioDesignCtrl {
     constructor($document){
         'ngInject'
         this.$document = $document;
@@ -7,9 +7,9 @@ class serviciosCtrl {
     $onInit(){
     }
     scrollDown(){
-        var targetOffset = this.$document.find("#servicios-conten").offset().top - (parseInt(jQuery("header").css("padding-bottom")));
+        var targetOffset = this.$document.find("#designService").offset().top - (parseInt(jQuery("header").css("padding-bottom")));
         this.$document.find('html,body').stop().animate({scrollTop: targetOffset}, 600);
         console.log(targetOffset);        
     }
 }
-export default serviciosCtrl;
+export default servicioDesignCtrl;

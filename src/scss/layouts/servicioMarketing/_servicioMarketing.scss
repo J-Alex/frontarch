@@ -1,0 +1,34 @@
+.img-socialmedia{
+    background-image: url(../../res/img/recursos/social-media.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img-publicidad-google{
+    background-image: url(../../res/img/recursos/google-ads.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@media screen and (max-width: 740px){
+    .img-socialmedia{
+        background-image: url(../../res/img/recursos/social-media-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img-publicidad-google{
+        background-image: url(../../res/img/recursos/google-ads-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+@media screen and (max-width: 580px){  
+    .img-socialmedia{
+        background-image: url(../../res/img/recursos/social-media-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img-publicidad-google{
+        background-image: url(../../res/img/recursos/google-ads-mobil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}

@@ -1,0 +1,287 @@
+    <!--Inicio de seccion del banner-->
+    <div class="banner_service">  
+        <div class="banner_figure">
+            <div class="banner-circle-red">
+                <img  src="res/img/recursos/diseno.png" alt="" class="banner-vector">
+            </div>
+        </div> 
+
+        <div class="banner_services_text" >
+            <h3 class="bannerdev_title">Diseño <br> gráfico<span class="red">.</span></h3>
+            <p>  
+                Creemos que la optimización y automatización de procesos mediante.
+            </p>
+        </div>
+
+        <a href="" class="icon" data-ng-click="servicioDesign.scrollDown()">
+            <span class="fa fa-angle-down"></span>
+        </a>
+    </div>
+    <!--Fín de seccion del banner-->
+
+    <!--Inicio de seccion del contenido-->
+    <div class="services-content" id="designService">
+
+        <figure class="figure_services_content img-branding">
+            <figcaption class="services_text_content">
+                <h1 class="services_title">Branding<span class="red">.</span></h1>
+                <p >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem,
+                    quasi veritatis <span class="hiden-xs"> assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi
+                    eveniet earum itaque unde.</span>
+                </p>
+
+                <a href="" class="btn btn-cotizar" id="btn_Branding">
+                    Cotizar
+                </a>
+            </figcaption>
+        </figure>
+
+        <figure class="figure_services_content img-publicitario">
+            <figcaption class="services_text_content derecha">
+                <h1 class="services_title">Diseño <br> publicitario<span class="red">.</span></h1>
+                <p >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem,
+                    quasi veritatis <span class="hiden-xs"> assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi
+                    eveniet earum itaque.</span>
+                </p>
+
+                <a href="" class="btn btn-cotizar" id="btn_Dpublicitario">
+                    Cotizar
+                </a>
+            </figcaption>
+        </figure>
+
+        <figure class="figure_services_content img-editorial">
+            <figcaption class="services_text_content">
+                <h1 class="services_title">Diseño <br> Editorial<span class="red">.</span></h1>
+                <p >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quo, odio. 
+                    Facilis <span class="hiden-xs">animi facere assumenda nihil iusto architecto pariatur maxime non, nisi ipsa 
+                    quis beatae excepturi enim aut, delectus recusandae?</span>
+                </p>
+
+                <a href="" class="btn btn-cotizar" id="btn_Editorial">
+                    Cotizar
+                </a>
+            </figcaption>
+        </figure> 
+    </div>
+    <!--Fín de seccion del contenido-->
+
+
+    <!--Modal Branding-->
+    <div id="ModalBranding" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="res/img/B.png" alt="" class="fbicon">
+                    <h5 class="modal-title">Cotizar Branding<span class="red">.</span></h5>
+                    <button type="button" class="close closeBranding" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="modal-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Nombres del Contácto">
+                            <div class="line-active"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Correo Electrónico*">
+                            <div class="line-active"></div>
+                        </div> 
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Teléfono">
+                            <div class="line-active"></div>
+                        </div>
+
+                        <p>Tiempo disponible para entrega del proyecto:</p>     
+                        <div class="center-align"> 
+                            
+                            <div class="radio-buton">   
+                                <input type="radio" name="size" id="Branding1" value="Tengo tiempo" checked />
+                                <label for="Branding1">¡Hay tiempo!</l>
+                            </div>
+
+                            <div class="radio-buton Sweb2"> 
+                                <input type="radio" name="size" id="Branding2" value="Urgente" />
+                                <label for="Branding2">¡Medio urgente!</label>
+                            </div>
+                            <div class="radio-buton">
+                                <input type="radio" name="size" id="Branding3" value="ayer" />
+                                <label for="Branding3">¡Para ayer!</label>
+                            </div>     
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-txtarea" placeholder="Detalles del proyecto..."></textarea>
+                        </div>
+                        <div class="form-group flex flex-center_horizontal">
+                            <button class="btn-modal form-button" data-ng-click=""> Cotizar </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Diseño publicitario-->
+    <div id="ModalDPublic" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="res/img/B.png" alt="" class="fbicon">
+                    <h5 class="modal-title">Diseño publicitario<span class="red">.</span></h5>
+                    <button type="button" class="close closeDpubli" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="modal-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Nombres del Contácto">
+                            <div class="line-active"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Correo Electrónico*">
+                            <div class="line-active"></div>
+                        </div> 
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Teléfono">
+                            <div class="line-active"></div>
+                        </div>
+                        <p>Tiempo disponible para entrega del proyecto:</p>     
+                        <div class="center-align"> 
+                            <div class="radio-buton">   
+                                <input type="radio" name="size" id="Diseñop1" value="Tengo tiempo" checked />
+                                <label for="Diseñop1">¡Hay tiempo!</l>
+                            </div>
+    
+                            <div class="radio-buton Sweb2"> 
+                                <input type="radio" name="size" id="Diseñop2" value="Urgente" />
+                                <label for="Diseñop2">¡Medio urgente!</label>
+                            </div>
+                            <div class="radio-buton">
+                                <input type="radio" name="size" id="Diseñop3" value="ayer" />
+                                <label for="Diseñop3">¡Para ayer!</label>
+                            </div>     
+                        </div>
+    
+                        <div class="form-group">
+                            <textarea class="form-txtarea" placeholder="Detalles del proyecto..."></textarea>
+                        </div>
+                        <div class="form-group flex flex-center_horizontal">
+                            <button class="btn-modal form-button" data-ng-click=""> Cotizar </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!--Modal Diseño Editorial-->
+     <div id="ModalDEditorial" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <img src="res/img/B.png" alt="" class="fbicon">
+                    <h5 class="modal-title">Diseño Editorial<span class="red">.</span></h5>
+                    <button type="button" class="close closeEditorial" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="modal-form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Nombres del Contácto">
+                            <div class="line-active"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Correo Electrónico*">
+                            <div class="line-active"></div>
+                        </div> 
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Teléfono">
+                            <div class="line-active"></div>
+                        </div>
+                        <p>Tiempo disponible para entrega del proyecto:</p>     
+                        <div class="center-align"> 
+                            <div class="radio-buton">   
+                                <input type="radio" name="size" id="DiseñoE1" value="Tengo tiempo" checked />
+                                <label for="Diseñop1">¡Hay tiempo!</l>
+                            </div>
+    
+                            <div class="radio-buton Sweb2"> 
+                                <input type="radio" name="size" id="DiseñoE2" value="Urgente" />
+                                <label for="DiseñoE2">¡Medio urgente!</label>
+                            </div>
+                            <div class="radio-buton">
+                                <input type="radio" name="size" id="DiseñoE3" value="ayer" />
+                                <label for="DiseñoE3">¡Para ayer!</label>
+                            </div>     
+                        </div>
+    
+                        <div class="form-group">
+                            <textarea class="form-txtarea" placeholder="Detalles del proyecto..."></textarea>
+                        </div>
+                        <div class="form-group flex flex-center_horizontal">
+                            <button class="btn-modal form-button" data-ng-click=""> Cotizar </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script>
+    // modal Branding
+    var modalBranding = document.getElementById('ModalBranding');
+    var btnBranding = document.getElementById("btn_Branding");
+    var spanBranding = document.getElementsByClassName("closeBranding")[0];
+    btnBranding.onclick = function() {
+            modalBranding.style.display = "block";
+    }
+    spanBranding.onclick = function() {
+        modalBranding.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalBranding) {
+            modalBranding.style.display = "none";
+        }
+    }
+    // modal Diseño publicitario
+    var ModalDPublic = document.getElementById('ModalDPublic');
+    var btnModalDPublic = document.getElementById("btn_Dpublicitario");
+    var spanModalDPublic = document.getElementsByClassName("closeDpubli")[0];
+    btnModalDPublic.onclick = function() {
+        ModalDPublic.style.display = "block";
+    }
+    spanModalDPublic.onclick = function() {
+        ModalDPublic.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == ModalDPublic) {
+            ModalDPublic.style.display = "none";
+        }
+    }
+
+    // modal Diseño Editorial
+    var modalDEditorial= document.getElementById('ModalDEditorial');
+    var btnDEditorial = document.getElementById("btn_Editorial");
+    var spanDEditorial = document.getElementsByClassName("closeEditorial")[0];
+    btnDEditorial.onclick = function() {
+        modalDEditorial.style.display = "block";
+    }
+    spanDEditorial.onclick = function() {
+        modalDEditorial.style.display = "none";
+    }
+    window.onclick = function(event) {
+        if (event.target == modalDEditorial) {
+            modalDEditorial.style.display = "none";
+        }
+    }
+</script> 
