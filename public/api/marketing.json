@@ -1,0 +1,19 @@
+{
+    "maintitle":"Marketing",
+    "maintitle2":"digital",
+    "maindescription": "Creemos que la optimización y automatización de procesos mediante.",
+    "mainimagen": "res/img/recursos/marketing.png",
+
+    "servicios":[
+        {
+            "titulo":"Social media",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque.",
+            "imagen": "img-socialmedia"
+        },
+        {
+            "titulo":"Diseño publicitario",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque.",
+            "imagen": "img-publicidad-google"
+        }
+    ]
+}

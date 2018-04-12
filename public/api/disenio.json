@@ -1,0 +1,25 @@
+{
+    "maintitle":"Diseño",
+    "maintitle2":"gráfico",    
+    "maindescription": "Creemos que la optimización y automatización de procesos mediante.",
+    "mainimagen": "res/img/recursos/diseno.png",
+
+    "servicios":[
+        {
+            "titulo":"Branding",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque.",
+            "imagen": "img-branding"
+        },
+        {
+            "titulo":"Diseño publicitario",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque.",
+            "imagen": "img-publicitario"
+        },
+        {
+            "titulo":"Diseño Editorial",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque.",
+            "imagen": "img-editorial"
+        }
+    ]
+
+}

@@ -5,6 +5,7 @@ import { servicioDevComponent } from './servicioDevComponent/servicioDev.compone
 import { servicioDesignComponent } from './servicioDesignComponent/servicioDesign.component';
 import { servicioMarketingComponent } from './servicioMarketingComponent/servicioMarketing.component';
 import { portafolioComponent } from './portafolioComponent/portafolio.component';
+import { servicioComponent} from './servicioComponent/servicio.component';
 
 const components = angular
     .module('components',[])
@@ -15,6 +16,7 @@ const components = angular
     .component('servicioDesignComponent', servicioDesignComponent)
     .component('servicioMarketingComponent', servicioMarketingComponent)
     .component('portafolioComponent', portafolioComponent)
+    .component('servicioComponent', servicioComponent)
     .name;
 
 export default components;

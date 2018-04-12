@@ -1,0 +1,95 @@
+<!--Inicio de seccion del banner-->
+<div class="banner_service">  
+    <div class="banner_figure">
+        <div class="banner-circle-red">
+            <img  src="{{ servicio.servicio.mainimagen }}" alt="" class="banner-vector">
+        </div>
+    </div> 
+
+    <div class="banner_services_text" >
+        <h3 class="bannerdev_title"> {{ servicio.servicio.maintitle }} <br>{{ servicio.servicio.maintitle2}}<span class='red'>.</span> </h3>
+        <p ng-bind="servicio.servicio.maindescription">  
+        </p>
+    </div>
+
+    <a href="" class="icon" data-ng-click="servicio.scrollDown()">
+        <span class="fa fa-angle-down"></span>
+    </a>
+</div>
+<!--Fín de seccion del banner-->
+
+<!--Inicio de seccion del contenido-->
+<div class="services-content" id="conten-Service">
+
+    <figure class="figure_services_content {{service.imagen}}" data-ng-repeat="service in servicio.servicio.servicios">
+        <figcaption class="services_text_content">
+            <h1 class="services_title"> {{service.titulo}}<span class="red">.</span></h1>
+            <p >
+                Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito
+                empresarial.<span class="hiden-xs"> Esto lo hace posible mediante el conocimiento de las tecnologias y su aplicación..</span>
+            </p>
+
+            <a href="" data-ng-click="servicio.openmodal( service.titulo )"  class="btn btn-cotizar" id="btn_open">
+                Cotizar
+            </a>
+        </figcaption> 
+    </figure>
+</div>
+<!--Fín de seccion del contenido-->
+
+
+<!--Modal-->
+<div id="Modalservice" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img src="res/img/B.png" alt="" class="fbicon">
+                <h5 class="modal-title">Cotizar {{ servicio.tituloModal }} <span class="red">.</span></h5>
+                <button type="button" class="close closemodal" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="mod-body">
+                <form class="modal-form">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Nombres del Contácto" data-ng-model="servicio.mailObj.name" >
+                        <div class="line-active"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Correo Electrónico*" data-ng-model="servicio.mailObj.correo">
+                        <div class="line-active"></div>
+                    </div> 
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Teléfono">
+                        <div class="line-active"></div>
+                    </div>
+
+                    <p>Tiempo disponible para entrega del proyecto:</p>     
+                    <div class="center-align"> 
+                        
+                        <div class="radio-buton">   
+                            <input type="radio" name="size" id="Appmobil1" value="Hay tiempo" checked />
+                            <label for="Appmobil1">¡Hay tiempo!</l>
+                        </div>
+
+                        <div class="radio-buton Sweb2"> 
+                            <input type="radio" name="size" id="Appmobil2" value="Medio urgente" />
+                            <label for="Appmobil2">¡Medio urgente!</label>
+                        </div>
+                        <div class="radio-buton">
+                            <input type="radio" name="size" id="Appmobil3" value="Para ayer" />
+                            <label for="Appmobil3">¡Para ayer!</label>
+                        </div>     
+                    </div>
+
+                    <div class="form-group">
+                        <textarea class="form-txtarea" placeholder="Detalles del proyecto, descríbanos su Apps Mobil..."></textarea>
+                    </div>
+                    <div class="modal-footer flex flex-center_horizontal">
+                        <button class="btn-modal form-button" data-ng-click="servicio.sedMail()"> Cotizar </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

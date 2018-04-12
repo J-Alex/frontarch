@@ -16,6 +16,16 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
             url: '/servicios',
             component: 'serviciosComponent'
         })
+        .state('servicio', {
+            url: '/servicio/{servicio}',
+            component: 'servicioComponent',
+            resolve: {
+                servicio: function(servicioService,$transition$,$stateParams) {
+                    'ngInject'
+                    return servicioService.obtenerServicio($transition$.params().servicio) 
+                }
+            }
+        })
         .state('servicioDev',{
             url:'/servicio-desarrollo',
             component: 'servicioDevComponent'

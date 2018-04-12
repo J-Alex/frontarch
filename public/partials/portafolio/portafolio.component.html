@@ -171,7 +171,7 @@
             </figure>
         </a>
 
-        <a href="" data-ui-sref="">
+        <a data-ui-sref="" id="open_modal">
             <figure class="portafolio disenio">
                 <img class="portafolio__bg-img" src="res/img/recursos/ApiFlor.jpg" alt="">
                 <figcaption class="portafolio__text-caption">
@@ -189,13 +189,69 @@
 </div>
 
 
-<script>
 
-/*     function open(nameModal,btnOpen,close){
+<!--Modal-->
+<div id="Modalportafolio" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content-portafolio ">
+            <div class="principal-content">
+                <div class="cabecera">
+                    <h5 class="modal-title-portafolio">Sitio web <br>FAREM - Estelí</h5>
+                    <button type="button" class="close-md-portafolio closemodal" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="desktop">
+                    <div class="desktop-text">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Sequi repellendus aperiam omnis exercitationem modi iusto reprehenderit 
+                            architecto neque, iste impedit laborum cum, molestias ipsa iure? Optio 
+                            dolorum corporis non id.
+                        </p>
+                    </div>
+
+                    <div class="desktop-imagen">
+                        <img src="res/img/recursos/Sin título-1qqpng.png" alt="">
+                    </div>
+                </div>
+
+                <div class="laptop">
+                    <div class="laptop-text">
+                        <h3>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </h3>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Sequi repellendus aperiam omnis exercitationem modi iusto reprehenderit 
+                        architecto neque, iste impedit laborum cum, molestias ipsa iure? Optio 
+                        dolorum corporis non id.
+                        </p>
+                    </div>
+    
+                    <div class="laptop-imagen">
+                        <img src="res/img/recursos/Sin título-1.png" alt="">
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="contenendor-sec">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<script>
         // modal web
-        var modal = document.getElementById(nameModal);
-        var btn = document.getElementById(btnOpen);
-        var span = document.getElementsByClassName(close)[0];
+        var modal = document.getElementById("Modalportafolio");
+        var btn = document.getElementById("open_modal");
+        var span = document.getElementsByClassName("closemodal")[0];
         btn.onclick = function() {
             modal.style.display = "block";
         }
@@ -207,7 +263,6 @@
                 modal.style.display = "none";
             }
         }
-    } */
    
 
 
@@ -217,7 +272,6 @@
         var x, i;
         x = document.getElementsByClassName("portafolio");
         if (c == "all") c = "";
-        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
         for (i = 0; i < x.length; i++) {
             w3RemoveClass(x[i], "show");
             if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");

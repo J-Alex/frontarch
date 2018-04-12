@@ -112,6 +112,110 @@
 .show {
     display: block;
 }
+
+//Estilos de los modals del portafolio
+.modal-content-portafolio {
+    position: relative;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    margin: 0 auto;
+    margin-top: 1rem;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    width: 70%;
+}
+.modal-body-portafolio {
+    position: relative;
+    padding: 1rem 2.2rem;
+}
+.modal-dialog,
+.modal-content-portafolio {
+    height: 120%;
+}
+
+.modal-content-portafolio {
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+.principal-content{
+    background-color: #00acf5;
+    padding: 1rem 2.3rem;
+}
+.contenendor-sec{
+    background-color: #fff;
+}
+
+button.close-md-portafolio {
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: 600;
+    float: right;
+    margin-top: -7rem;
+    -webkit-appearance: none;
+    padding: .3rem;
+}
+.modal-title-portafolio {
+    margin: 0 auto;
+    line-height: 1.42857143;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-top: .6rem;
+    color: #fff;
+}
+
+
+.desktop{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 780px;
+    margin: 0 auto;
+    justify-content: space-between;
+    /*align-content:center; */
+    padding: 1.8rem 0rem;
+    padding-left: -1rem;
+}
+.desktop-text{
+    color: #fff;
+    padding: 3rem 0;
+    width: 60%;
+}
+.desktop-imagen{
+    width: 35%;
+    float: right;
+    margin-right: -26px;
+    img{
+        width:320px;
+    }
+}
+
+.laptop{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 780px;
+    margin: 0 auto;
+    justify-content: space-between;
+    /*align-content:center; */
+    padding: 1.8rem 0rem;
+    padding-left: -1rem;
+}
+.laptop-text{
+    color: #fff;
+    text-align: center;
+
+}
+.laptop-imagen{
+    width: 100%;
+    margin-right: -26px;
+    text-align: center;
+    img{
+        width:320px;
+    }
+}
+
 @media screen and (max-width: 1024px){
     .portafolio{
         height: 290px;
