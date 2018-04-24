@@ -229,19 +229,21 @@ body{
     width: 50%; 
 }
 .contentPasionTitle{
-    color: #f2f2f2;
+    color: #fff;
     margin-left: 5rem;
     width: 500px;
+    height: 362px;
 }
 .pasionTitle{
     font-weight: 900;
     font-size: 5.8em;
     text-transform: uppercase;
     line-height: .8;
+    margin-top: -.13em;
 }
 .pasionRed{
     background-color: #E13639;
-    padding: 4rem 0px;
+    padding: 3rem 0px;
     width: 50%; 
 }
 
@@ -322,6 +324,9 @@ body{
         margin-left: 2rem;
         width: 500px;
     }
+    .pasionRed{
+        padding: 2.5rem 0px;
+    }
 }
 
 
@@ -368,6 +373,56 @@ body{
     }
     .pasionBlack {
         padding: 5rem 0;
+        padding-bottom: 3rem;
+    }
+    .pasionRed{
+        padding: 5rem 0px;
+        padding-bottom: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 720px){
+    .ideales_title {
+        font-size: 1.4em;
+    }
+    .pasionBlack{
+        padding: 1.5rem 10rem;
+        padding-bottom: 3rem;
+        width: 100%; 
+    }
+    .contentPasionTitle{
+        margin-left: 0px;
+        color: #f2f2f2;
+        margin-left: 15px;
+        width: 300px!important;
+        height: 282px;
+    }
+    .pasionTitle{
+        font-weight: 900;
+        font-size: 4.3em;
+        text-transform: uppercase;
+        line-height: .8;
+        margin-top: .5rem;
+    }
+    .pasionRed{
+        padding: 1rem 0px;
+        width: 100%; 
+    }
+
+    .contentPasionTex{
+        border: 2px solid #f2f2f2;
+        margin-left: 0;
+        margin: 0 auto;
+        margin-top: -3rem;
+        padding: 2.5rem 0;
+        padding-top: 4rem;
+        padding-left: 10px;
+        width: 500px;
+        p{
+            color: #f2f2f2;
+            font-size: .8em;
+        }
     }
 }
 
@@ -461,12 +516,14 @@ body{
         color: #f2f2f2;
         margin-left: 15px;
         width: 300px!important;
+        height: 282px;
     }
     .pasionTitle{
         font-weight: 900;
         font-size: 4.3em;
         text-transform: uppercase;
         line-height: .8;
+        margin-top: .5rem;
     }
     .pasionRed{
         padding: 1rem 0px;

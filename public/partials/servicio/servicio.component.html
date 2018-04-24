@@ -51,6 +51,7 @@
             </div>
             <div class="modal-body" id="mod-body">
                 <form class="modal-form">
+
                     <div class="form-group">
                         <input type="text" class="form-input" placeholder="Nombres del Contácto" data-ng-model="servicio.mailObj.name" >
                         <div class="line-active"></div>
@@ -60,7 +61,7 @@
                         <div class="line-active"></div>
                     </div> 
                     <div class="form-group">
-                        <input type="text" class="form-input" placeholder="Teléfono">
+                        <input type="text" class="form-input" data-ng-model="servicio.mailObj.telefono" placeholder="Teléfono">
                         <div class="line-active"></div>
                     </div>
 
@@ -68,25 +69,28 @@
                     <div class="center-align"> 
                         
                         <div class="radio-buton">   
-                            <input type="radio" name="size" id="Appmobil1" value="Hay tiempo" checked />
+                            <input type="radio" name="size" id="Appmobil1" value="Hay tiempo" checked data-ng-model="servicio.mailObj.tiempo" />
                             <label for="Appmobil1">¡Hay tiempo!</l>
                         </div>
 
                         <div class="radio-buton Sweb2"> 
-                            <input type="radio" name="size" id="Appmobil2" value="Medio urgente" />
+                            <input type="radio" name="size" id="Appmobil2" value="Medio urgente" data-ng-model="servicio.mailObj.tiempo"/>
                             <label for="Appmobil2">¡Medio urgente!</label>
                         </div>
                         <div class="radio-buton">
-                            <input type="radio" name="size" id="Appmobil3" value="Para ayer" />
+                            <input type="radio" name="size" id="Appmobil3" value="Para ayer" data-ng-model="servicio.mailObj.tiempo"/>
                             <label for="Appmobil3">¡Para ayer!</label>
                         </div>     
                     </div>
 
                     <div class="form-group">
-                        <textarea class="form-txtarea" placeholder="Detalles del proyecto, descríbanos su Apps Mobil..."></textarea>
+                        <textarea class="form-txtarea" placeholder="Detalles del proyecto, descríbanos su Apps Mobil..." data-ng-model="servicio.mailObj.descripcion"></textarea>
                     </div>
+
+                    
+
                     <div class="modal-footer flex flex-center_horizontal">
-                        <button class="btn-modal form-button" data-ng-click="servicio.sedMail()"> Cotizar </button>
+                        <button class="btn-modal form-button" data-ng-click="servicio.enviarMail()"> Cotizar </button>
                     </div>
                 </form>
             </div>

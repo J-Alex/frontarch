@@ -19,6 +19,7 @@ class servicioCtrl {
 
     openmodal(modalTitle){
         this.tituloModal = modalTitle;
+        this.mailObj.tituloModal = modalTitle;
         console.log("MODAL!!!")
         var modal = document.getElementById("Modalservice");
         //var btn = document.getElementById("btn_open");
@@ -36,12 +37,19 @@ class servicioCtrl {
         }
     }
 
-    sendMail(){
-        let formulario= this.document.find('.modal-form')[0];
-        console.log(this.mailObj);
-    }
+    enviarMail() {
+        let formulario = this.$document.find('.modal-form')[0];
+        console.log(this.mailObj, );
 
-
+        
+        this.$http.post("../../api2/mail-api.php", this.mailObj)
+        .then(function(data,status,headers,config){
+            console.log(data);
+            formulario.reset();
+        },function(err,status,headers,config){
+             console.log(err);
+         }); 
+    };
 
 }
 export default servicioCtrl;

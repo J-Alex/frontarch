@@ -259,7 +259,7 @@ button.close {
 
 .modal-form .center-align{
     display: flex;
-    width: 560px;
+    width:100%;
     margin: 0 auto;
     justify-content: space-around;
     padding: 1.5rem 0;
@@ -288,6 +288,25 @@ label {
 
 input[type="radio"]:checked + label{
     background-color: #e13639;
+}
+
+@media screen and (max-width: 1024px){
+    .modal-content {
+        width: 88%;
+    }
+    .modal-dialog,
+    .modal-content {
+        height: 80%;
+    }
+}
+@media screen and (max-width: 768px){
+    .modal-content {
+        width: 88%;
+    }
+    .modal-dialog,
+    .modal-content {
+        height: 59%;
+    }
 }
 
 @media screen and (max-width: 580px){
@@ -373,10 +392,16 @@ input[type="radio"]:checked + label{
         float: left;
     }
 
-
     .modal-form .center-align{
         flex-wrap: wrap;
         width: 240px;
+    }
+    .modal-content {
+        width: 90%;
+    }
+    .modal-dialog,
+    .modal-content {
+        height: 90%;
     }
     .radio-buton{
         text-align: left;

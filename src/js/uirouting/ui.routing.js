@@ -46,6 +46,16 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
             component: 'portafolioComponent'
 
         })
+        .state('portafolioDev',{
+            url:'/portafolioDev',
+            component: 'portafolioDevComponent'
+
+        })
+        .state('cultura',{
+            url:'/cultura',
+            component: 'culturaComponent'
+
+        })
         /*.state('/home',{
             url: '/home',
             component: 'homeComponent',
