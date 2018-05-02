@@ -9,7 +9,11 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
         })
         .state('contacto', {
             url: '/contacto',
-            component: 'contactoComponent'
+            component: 'contactoComponent',
+            onExit: function(){
+                $('.hablemos').toggleClass('ocultar');
+                console.log('Saliendo...');
+            }
             //template: '<h1>HOMEINICIOINDEX</h1>'
         })
         .state('servicios', {
@@ -53,7 +57,21 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
         })
         .state('cultura',{
             url:'/cultura',
-            component: 'culturaComponent'
+            component: 'culturaComponent',
+            onEnter: function(){
+                /*$('.header').toggleClass('header-cultura');
+                $('.header__logo').toggleClass('ocultar-logo');
+                $('.header-logo').toggleClass('logo-cultura');*/
+                console.log('Entrando...');
+            },
+            onExit: function(){
+                $('.header').toggleClass('header-cultura');
+                $('.header__logo').toggleClass('ocultar-logo');
+                $('.header-logo').toggleClass('logo-cultura');
+                console.log('Saliendo...');
+
+
+            }
 
         })
         /*.state('/home',{

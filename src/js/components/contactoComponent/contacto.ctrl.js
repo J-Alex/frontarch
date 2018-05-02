@@ -7,7 +7,9 @@ class contactoCtrl {
 
         this.mailObj = {};
     }
-    $onInit(){}
+    $onInit(){
+        this.$document.find('.hablemos').toggleClass('ocultar');
+    }
     
     sendMail() {
         let formulario = this.$document.find('.contact-form')[0];

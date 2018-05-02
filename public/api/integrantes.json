@@ -1,0 +1,283 @@
+[
+    {
+        "name":"Ana Maltez",
+        "cargo":"Director General",
+        "mainimagen": "res/img/recursos/integrantes/Ana.jpg",
+        "imagenperfil": "res/img/recursos/integrantes/AnaM.jpg",
+        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "saludo": "Hola a todos",
+        "fan": "Startwars lover",
+        "broma": "El dueño del local",
+        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
+        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
+        "referencia1": "res/img/recursos/background-diseno.png",
+        "referencia2": "res/img/recursos/background-diseno.png",
+        "referencia3": "res/img/recursos/background-diseno.png",
+        "redsocial":
+        [
+            {
+                "icono": "fa-facebook-f",
+                "enlace": "https://www.facebook.com/brjosue73"
+            },
+            {
+                "icono": "fa-twitter",
+                "enlace": "https://www.instagram.com/brjosue73"
+            },
+            { 
+                "icono": "fa-instagram",
+                "enlace": "https://www.instagram.com/bigbangnica/"
+            }
+        ]
+    },
+
+    {
+        "name":"Brandon Blandón",
+        "cargo":"Lorem ipsum",
+        "mainimagen": "res/img/recursos/integrantes/Brandon.jpg",
+        "imagenperfil": "res/img/recursos/integrantes/BrandonB.jpg",
+        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "saludo": "Hola a todos",
+        "fan": "Startwars lover",
+        "broma": "El dueño del local",
+        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
+        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
+        "referencia1": "res/img/recursos/background-diseno.png",
+        "referencia2": "res/img/recursos/background-diseno.png",
+        "referencia3": "res/img/recursos/background-diseno.png",
+        "redsocial": 
+        [
+            {
+                "icono": "fa-facebook-f",
+                "enlace": "https://www.facebook.com/brjosue73"
+            },
+            {
+                "icono": "fa-twitter",
+                "enlace": "https://www.instagram.com/brjosue73"
+            },
+            { 
+                "icono": "fa-instagram",
+                "enlace": "https://www.instagram.com/brjosue73/"
+            }
+        ]
+    },
+
+    {
+        "name":"Byron Hernández",
+        "cargo":"Lorem ipsum",
+        "mainimagen": "res/img/recursos/integrantes/Byron.jpg",
+        "imagenperfil": "res/img/recursos/integrantes/ByronH.jpg",
+        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "saludo": "Hola a todos",
+        "fan": "Startwars lover",
+        "broma": "El dueño del local",
+        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
+        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
+        "referencia1": "res/img/recursos/background-diseno.png",
+        "referencia2": "res/img/recursos/background-diseno.png",
+        "referencia3": "res/img/recursos/background-diseno.png",
+        "redsocial":
+        [
+            {
+                "icono": "fa-facebook-f",
+                "enlace": "https://www.facebook.com/brjosue73"
+            },
+            {
+                "icono": "fa-twitter",
+                "enlace": "https://www.instagram.com/brjosue73"
+            },
+            { 
+                "icono": "fa-instagram",
+                "enlace": "https://www.instagram.com/bigbangnica/"
+            }
+        ]
+    },
+
+    {
+        "name":"Christhopher Pastora",
+        "cargo":"Director General",
+        "mainimagen": "res/img/recursos/integrantes/Christhopher.jpg",
+        "imagenperfil": "res/img/recursos/integrantes/Chris.jpg",
+        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "saludo": "Hola a todos",
+        "fan": "Startwars lover",
+        "broma": "El dueño del local",
+        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
+        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
+        "referencia1": "res/img/recursos/background-diseno.png",
+        "referencia2": "res/img/recursos/background-diseno.png",
+        "referencia3": "res/img/recursos/background-diseno.png",
+        "redsocial":
+        [
+            {
+                "icono": "fa-facebook-f",
+                "enlace": "https://www.facebook.com/brjosue73"
+            },
+            {
+                "icono": "fa-twitter",
+                "enlace": "https://www.instagram.com/brjosue73"
+            },
+            { 
+                "icono": "fa-instagram",
+                "enlace": "https://www.instagram.com/bigbangnica/"
+            }
+        ]
+
+    },
+
+    {
+        "name":"Herald Flores",
+        "cargo":"Lorem ipsum",
+        "mainimagen": "res/img/recursos/integrantes/Herald.jpg",
+        "imagenperfil": "res/img/recursos/integrantes/Herald-Flores.jpg",
+        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "saludo": "Hola a todos",
+        "fan": "Startwars lover",
+        "broma": "El dueño del local",
+        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
+        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
+        "referencia1": "res/img/recursos/background-diseno.png",
+        "referencia2": "res/img/recursos/background-diseno.png",
+        "referencia3": "res/img/recursos/background-diseno.png",
+        "redsocial":
+        [
+            {
+                "icono": "fa-facebook-f",
+                "enlace": "https://www.facebook.com/heraldflores"
+            },
+            { 
+                "icono": "fa-instagram",
+                "enlace": "https://www.instagram.com/heraldflores95/"
+            },            {
+                "icono": "fa-github",
+                "enlace": "https://github.com/herald-flores"
+            }
+        ]
+  
+    },
+
+    {
+        "name":"Jennier Cruz",
+        "cargo":"Lorem ipsum",
+        "mainimagen": "res/img/recursos/integrantes/Jennier.jpg",
+        "imagenperfil": "res/img/recursos/integrantes/Jennier-Cruz.jpg",
+        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "saludo": "Hola a todos",
+        "fan": "Startwars lover",
+        "broma": "El dueño del local",
+        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
+        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
+        "referencia1": "res/img/recursos/background-diseno.png",
+        "referencia2": "res/img/recursos/background-diseno.png",
+        "referencia3": "res/img/recursos/background-diseno.png",
+        "redsocial":
+        [
+            {
+                "icono": "fa-facebook-f",
+                "enlace": "https://www.facebook.com/brjosue73"
+            },
+            {
+                "icono": "fa-twitter",
+                "enlace": "https://www.instagram.com/brjosue73"
+            },
+            { 
+                "icono": "fa-instagram",
+                "enlace": "https://www.instagram.com/bigbangnica/"
+            }
+        ]
+    },
+
+    {
+        "name":"Jerson Duviedh",
+        "cargo":"Lorem ipsum",
+        "mainimagen": "res/img/recursos/integrantes/Jerson.jpg",
+        "imagenperfil": "res/img/recursos/integrantes/JersonD.jpg",
+        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "saludo": "Hola a todos",
+        "fan": "Startwars lover",
+        "broma": "El dueño del local",
+        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
+        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
+        "referencia1": "res/img/recursos/background-diseno.png",
+        "referencia2": "res/img/recursos/background-diseno.png",
+        "referencia3": "res/img/recursos/background-diseno.png",
+        "redsocial":
+        [
+            {
+                "icono": "fa-facebook-f",
+                "enlace": "https://www.facebook.com/brjosue73"
+            },
+            {
+                "icono": "fa-twitter",
+                "enlace": "https://www.instagram.com/brjosue73"
+            },
+            { 
+                "icono": "fa-instagram",
+                "enlace": "https://www.instagram.com/bigbangnica/"
+            }
+        ]
+    },
+
+    {
+        "name":"Marvin Gutiérrez",
+        "cargo":"Lorem ipsum",
+        "mainimagen": "res/img/recursos/integrantes/Marvin.jpg",
+        "imagenperfil": "res/img/recursos/integrantes/MarvinG.jpg",
+        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "saludo": "Hola a todos",
+        "fan": "Startwars lover",
+        "broma": "El dueño del local",
+        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
+        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
+        "referencia1": "res/img/recursos/background-diseno.png",
+        "referencia2": "res/img/recursos/background-diseno.png",
+        "referencia3": "res/img/recursos/background-diseno.png",
+        "redsocial":
+        [
+            {
+                "icono": "fa-facebook-f",
+                "enlace": "https://www.facebook.com/brjosue73"
+            },
+            {
+                "icono": "fa-twitter",
+                "enlace": "https://www.instagram.com/brjosue73"
+            },
+            { 
+                "icono": "fa-instagram",
+                "enlace": "https://www.instagram.com/bigbangnica/"
+            }
+        ]
+    },
+
+    {
+        "name":"Ulises Rodríguez",
+        "cargo":"Lorem ipsum",
+        "mainimagen": "res/img/recursos/integrantes/Ulises.jpg",
+        "imagenperfil": "res/img/recursos/integrantes/UlisesR.jpg",
+        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "saludo": "Hola a todos",
+        "fan": "Startwars lover",
+        "broma": "El dueño del local",
+        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
+        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
+        "referencia1": "res/img/recursos/background-diseno.png",
+        "referencia2": "res/img/recursos/background-diseno.png",
+        "referencia3": "res/img/recursos/background-diseno.png",
+        "redsocial":
+        [
+            {
+                "icono": "fa-facebook-f",
+                "enlace": "https://www.facebook.com/brjosue73"
+            },
+            {
+                "icono": "fa-twitter",
+                "enlace": "https://www.instagram.com/brjosue73"
+            },
+            { 
+                "icono": "fa-instagram",
+                "enlace": "https://www.instagram.com/bigbangnica/"
+            }
+        ]
+  
+    }
+
+]

@@ -7,7 +7,7 @@ class servicioCtrl {
         this.$http=$http;
 
         this.mailObj={};
-    }
+    } 
     $onInit(){
         console.log(this.servicio);
     }
@@ -36,6 +36,7 @@ class servicioCtrl {
             }
         }
     }
+    
 
     enviarMail() {
         let formulario = this.$document.find('.modal-form')[0];

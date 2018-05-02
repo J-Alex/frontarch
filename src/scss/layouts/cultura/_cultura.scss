@@ -1,20 +1,41 @@
+.header-cultura {
+    padding: .5rem 1rem;
+    position: absolute;
+    padding-left: 5rem;
+}  
+.ocultar-logo{
+    display: none;
+}
+.header-logo{ 
+    display: none;
+}
+
+.logo-cultura{
+    display: inline;
+    width: 150px;
+}
+
+
+
+
 .row-cultura{
     padding: 0.5em 1em;
+    margin-top: -.5rem;
 }
 
 .banner-cultura{
     align-items:  center;
-    background:url("../../res/img/recursos/Foto BigBang.jpg");
+    background:url("../../res/img/recursos/Portada 4.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 544px;
+    height: 670px;
     color: #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-left: -1.7rem;
     margin-right: -1.6rem;
-    margin-top: -3rem;    
+    margin-top: -1rem;    
     padding: 3rem;
 }
 
@@ -157,15 +178,14 @@
     opacity: .2;
 }
 
-
 //equipo de trabajo 
 .equipo{
     display: flex;
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
-    justify-content: space-around;
     padding: 1rem 0;
+    justify-content: flex-start;
 }
 .equipo_maintitle{
     margin-top: 1.2rem;
@@ -178,6 +198,7 @@
     width: 270px;
     height: 325px;
     cursor: pointer;
+    margin: 1rem 0.93rem;
 }
 .integrante_bg-img {
     position: absolute;
@@ -225,32 +246,8 @@
     font-weight: 700;
 }
 
-/* .integrante_text-caption:hover{
-    //position: relative;  
-    padding: 11rem 2rem 2rem 2rem;
-    // transition: .3s ease all;
-    // height: 50px;
-    .integrante-txt{
-        background: #323232;
-        display: block;
-        transition: .3s ease all;
-        width: 100%;
-    }
-} */
-
 .integrante-equipo:hover{
-/*     background-color: rgba(0,0,0,0.7);
-    color: #fff;
-    width: 360;
-    height: 360px;
-    transition: .3s ease all; */
     .integrante_text-caption {
-        /* opacity: 1;
-         transform: translateY(-0px);  
-        // margin-top: .5rem;
-        transition: margin-top 0.6s;
-        transition: .3s ease all;
-        padding: 13rem 0rem; */
 
         .content-info-equipo{
             margin-top: 2.2rem;
@@ -271,6 +268,158 @@
     
 }
 
+//dieño del modal 
+.modal-content-perfil {
+    height: 65%;
+    width: 70%;
+}
+.modal-perfil-princ{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(22, 22, 22, 0.966)!important; 
+}
+.modal-perfil{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+
+}
+.modal-body-perfil {
+    position: relative;
+}
+button.closemodal-perfil {
+    color: #323232;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    float: right;
+    font-size: 2em;
+    margin-right: 1rem;
+}
+.cont-perfil-image{
+    width: 35%;
+    
+}
+.img-perfil-BB{
+    width: 100%;
+    height: 360px;
+}
+.content-inspiraciones{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+.intereses{
+    width: 48%;
+
+}
+.title-linea-small{
+    color: #7a7a7a;
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: .9em;
+}
+.linea-small{
+    display: inline-block;
+    border-bottom: 1px solid #7a7a7a;
+    width: 8%;
+    margin-top: 1.6rem;
+    position: absolute;
+    margin-left: 6px;
+}
+.txt-intereses{
+    font-size: .8em;
+    font-weight: 500;
+    margin: .1rem;
+}
+.aficiones{
+    width: 48%;
+}
+
+.descipcion-personal{
+    width: 62%;
+    padding: .2rem .8rem;
+    .title-persona{
+        font-size: 1.5em;
+        font-weight: 800;
+        line-height: 1;
+    }
+    .cargo-persona{
+        color: #E13639;
+        font-weight: 500;
+        font-size: .8em;
+    }
+    .txt-descripcion-personal{
+        font-size: 1em;
+        height: 114px;
+    }
+
+    .btn-soc-perfil{
+        border-radius: 50%;
+        border: 2px solid #e13639;
+        height: 37px;
+        width: 37px;
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    .icon-social-perfil{
+        color: #E13639;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 6px 7px
+    }
+}
+
+.btn-soc-perfil:hover{
+    border: 2px solid #323232;
+    .icon-social-perfil{
+        color: #323232;
+    }
+}
+
+.cont-inspiracion{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    justify-content: space-between;
+    margin-top: -.3rem;
+}
+.title-linea{
+    color: #7a7a7a;
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 1.1em;
+}
+.linea{
+    display: inline-block;
+    border-bottom: 1px solid #7a7a7a;
+    width: 32%;
+    margin-top: 2.2rem;
+    position: absolute;
+    margin-left: 6px;
+}
+.img-inspiracion{
+    width: 32.5%;
+    
+}
+.img-inspiracion img{
+    width: 100%;
+}
+
+
+.movil{
+    display: none;
+}
+
+
 @media screen and (max-width: 1024px){
     .banner-cultura{
         height: 413px;
@@ -278,12 +427,31 @@
     .text-contenedor-ideal {
         margin-top: 9.2rem;
     }
+    .equipo {
+        justify-content: flex-start;
+    }
+    .integrante-equipo {
+        margin: 1rem 1.64rem;;
+    }
+
+    .modal-content-perfil {
+        height: 57%;
+        width: 94%;
+    }
 }
 
 @media screen and (max-width: 768px){
-    .banner-cultura{
-        height: 310px;
+    .logo-cultura {
+        display: inline;
+        width: 85px;
+        margin-left: -4.4rem;
+        margin-top: -.9rem;
     }
+
+    .banner-cultura {
+        height: 382px;
+    }
+
     .valores_maintitle {
         margin-top: 1rem;
     }
@@ -298,8 +466,149 @@
     .nuestro-ideales {
         padding: 1rem 0;
     }
+    .ideales-maintitles {
+        font-size: 2.7em;
+    }
+
+    .integrante-equipo {
+        width: 300px;
+        margin: 1.3rem 1.7rem;
+    }
+
+    //modal perfil
+    .modal-content-perfil {
+        height: 80%;
+        width: 68%;
+    }
+    .modal-perfil {
+        margin-top: 1.5rem;
+    }
+    .modal-body-perfil {
+        max-height: calc(100% - 1px);
+        overflow-y: scroll;
+    }
+
+    .cont-perfil-image {
+        width: 100%;
+    }
+
+    .content-inspiraciones{
+        display: none;
+    }
+    .movil{
+        display: flex;
+        margin-bottom: -1em;
+    }
+
+    .img-perfil-BB {
+        width: 100%;
+        height: 540px;
+    }
+    .intereses {
+        width: 50%;
+        padding: 0rem;
+        margin-left: -.5rem;
+    }
+    .aficiones {
+        width: 50%;
+        padding: 0rem 2rem;
+    }
+    .title-linea-small{
+        font-size: 1rem;
+    }
+    .linea-small {
+        width: 19%;
+    }
+    .descipcion-personal{
+        .txt-descripcion-personal {
+            height: 160px;
+        }    
+    }
+    .descipcion-personal {
+        width: 100%;
+        padding: 0.2rem 2.8rem;
+    }
+    .linea {
+        width: 33%;
+    } 
+
+    button.closemodal-perfil {
+        margin-left: 27rem;
+        color: #0a0a0a;
+        margin-top: -33rem;
+        position: absolute;
+    }
 
 }
+@media screen and (max-width: 720px){
+    .valores-img {
+        width: 90px;
+    }
+    .cc{
+        width: 80px;
+    }
+    .ideales-maintitles {
+        font-size: 2.5em;
+    }
+    .text-contenedor-ideal {
+        margin-top: 10.2rem;
+    }
+    .valores-title {
+        font-size: 1.2em;
+    }
+    .contenedor-ideales {
+        width: 60%;
+    }
+    .equipo {
+        justify-content: center;
+    }
+
+    .integrante-equipo {
+        width: 256px;
+        margin: 1.3rem 1.2rem;
+    }
+    //modal
+    .modal-content-perfil {
+        height: 90%;
+        width: 95%;
+        margin-top: -4rem;
+    }
+    .modal-body-perfil {
+        max-height: calc(100% - 25px);
+        overflow-y: scroll;
+    }
+
+    .img-perfil-BB {
+        height: 260px;
+    }
+
+    .descipcion-personal {
+        .txt-descripcion-personal {
+            font-size: 1em;
+            height: 188px;
+        }
+    }
+    .intereses {
+        width: 100%;
+    }
+    .linea {
+        width: 15%;
+    }
+    .linea-small {
+        width: 21%;
+    }
+
+    
+    //logo
+    .logo-cultura {
+        display: inline;
+        width: 53px;
+        margin-left: -4.5rem;
+    }
+
+
+}
+
 @media screen and (max-width: 580px){
     .banner-cultura {
         height: 213px;
@@ -346,5 +655,72 @@
         width: 220px;
         border-radius: 50%;
         margin-left: -9rem;
+    }
+    .equipo {
+        justify-content: center;
+    }
+    .integrante-equipo {
+        width: 315px;
+        margin: 1.3rem auto;
+    }
+
+    //modal perfil
+    .modal-content-perfil {
+        height: 82%;
+        width: 90%;
+    }
+    .modal-perfil{
+        margin-top:4.5rem;
+    }
+    .cont-perfil-image {
+        width: 100%;
+    }
+    .content-inspiraciones{
+        display: none;
+    }
+
+    .movil{
+        display: flex;
+        margin-bottom: -1em;
+    }
+    .descipcion-personal {
+        width: 100%;
+        .txt-descripcion-personal {
+            font-size: 1em;
+            height: 205px;
+        }
+    }
+
+    .img-perfil-BB {
+        height: 330px;
+    }
+
+    .modal-body-perfil {
+        max-height: calc(100% - 0px);
+        overflow-y: scroll;
+    }
+    .linea {
+        width: 13%;
+    }
+    .linea-small {
+        width: 20%;
+    }
+
+    button.closemodal-perfil {
+        margin-left: 18rem;
+        color: #0a0a0a;
+        margin-top: -21rem;
+        position: absolute;
+    }
+
+    .header-cultura {
+        padding: 0rem;
+        position: inherit;
+        padding-left: 0rem;
+    } 
+    .logo-cultura {
+        display: inline;
+        width: 80px;
+        margin-left: .5rem;
     }
 }

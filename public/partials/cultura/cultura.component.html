@@ -58,7 +58,7 @@
                 </div>
     
                 <figcaption class="valores__text-caption">
-                    <h2 class="valores-title">aprendizaje<span class="red">.</span></h2>
+                    <h2 class="valores-title">Aprendizaje<span class="red">.</span></h2>
                     <p class="">
                         Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito
                         empresarial. 
@@ -157,11 +157,11 @@
             <h1 class="equipo_maintitle red h1-responsive"><span class="punto">· </span>El equipo<span class="punto"> .</span></span></h1>
         <div class="equipo">
     
-            <a href="" data-ui-sref="">
+            <!-- <a href="" >
                 <figure class="integrante-equipo">
                     <img class="integrante_bg-img" src="res/img/recursos/brandon.jpg" alt="">
                     <figcaption class="integrante_text-caption">
-                        <div class="circulo-mascara"></div>
+                         <div class="circulo-mascara"></div> 
 
                         <div class="content-info-equipo">                       
                             <p class="integrante-txt">
@@ -173,120 +173,123 @@
                 </figure>
                 <p class="equipo-nombre"><span class="cargo">Brandon Blandon</span> <br> <span>Director General</span></p>
             </a>
-            
-            <a href="" data-ui-sref="">
-                <figure class="integrante-equipo">
-                    <img class="integrante_bg-img" src="res/img/recursos/brandon.jpg" alt="">
+
+            -->
+            <a  id="btn_perfil" data-ng-repeat=" integrante in cultura.integrantes" data-ng-click="cultura.abrirModal(integrante)">
+                 <figure class="integrante-equipo">
+                    <img class="integrante_bg-img" src="{{ integrante.mainimagen }}" alt="">
                     <figcaption class="integrante_text-caption">
-                        <div class="circulo-mascara"></div>
+                        <!-- <div class="circulo-mascara"></div> -->
                         
                         <div class="content-info-equipo">                       
                             <p class="integrante-txt">
-                                <span class="txt-integrante"> Startwars lover</span> <br> "El dueño del local" <br><br> Hola a todos
+                                <span class="txt-integrante"> {{integrante.fan}}</span> <br> "{{integrante.broma}}"  <br><br> {{integrante.saludo}}
                             </p>
                         </div>
                     </figcaption>
                 </figure>
-                <p class="equipo-nombre"><span class="cargo">Brandon Blandon</span> <br> <span>Director General</span></p>
-            </a>
-            
-            <a href="" data-ui-sref="">
-                <figure class="integrante-equipo">
-                    <img class="integrante_bg-img" src="res/img/recursos/brandon.jpg" alt="">
-                    <figcaption class="integrante_text-caption">
-                        <div class="circulo-mascara"></div>
-                        
-                        <div class="content-info-equipo">                       
-                            <p class="integrante-txt">
-                                <span class="txt-integrante"> Startwars lover</span> <br> "El dueño del local" <br><br> Hola a todos
-                            </p>
-                        </div>
-                    </figcaption>
-                </figure>
-                <p class="equipo-nombre"><span class="cargo">Brandon Blandon</span> <br> <span>Director General</span></p>
-            </a>
-            
-            <a href="" data-ui-sref="">
-                <figure class="integrante-equipo">
-                    <img class="integrante_bg-img" src="res/img/recursos/brandon.jpg" alt="">
-                    <figcaption class="integrante_text-caption">
-                        <div class="circulo-mascara"></div>
-                        
-                        <div class="content-info-equipo">                       
-                            <p class="integrante-txt">
-                                <span class="txt-integrante"> Startwars lover</span> <br> "El dueño del local" <br><br> Hola a todos
-                            </p>
-                        </div>
-                    </figcaption>
-                </figure>
-                <p class="equipo-nombre"><span class="cargo">Brandon Blandon</span> <br> <span>Director General</span></p>
-            </a>
-            
-            <a href="" data-ui-sref="">
-                <figure class="integrante-equipo">
-                    <img class="integrante_bg-img" src="res/img/recursos/brandon.jpg" alt="">
-                    <figcaption class="integrante_text-caption">
-                        <div class="circulo-mascara"></div>
-                        
-                        <div class="content-info-equipo">                       
-                            <p class="integrante-txt">
-                                <span class="txt-integrante"> Startwars lover</span> <br> "El dueño del local" <br><br> Hola a todos
-                            </p>
-                        </div>
-                    </figcaption>
-                </figure>
-                <p class="equipo-nombre"><span class="cargo">Brandon Blandon</span> <br> <span>Director General</span></p>
-            </a>
-            
-            <a href="" data-ui-sref="">
-                <figure class="integrante-equipo">
-                    <img class="integrante_bg-img" src="res/img/recursos/brandon.jpg" alt="">
-                    <figcaption class="integrante_text-caption">
-                        <div class="circulo-mascara"></div>
-                        
-                        <div class="content-info-equipo">                       
-                            <p class="integrante-txt">
-                                <span class="txt-integrante"> Startwars lover</span> <br> "El dueño del local" <br><br> Hola a todos
-                            </p>
-                        </div>
-                    </figcaption>
-                </figure>
-                <p class="equipo-nombre"><span class="cargo">Brandon Blandon</span> <br> <span>Director General</span></p>
-            </a>
-            
-            <a href="" data-ui-sref="">
-                <figure class="integrante-equipo">
-                    <img class="integrante_bg-img" src="res/img/recursos/brandon.jpg" alt="">
-                    <figcaption class="integrante_text-caption">
-                        <div class="circulo-mascara"></div>
-                        
-                        <div class="content-info-equipo">                       
-                            <p class="integrante-txt">
-                                <span class="txt-integrante"> Startwars lover</span> <br> "El dueño del local" <br><br> Hola a todos
-                            </p>
-                        </div>
-                    </figcaption>
-                </figure>
-                <p class="equipo-nombre"><span class="cargo">Brandon Blandon</span> <br> <span>Director General</span></p>
-            </a>
-            
-            <a href="" data-ui-sref="">
-                <figure class="integrante-equipo">
-                    <img class="integrante_bg-img" src="res/img/recursos/brandon.jpg" alt="">
-                    <figcaption class="integrante_text-caption">
-                        <div class="circulo-mascara"></div>
-                        
-                        <div class="content-info-equipo">                       
-                            <p class="integrante-txt">
-                                <span class="txt-integrante"> Startwars lover</span> <br> "El dueño del local" <br><br> Hola a todos
-                            </p>
-                        </div>
-                    </figcaption>
-                </figure>
-                <p class="equipo-nombre"><span class="cargo">Brandon Blandon</span> <br> <span>Director General</span></p>
+                <p class="equipo-nombre">{{ integrante.name }} <br><span class="cargo">{{ integrante.cargo }}</span></p>
             </a>             
     
         </div>
     </div>
 
+</div>
+
+<!--Modal-->
+<div id="Modalperfil" class="modal modal-perfil-princ" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content modal-content-perfil">
+            <div class="modal-body-perfil modal-perfil" id="mod-body">
+
+                <div class="cont-perfil-image">
+                    <img class="img-perfil-BB" src="{{ cultura.miembro.imagenperfil }}" alt="{{ cultura.miembro.name }}">
+
+                    <div class="content-inspiraciones">
+                        <div class="intereses">
+                            <h3 class="title-linea-small">Intereses </h3>
+                            <div class="linea-small"></div>
+
+                            <p class="txt-intereses" data-ng-repeat=" intereses in cultura.miembro.intereses">
+                                {{ intereses}}
+                            </p>
+                        </div>
+
+                        <div class="aficiones">
+                            <h3 class="title-linea-small">Aficiones </h3>
+                            <div class="linea-small"></div>
+
+                            <p class="txt-intereses"data-ng-repeat=" aficiones in cultura.miembro.aficiones">
+                                {{ aficiones }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="descipcion-personal">
+                    <button type="button" class="close closeapp closemodal-perfil" data-dismiss="modal" aria-label="Close"  data-ng-click="cultura.cerrarmodal()">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+
+                    <p class="title-persona"> {{ cultura.miembro.name }} <br><span class="cargo-persona">{{ cultura.miembro.cargo }}</span></p>
+
+                    <p class="txt-descripcion-personal">
+                        {{ cultura.miembro.descripcion }} 
+                    </p>
+
+                    <div class="btn_social-perfil" >
+        
+                        <div class="btn-soc-perfil" data-ng-repeat="red in cultura.miembro.redsocial" >
+                            <a href="{{ red.enlace}}"  target="_black">
+                                <i class="fab {{ red.icono }} icon-social-perfil"></i>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="content-inspiraciones movil">
+                        <div class="intereses">
+                            <h3 class="title-linea-small">Intereses </h3>
+                            <div class="linea-small"></div>
+
+                            <p class="txt-intereses" data-ng-repeat=" intereses in cultura.miembro.intereses">
+                                {{ intereses}}
+                            </p>
+                        </div>
+
+                        <div class="aficiones">
+                            <h3 class="title-linea-small">Aficiones </h3>
+                            <div class="linea-small"></div>
+
+                            <p class="txt-intereses"data-ng-repeat=" aficiones in cultura.miembro.aficiones">
+                                {{ aficiones }}
+                            </p>
+                        </div>
+                    </div>
+                    
+
+                    <h3 class="title-linea">Referencias e inspiraciones </h3>
+                    <div class="linea"></div>
+
+                    <div class="cont-inspiracion">
+                        
+                        <div class="img-inspiracion">
+                            <img src="{{ cultura.miembro.referencia1 }}" alt="">
+                        </div>
+
+                        <div class="img-inspiracion">
+                            <img src="{{ cultura.miembro.referencia2 }}" alt="">
+                        </div>
+
+                        <div class="img-inspiracion">
+                            <img src="{{ cultura.miembro.referencia3 }}" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
 </div>
