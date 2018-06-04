@@ -1,18 +1,26 @@
 [
     {
         "name":"Ana Maltez",
-        "cargo":"Director General",
+        "cargo":"",
         "mainimagen": "res/img/recursos/integrantes/Ana.jpg",
         "imagenperfil": "res/img/recursos/integrantes/AnaM.jpg",
-        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
-        "saludo": "Hola a todos",
-        "fan": "Startwars lover",
-        "broma": "El dueño del local",
-        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
-        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
-        "referencia1": "res/img/recursos/background-diseno.png",
-        "referencia2": "res/img/recursos/background-diseno.png",
-        "referencia3": "res/img/recursos/background-diseno.png",
+        "descripcion": "Carol es nuestra contadora y gestora de buena conducta. Sueña con ser un Picasso dentro de la cocina mientras lleva las cuentas, y si, últimamente se ha contagiado de la invalidez del personal, pero es nuestra figura adulta en el equipo. Es perfeccionista, adicta al café y combina bien las cuentas con el óleo y los pañales.",
+        "saludo": "",
+        "fan": "",
+        "broma": "",
+        "intereses": [ "Pintura","Contabilidad","Cocina","No cambiar pañales","Viajar" ],
+        "aficiones": [ "Grace Anatomy","Gatos y boas","Sagas de ciencia ficción","Tacos","Piano" ],
+        "referencia": [
+            {
+                "enlace": "res/img/recursos/referencias/Byron-01.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-02.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-03.jpg"
+            }
+        ],
         "redsocial":
         [
             {
@@ -34,60 +42,80 @@
         "name":"Brandon Blandón",
         "cargo":"Lorem ipsum",
         "mainimagen": "res/img/recursos/integrantes/Brandon.jpg",
-        "imagenperfil": "res/img/recursos/integrantes/BrandonB.jpg",
-        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "imagenperfil": "res/img/recursos/integrantes/BrandonB.png",
+        "descripcion": "Ingeniero en sistemas especializado en desarrollo web, apasionado por los negocios, el marketing y el SEO. A su vez, ejerce como docente universitario. Es el encargado de imponer orden en el equipo, siguiendo las normas y principios de Darth Vader. Tras realizar una pasantía en Falls Comunications y participar en el programa YLAI, su visión de trabajo se vio completamente transformada.",
         "saludo": "Hola a todos",
         "fan": "Startwars lover",
         "broma": "El dueño del local",
-        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
-        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
-        "referencia1": "res/img/recursos/background-diseno.png",
-        "referencia2": "res/img/recursos/background-diseno.png",
-        "referencia3": "res/img/recursos/background-diseno.png",
+        "intereses": [ "Marketing","Posicionamiento web","Desarrollo web","Project Management","Fotografía" ],
+        "aficiones": [ "Star Wars","Yankees Fan.","The lord of the rings.","Hamburguesas","Thinking outside the box" ],
+        "referencia": [
+            {
+                "enlace": "res/img/recursos/referencias/Byron-01.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-02.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-03.jpg"
+            }
+        ],
         "redsocial": 
         [
             {
                 "icono": "fa-facebook-f",
                 "enlace": "https://www.facebook.com/brjosue73"
             },
-            {
-                "icono": "fa-twitter",
-                "enlace": "https://www.instagram.com/brjosue73"
-            },
             { 
                 "icono": "fa-instagram",
                 "enlace": "https://www.instagram.com/brjosue73/"
+            },
+            {
+                "icono": "fa-linkedin-in",
+                "enlace": "https://www.linkedin.com/in/brandon-bland%C3%B3n-vargas-088702ba/"
             }
         ]
     },
 
     {
         "name":"Byron Hernández",
-        "cargo":"Lorem ipsum",
+        "cargo":"Creativo",
         "mainimagen": "res/img/recursos/integrantes/Byron.jpg",
         "imagenperfil": "res/img/recursos/integrantes/ByronH.jpg",
-        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "descripcion": "Byron es un diseñador y comunicador visual apasionado por el branding y la publicidad. A consecuencia de trabajar con tantas retículas tiene un leve trastorno obsesivo compulsivo con la simetría el cual aún no ha logrado trasladar a su habitación. Es docente universitario y sigue luchando por tener un cactus en su escritorio que sobreviva más de 2 meses.",
         "saludo": "Hola a todos",
         "fan": "Startwars lover",
         "broma": "El dueño del local",
-        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
-        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
-        "referencia1": "res/img/recursos/background-diseno.png",
-        "referencia2": "res/img/recursos/background-diseno.png",
-        "referencia3": "res/img/recursos/background-diseno.png",
+        "intereses": [ "Branding"," Publicidad","Marketing Digital","Fotografía","Edición Audiovisual" ],
+        "aficiones": [ "Harry Potter","Perritos","Interestelar","Hamburguesas", "Trova latinoamericana" ],
+        "referencia": [
+            {
+                "enlace": "res/img/recursos/referencias/Byron-01.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-02.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-03.jpg"
+            }
+        ],
         "redsocial":
         [
             {
                 "icono": "fa-facebook-f",
-                "enlace": "https://www.facebook.com/brjosue73"
-            },
-            {
-                "icono": "fa-twitter",
-                "enlace": "https://www.instagram.com/brjosue73"
+                "enlace": "https://www.facebook.com/byronman.art/"
             },
             { 
                 "icono": "fa-instagram",
-                "enlace": "https://www.instagram.com/bigbangnica/"
+                "enlace": "https://www.instagram.com/byronman.art/"
+            },
+            {
+                "icono": "fa-behance",
+                "enlace": "https://www.behance.net/byronman"
+            },
+            {
+                "icono": "fa-linkedin-in",
+                "enlace": "https://www.linkedin.com/in/byronman/"
             }
         ]
     },
@@ -97,15 +125,23 @@
         "cargo":"Director General",
         "mainimagen": "res/img/recursos/integrantes/Christhopher.jpg",
         "imagenperfil": "res/img/recursos/integrantes/Chris.jpg",
-        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "descripcion": "Christhopher es un fotógrafo animador con visión de ser cineasta algún día, la organización de ideas no es uno de sus fuertes pero trata dar lo mejor de sí mismo, cursa la carrera de periodismo queriendo encontrar su vocación en ella, experto en contar los mejores chistes malos y espera que sus compañeros se rían.",
         "saludo": "Hola a todos",
         "fan": "Startwars lover",
         "broma": "El dueño del local",
-        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
-        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
-        "referencia1": "res/img/recursos/background-diseno.png",
-        "referencia2": "res/img/recursos/background-diseno.png",
-        "referencia3": "res/img/recursos/background-diseno.png",
+        "intereses": [ "Marketing digital","Fotografía","Edición audiovisual","Animación","Branding" ],
+        "aficiones": [ "Perros","Pizza","Marvel","Boleros","Escritura" ],
+        "referencia": [
+            {
+                "enlace": "res/img/recursos/referencias/Chris1.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Chris2.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Chris3.jpg"
+            }
+        ],
         "redsocial":
         [
             {
@@ -126,18 +162,26 @@
 
     {
         "name":"Herald Flores",
-        "cargo":"Lorem ipsum",
+        "cargo":"Desarrollador web",
         "mainimagen": "res/img/recursos/integrantes/Herald.jpg",
         "imagenperfil": "res/img/recursos/integrantes/Herald-Flores.jpg",
-        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "descripcion": "Es un ingeniero en sistemas que se unió al Team BigBang para realizar una pasantía después de que uno de sus profesores le invitara a formar parte de este al terminar un partido de fútbol. Aporta sus conocimientos en  desarrollo web y experiencia en el área de soporte técnico. Le gusta mucho tomar café y es fan del Barcelona ,  el anime y las películas de superhéroes en especial las de Marvel Studio.",
         "saludo": "Hola a todos",
-        "fan": "Startwars lover",
+        "fan": "Comic y anime",
         "broma": "El dueño del local",
-        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
-        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
-        "referencia1": "res/img/recursos/background-diseno.png",
-        "referencia2": "res/img/recursos/background-diseno.png",
-        "referencia3": "res/img/recursos/background-diseno.png",
+        "intereses": [ "Cristo Jesús","Desarrollo Web"],
+        "aficiones": [ "FC Barcelona","Anime y comics","FIFA", "Pan y Café" ],
+        "referencia": [
+            {
+                "enlace": "res/img/recursos/referencias/Byron-01.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-02.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-03.jpg"
+            }
+        ],
         "redsocial":
         [
             {
@@ -166,9 +210,17 @@
         "broma": "El dueño del local",
         "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
         "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
-        "referencia1": "res/img/recursos/background-diseno.png",
-        "referencia2": "res/img/recursos/background-diseno.png",
-        "referencia3": "res/img/recursos/background-diseno.png",
+        "referencia": [
+            {
+                "enlace": "res/img/recursos/referencias/Byron-01.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-02.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-03.jpg"
+            }
+        ],
         "redsocial":
         [
             {
@@ -188,18 +240,26 @@
 
     {
         "name":"Jerson Duviedh",
-        "cargo":"Lorem ipsum",
+        "cargo":"Sistemas de Información.",
         "mainimagen": "res/img/recursos/integrantes/Jerson.jpg",
         "imagenperfil": "res/img/recursos/integrantes/JersonD.jpg",
-        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "descripcion": "Jerson se involucra en marketing digital además aporta visión estratégica a BigBang. Lo único que hace relacionado a su carrera es la docencia universitaria, bebe el café fuerte y sin azúcar, él es conocido como el “Deus” del FIFA.Su forma de pensar : ”Si tiene solución ¿Por qué te preocupas? Y si no tiene solución ¿Por qué te preocupas?”.",
         "saludo": "Hola a todos",
         "fan": "Startwars lover",
-        "broma": "El dueño del local",
-        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
-        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
-        "referencia1": "res/img/recursos/background-diseno.png",
-        "referencia2": "res/img/recursos/background-diseno.png",
-        "referencia3": "res/img/recursos/background-diseno.png",
+        "broma": "El general",
+        "intereses": [ "Estrategías de negocios","PNL","Marketing digital","Inteligencia emocional y social" ],
+        "aficiones": [ "Ted Talks","Fútbol","Póker","Lectura","Café" ],
+        "referencia": [
+            {
+                "enlace": "res/img/recursos/referencias/Jerson1.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Jerson3.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Jerson2.jpg"
+            }
+        ],
         "redsocial":
         [
             {
@@ -219,18 +279,26 @@
 
     {
         "name":"Marvin Gutiérrez",
-        "cargo":"Lorem ipsum",
+        "cargo":"",
         "mainimagen": "res/img/recursos/integrantes/Marvin.jpg",
         "imagenperfil": "res/img/recursos/integrantes/MarvinG.jpg",
-        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
-        "saludo": "Hola a todos",
-        "fan": "Startwars lover",
-        "broma": "El dueño del local",
-        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
-        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
-        "referencia1": "res/img/recursos/background-diseno.png",
-        "referencia2": "res/img/recursos/background-diseno.png",
-        "referencia3": "res/img/recursos/background-diseno.png",
+        "descripcion": "Marvin es un mercadólogo y diseñador que le rinde culto a las letras. La lectura, la música y el estudio lo tienen creyendo que sigue en la Bauhaus de 1919; sin embargo, sus lentes formales de “menos es más” es algo que aporta a la cordura del estudio. También es docente universitario y espera no olvidar a Sebastián (su bebé) nuevamente en el supermercado.",
+        "saludo": "",
+        "fan": "",
+        "broma": "",
+        "intereses": [ "Branding","Tipografía","Diseño Editorial","Lettering","Marketing Research" ],
+        "aficiones": [ "La Casa de Papel (serie)","Los monos","Mamma Mía","Pizza","Jazz" ],
+        "referencia": [
+            {
+                "enlace": "res/img/recursos/referencias/Byron-01.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-02.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Byron-03.jpg"
+            }
+        ],
         "redsocial":
         [
             {
@@ -250,32 +318,41 @@
 
     {
         "name":"Ulises Rodríguez",
-        "cargo":"Lorem ipsum",
+        "cargo":"Ilustrador",
         "mainimagen": "res/img/recursos/integrantes/Ulises.jpg",
         "imagenperfil": "res/img/recursos/integrantes/UlisesR.jpg",
-        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "descripcion": "Ulises, conocido cariñosamente como Liche, es el diseñador más joven del Team BigBang, tanto que su mamá siempre llama al resto del equipo para preguntar por él, su fuerte es la ilustración y el branding, es un gran fan del cine y los videojuegos. Su sueño es que algún día “ella” lo ame.",
         "saludo": "Hola a todos",
         "fan": "Startwars lover",
         "broma": "El dueño del local",
-        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
-        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
-        "referencia1": "res/img/recursos/background-diseno.png",
-        "referencia2": "res/img/recursos/background-diseno.png",
-        "referencia3": "res/img/recursos/background-diseno.png",
+        "intereses": [ "Ilustración","Branding","UI/UX","Animación","Diseño/Videojuegos" ],
+        "aficiones": [ "One Piece","Indie Rock","Coca Cola","Zelda","Salir con amigos" ],
+        "referencia": [
+            {
+                "enlace": "res/img/recursos/referencias/Liche1.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Liche3.jpg"
+            },
+            {
+                "enlace": "res/img/recursos/referencias/Liche2.jpg"
+            }
+        ],
         "redsocial":
         [
             {
                 "icono": "fa-facebook-f",
-                "enlace": "https://www.facebook.com/brjosue73"
-            },
-            {
-                "icono": "fa-twitter",
-                "enlace": "https://www.instagram.com/brjosue73"
+                "enlace": "https://www.facebook.com/liches.ni/"
             },
             { 
                 "icono": "fa-instagram",
-                "enlace": "https://www.instagram.com/bigbangnica/"
+                "enlace": "https://www.instagram.com/liches.ni/"
+            },
+            {
+                "icono": "fa-behance",
+                "enlace": "https://www.behance.net/lichesart752a"
             }
+
         ]
   
     }

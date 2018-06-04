@@ -35,21 +35,21 @@ $mail->Port       = 587;
 $mail->SMTPDebug  = 1;
 $mail->SMTPAuth   = true;
 
-$mail->Username   = 'bmarkt.studio@gmail.com';
+$mail->Username   = 'contacto@bigbangnica.studio';
 $mail->Password   = 'bmarkt162216';
 
 $mail->SetFrom($email, $name);
-$mail->AddReplyTo('bmarkt.studio@gmail.com','no-reply');
+$mail->AddReplyTo('contacto@bigbangnica.studio','no-reply');
 $mail->Subject    = 'Contacto desde sitio web';
 $mail->MsgHTML($body);
 
 $mail->AddAddress('heraldflores95@gmail.com', 'Herald');
-/* $mail->AddAddress('brjosue73@gmail.com', 'Brandon');
+$mail->AddAddress('brjosue73@gmail.com', 'Brandon');
 $mail->AddAddress('marvingutierrezjr@gmail.com', 'Marvin');
 $mail->AddAddress('jenniercruz90@gmail.com', 'Jennier');
 $mail->AddAddress('contacto@bmarkt.studio', 'Bmarkt');
 $mail->AddAddress('duviedh22@gmail.com', 'Jerson');
-$mail->AddAddress('bahrdiseno@gmail.com', 'Byron'); */
+$mail->AddAddress('bahrdiseno@gmail.com', 'Byron');
 
 
 if(!$mail->send()) {

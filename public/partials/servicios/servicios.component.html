@@ -3,15 +3,14 @@
         <div class="banner">
             <div class="banner_contenido">
                 <h1 class="banner_title">
-                    Servicios
+                    {{ servicios.LANG.maintitle }}
                 </h1>
             </div>
 
             <div class="container_text_banner">
 
                 <p class="banner_text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Rem quas nihil delectus sunt laudantium eos similique explicabo beatae modi nostrum.
+                    {{ servicios.LANG.maintext }}
                 </p>
             </div>
 
@@ -23,7 +22,7 @@
 
     <div class="row-servicios conten-servicios" id="servicios-conten">
         <h2 class="main-servicios-title">
-            Lorem ipsum dolor sit amet elit.
+            {{ servicios.LANG.secondtitle }}
         </h2>
         <div class="servicios">
 
@@ -32,10 +31,9 @@
                     <img class="servicio__bg-img" src="res/img/recursos/background-web.png" alt="">
                     <figcaption class="servicio__text-caption">
                         <div class="vector vector-dev"></div>
-                        <h3>Desarrollo <br> web<span class="red">.</span></h3>
+                        <h3>{{ servicios.LANG.servicios1.titulo1 }} <br> {{ servicios.LANG.servicios1.titulo2 }}<span class="red">.</span></h3>
                         <p>  
-                            Creemos que la optimización y automatización de procesos mediante nuestros
-                            softwares son la solución práctica para potenciarte en el mercado.
+                            {{ servicios.LANG.servicios1.parrafo }}
                         </p>
                     </figcaption>
                 </figure>            
@@ -46,10 +44,9 @@
                     <img class="servicio__bg-img" src="res/img/recursos/background-diseno.png" alt="">
                     <figcaption class="servicio__text-caption">
                         <div class="vector vector-desing"></div>
-                        <h3>Diseño <br> gráfico<span class="red">.</span></h3>
+                        <h3>{{ servicios.LANG.servicios2.titulo1 }} <br> {{ servicios.LANG.servicios2.titulo2 }}<span class="red">.</span></h3>
                         <p class="">
-                            Desarrollamos tus conceptos en: Identidad corporativa (logotipo y marca), papelería,
-                            cartelería, expresiones editoriales, diseño publicitario y web.
+                            {{ servicios.LANG.servicios2.parrafo }}
                         </p>
                     </figcaption>
                 </figure>            
@@ -60,10 +57,9 @@
                     <img class="servicio__bg-img" src="res/img/recursos/background-marketing.png" alt="">
                     <figcaption class="servicio__text-caption">
                         <div class="vector vector-marketing"></div>
-                        <h3>Marketing <br> digital<span class="red">.</span></h3>
+                        <h3>{{ servicios.LANG.servicios3.titulo1 }} <br> {{ servicios.LANG.servicios3.titulo2 }}<span class="red">.</span></h3>
                         <p class="">
-                            Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito
-                            empresarial. Esto lo hace posible mediante el conocimiento de las tecnologias y su aplicación.
+                            {{ servicios.LANG.servicios3.parrafo }}
                         </p>
                     </figcaption>
                 </figure>

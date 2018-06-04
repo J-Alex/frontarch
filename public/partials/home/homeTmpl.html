@@ -1,10 +1,9 @@
 <div class="container">
-
 	<div class="row">
 		<div class="portada">
 			<div class="main-title--wrapper">
 				<h1 class="main-title">
-					El punto <br> de partida de <br>	<span class="red">tus ideas.</span> 
+					{{ home.LANG.maintitle.parte1 }} <br> {{ home.LANG.maintitle.parte2 }} <br>	<span class="red">{{ home.LANG.maintitle.parte3 }}</span> 
 				</h1>
 			</div>
 
@@ -24,8 +23,8 @@
 				<!-- img class="dirigible" src="res/img/recursos/Sin título-1_Mesa de trabajo 1.png" alt="dirigible" -->
 				<div class="red-dot"></div>
 				
-				<p class="slogan_text">Creemos en la <span class="red">innovación</span> como base del crecimiento y desarrollo...</p>
-				<a class="slogan_link  red">¿Querés saber sobre nosotros?</a>
+				<p class="slogan_text">{{ home.LANG.title2.parte1 }} <span class="red">{{ home.LANG.title2.parte2 }}</span> {{ home.LANG.title2.parte3 }}</p>
+				<a class="slogan_link  red">{{ home.LANG.title2.pregunta }}</a>
 			</div>
 		
 		</div>
@@ -37,42 +36,39 @@
 		</div>
 	</div>
 
-	<div class="row">
-		<h1 class="ideales_maintitle red h1-responsive"><span class="punto">· </span>Nuestros ideales<span class="punto">	·</span></h1>
+	<div class="row row-new">
+		<h1 class="ideales_maintitle red h1-responsive"><span class="punto">· </span>{{ home.LANG.ideales.maintitle }}<span class="punto">	·</span></h1>
 
 		<div class="ideales">
 			
 			<div class="aporte social">
 				<div class="ideales_before"></div>
-				<p class="ideales_title">Crecimiento <br> Social<span class="punto red">.</span></p>
+				<p class="ideales_title">{{ home.LANG.ideales.ideales1.titulo1 }} <br> {{ home.LANG.ideales.ideales1.titulo2 }}<span class="punto red">.</span></p>
 				<p class="ideales_text">
-					"Nuestros proyectos están comprometidos con el desarrollo de nuestra sociedad, brindamos soluciones que permitan a los 
-					clientes ser más competitivos en <br> mercados exigentes". 
+					"{{ home.LANG.ideales.ideales1.parrafo }}". 
 				</p>
 				
 			</div>
 
 			<div class="aporte cultural">
 				<div class="ideales_before-2"></div>
-				<p class="ideales_title">Aporte<br> Cultural<span class="punto red">.</span></p>
+				<p class="ideales_title">{{ home.LANG.ideales.ideales2.titulo1 }}<br> {{ home.LANG.ideales.ideales2.titulo2 }}<span class="punto red">.</span></p>
 				<p class="ideales_text">
-					"Nos esforzamos por aportar valores sustanciales a la cultura gráfica de la comunidad, pues nuestros 
-					proyectos están cargados de ingenio, color <br>y conocimientos técnicos."  
+					"{{ home.LANG.ideales.ideales2.parrafo }}".  
 				</p>
 			</div>
 
 			<div class="aporte tecnologico">
 				<div class="ideales_before-3"></div>
-				<p class="ideales_title">Desarrollo<br> Tecnológico<span class="punto red">.</span></p>
+				<p class="ideales_title">{{ home.LANG.ideales.ideales3.titulo1 }}<br> {{ home.LANG.ideales.ideales3.titulo2 }}<span class="punto red">.</span></p>
 				<p class="ideales_text">
-					"Diseñar y desarrollar soluciones tecnológicas que optimicen procesos empresariales y se ajusten a las
-					plataformas de hoy en día. Fomentamos el empoderamiento cultural <br> de estas tecnologías."  
+					"{{ home.LANG.ideales.ideales3.parrafo }}".  
 				</p>
 			</div>
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row row-new">
 		<h1 class="vidaBigbang_maintitle h1-responsive">BigBang Counter</h1>
 
 		<div class="vidaBigbang">
@@ -81,7 +77,7 @@
 				<img src="res/img/recursos/Contador_Mesa de trabajo 1.jpg" alt="Tazas de Café" class="actividades_image">
 				<p class="vidaBB_text">
 					<span class="cantidad"> + {{ home.cont }} </span><br>
-					Tazas de café
+					{{ home.LANG.contador.tazascafe }}
 				</p>
 			</div>
 
@@ -89,7 +85,7 @@
 				<img src="res/img/recursos/Contador-02.jpg" alt="Control de video juegos" class="actividades_image">
 				<p class="vidaBB_text">
 					<span class="cantidad">+220</span><br>
-					Juegos de fifa
+					{{ home.LANG.contador.fifa }}
 				</p>
 			</div>
 
@@ -97,7 +93,7 @@
 				<img src="res/img/recursos/Contador-03.jpg" alt="Redobles" class="actividades_image">
 				<p class="vidaBB_text">
 					<span class="cantidad">+560</span><br>
-					Chistes <br> malos
+					{{ home.LANG.contador.chistes1 }} <br> {{ home.LANG.contador.chistes2 }}
 				</p>
 			</div>
 
@@ -105,7 +101,7 @@
 				<img src="res/img/recursos/Contador-04.jpg" alt="Clientes" class="actividades_image">
 				<p class="vidaBB_text">
 					<span class="cantidad">+35</span><br>
-					Clientes <br> satisfechos	
+					{{ home.LANG.contador.clientes1 }} <br> {{ home.LANG.contador.clientes2 }}
 				</p>
 			</div>
 
@@ -114,7 +110,7 @@
 				<p class="vidaBB_text">
 					<span class="cantidad">+40</span><br>
 
-					Proyectos <br> terminados	
+					{{ home.LANG.contador.proyectos1 }} <br> {{ home.LANG.contador.proyectos2 }}
 				</p>
 			</div>
 
@@ -126,7 +122,7 @@
 		<div class="pasionBlack">
 			<div class="contentPasionTitle">
 				<h1 class="pasionTitle">
-					nos <br>mueve <br><span class="red">ser</span> <br> el<br> cambio
+					{{ home.LANG.nosotros.tparte1 }} <br>{{ home.LANG.nosotros.tparte2 }} <br><span class="red">{{ home.LANG.nosotros.tparte3 }}</span> <br> {{ home.LANG.nosotros.tparte4 }}<br> {{ home.LANG.nosotros.tparte5 }}
 				</h1>	
 			</div>
 		</div>
@@ -134,17 +130,17 @@
 		<div class="pasionRed">
 			<div class="contentPasionTex">
 				<p>
-					"Integramos creatividad, tecnología y estrategia con el objetivo de hacer crecer marcas, negocios y personas."
+					"{{ home.LANG.nosotros.parrafo1 }}."
 				</p>
 				<p>
-					"Transformamos sueños, proyectos, objetivos y metas en experiencias digitales para un universo en constante expansión."
+					"{{ home.LANG.nosotros.parrafo2 }}."
 				</p>	
 			</div>
 		</div>
 	</div>
 
-	<div class="row">
-		<h1 class="clientes_maintitle red h1-responsive"><span class="punto">·</span> Nuestros Clientes <span class="punto">·</span></h1>
+	<div class="row row-new">
+		<h1 class="clientes_maintitle red h1-responsive"><span class="punto">·</span> {{ home.LANG.clientestitle }} <span class="punto">·</span></h1>
 		<div class="clientes">
 
 			<div class="logo_clientes">

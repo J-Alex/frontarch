@@ -8,6 +8,10 @@ body{
 .row {
     padding: 1.5em 1em;
 }
+
+.row-new{
+    margin: 2.5rem 0rem;
+}
 //Tamaño del logo de Bigbang
 .logo{
     width: 100px!important;
@@ -190,10 +194,11 @@ body{
 .vidaBigbang{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     justify-content: space-around;
     align-items:  center;
+    margin-bottom: 1rem;
 
 }
 .actividades{
@@ -231,7 +236,7 @@ body{
 .contentPasionTitle{
     color: #fff;
     margin-left: 5rem;
-    width: 500px;
+    width: 523px;
     height: 362px;
 }
 .pasionTitle{
@@ -332,7 +337,8 @@ body{
 
 @media screen and (max-width: 768px){
     .aporte{
-        width: 31.5%;
+        width: 32.6%;
+        padding: 2px 20px;
     }
     .ideales_title {
         margin-top: 4.2rem;
@@ -424,6 +430,25 @@ body{
             font-size: .8em;
         }
     }
+
+    .main-title {
+        width: 450px;
+        font-size: 4em;
+        margin-top: -18rem;
+    }
+
+    .slogan_image-wrappper{
+        margin-top: -18rem;
+    }
+    .slogan_text-wrappper {
+        margin: -0.5rem auto;
+    }
+    .hiden-movil{
+        display: none;
+    } 
+    .slogan_text {
+        width: 530px;
+    }
 }
 
 @media screen and (max-width: 580px){
@@ -453,6 +478,19 @@ body{
         line-height: 1.1;
 
     }
+    .ideales_text {
+        font-size: 14px;
+        font-weight: 500;
+        width: 240px;
+        margin: 10px auto;
+    }
+    
+    .slogan_image-wrappper{
+        margin-top: 0rem;
+    }
+    .slogan_text-wrappper {
+        margin: 0rem auto;
+    }
     .hiden-movil{
         display: none;
     }   
@@ -476,6 +514,7 @@ body{
     }
     .slogan_text {
         font-size: 1em;
+        width: 330px;
     }
     .red-dot{
         height: 25px;

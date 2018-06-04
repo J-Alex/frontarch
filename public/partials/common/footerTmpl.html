@@ -1,13 +1,13 @@
 <div class="hablemos">
     <div class="hablemos_contenido">
         <h1 class="hablemos_title">
-            Tu proyecto comienza aquí
+            {{ footer.LANG.maintitle }}
         </h1>
     </div>
 
     <div class="hablemos_contenido">
         <a href="" data-ui-sref="contacto" class="hablemos_btn">
-            ¡Hablemos! 
+            {{ footer.LANG.boton }} 
         </a>
     </div>
 </div>
@@ -21,10 +21,9 @@
 
         <div class="footer_contacto">
             <p>
-                Semáforo viejo 1 1/2 cuadras
-                al norte. Estelí, Nicaragua.
-                contacto@bigbangnica.studio <br>
-                Tel.: (505) 8853 9870
+                {{ footer.LANG.direccion }} <br>
+                {{ footer.LANG.correo }} <br>
+                {{ footer.LANG.telefono }}
             </p>
         </div>
 

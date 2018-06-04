@@ -1,27 +1,27 @@
 <div class="row-contacto">
     <div  class="contact row-content row-content_medium row-content-center_horizontal">
     	<div class="contact-wrapp">
-	    	<h1 class="text-center title-mb">TRABAJEMOS <br> JUNTOS</h1>
-	    	<p class="text-center montserrat">Esto es bastante simple, solo responde algunas preguntas <br> sobre vos y tu proyecto, nosotros haremos el resto.</p>
+	    	<h1 class="text-center title-mb">{{ contacto.LANG.maintitle.parte1 }} <br> {{ contacto.LANG.maintitle.parte2 }}</h1>
+	    	<p class="text-center montserrat">{{ contacto.LANG.maintext.parte1 }} <br> {{ contacto.LANG.maintext.parte2 }}</p>
 	        
 	        <form class="contact-form">
 				<div class="form-group line-active">
-                    <input type="text" class="form-input" placeholder="Nombre*" data-ng-model="contacto.mailObj.name">
+                    <input type="text" class="form-input" placeholder="{{ contacto.LANG.formulario.nombre }}" data-ng-model="contacto.mailObj.name">
                     <div class="line-active"></div>
 				</div>
 				<div class="form-group">
-                    <input type="text" class="form-input" placeholder="Correo Electrónico*" data-ng-model="contacto.mailObj.email">
+                    <input type="text" class="form-input" placeholder="{{ contacto.LANG.formulario.correo }}" data-ng-model="contacto.mailObj.email">
                     <div class="line-active"></div>
 				</div>
 				<div class="form-group">
-                    <input type="text" class="form-input" placeholder="Empresa" data-ng-model="contacto.mailObj.phone">
+                    <input type="text" class="form-input" placeholder="{{ contacto.LANG.formulario.empresa }}" data-ng-model="contacto.mailObj.phone">
                     <div class="line-active"></div>
 				</div>
 				<div class="form-group">
-					<textarea class="form-txtarea" placeholder="Detalles del proyecto*" data-ng-model="contacto.mailObj.msj"></textarea>
+					<textarea class="form-txtarea" placeholder="{{ contacto.LANG.formulario.proyecto }}" data-ng-model="contacto.mailObj.msj"></textarea>
 				</div>
 				<div class="form-group flex flex-center_horizontal">
-					<button class="btn btn-default form-button" data-ng-click="contacto.sendMail()"> Enviar </button>
+					<button class="btn btn-default form-button" data-ng-click="contacto.sendMail()"> {{ contacto.LANG.formulario.boton }}</button>
 				</div>
 			</form>
 			
@@ -29,21 +29,21 @@
 				<figure class="contact-badge text-center">
 					<img src="res/img/Telefono-01.png" alt="">
 					<figcaption>
-						<b class="mont">Llámanos</b>
+						<b class="mont">{{ contacto.LANG.contactos.telefono }}</b>
 						<p class="mont">(+505) 8853 9870</p>
 					</figcaption>
 				</figure>
 				<figure class="contact-badge text-center">
 					<img src="res/img/Mapa-01.png" alt="">
 					<figcaption>
-						<b class="mont">Visitanos</b>
-						<p class="mont">Semáforo viejo 1 1/2 cuadras al norte Estelí, Nic.</p>
+						<b class="mont">{{ contacto.LANG.contactos.titulodireccion }}</b>
+						<p class="mont">{{ contacto.LANG.contactos.direccion }}</p>
 					</figcaption>
 				</figure>
 				<figure class="contact-badge text-center">
 					<img src="res/img/Buzon-01.png" alt="">
 					<figcaption>
-						<b class="mont">Escríbenos</b>
+						<b class="mont">{{ contacto.LANG.contactos.correo }}</b>
 						<p class="mont">contacto@bigbangnica.studio</p>
 					</figcaption>
 				</figure>

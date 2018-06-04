@@ -29,7 +29,7 @@
 .banner_text{
     font-size: 1.5em;
     margin: 0 auto;
-    width: 700px;
+    width: 680px;
 }
 .banner_contenido{
     width: 100%;
@@ -96,6 +96,7 @@
 .servicio__bg-img {
     position: absolute;
     width: 350px;
+    height: 351px;
     opacity: 0;
     z-index: -1;
     transition: .3s ease all;
@@ -291,6 +292,25 @@ input[type="radio"]:checked + label{
 }
 
 @media screen and (max-width: 1024px){
+    .servicio {
+        width: 300px;
+        border-bottom: 5px solid #323232;
+        overflow: hidden;
+        height: 370px;
+    }
+    .servicio__bg-img { 
+        width: 300px;
+    }
+
+    .figure_services_content {
+        height: 366px;
+        width: 100%;
+    }
+    .services_text_content {
+        padding-top: 4.3rem;
+    }
+
+
     .modal-content {
         width: 88%;
     }
@@ -300,6 +320,35 @@ input[type="radio"]:checked + label{
     }
 }
 @media screen and (max-width: 768px){
+    .servicios {
+        max-width: 600px;
+    }
+    .servicio__bg-img { 
+        width: 550px;
+    }
+
+    .servicio {
+        width: 550px;
+        border-bottom: 3px solid #323232;
+        overflow: hidden;
+        height: 297px;
+        margin-bottom: 2rem;
+    }
+
+    .servicio__text-caption {
+        padding: 1rem 1rem 0rem;
+
+        .vector {
+            width: 110px;
+            height: 115px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            transition: all .3s ease;
+        }
+    }
+
+
+
     .modal-content {
         width: 88%;
     }
@@ -308,7 +357,38 @@ input[type="radio"]:checked + label{
         height: 59%;
     }
 }
-
+@media screen and (max-width: 600px){
+    
+    .conten-servicios{
+        background-color: #fff;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: -.6rem;
+        margin-right: -.6rem;
+    }
+    .servicios {
+        max-width: 430px;
+        background: #f5f5f5;
+        padding: 0;
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+    .servicio__bg-img {
+        width: 200px;
+    }
+    .servicio {
+        background-color: #fff;
+        width: 400px;
+        height: 320px;
+        border-bottom:none;
+        margin-top: 0rem;
+        border-bottom: 3px solid #bdbdbd;
+    }
+    
+    .servicio__bg-img {
+        background: none;
+    }
+}
 @media screen and (max-width: 580px){
     .main-servicios-title {
         margin-top: 0rem;
@@ -316,6 +396,14 @@ input[type="radio"]:checked + label{
         padding-top: 1rem;
         text-align: center;
     }
+    .servicio{
+        background-color: #fff;
+        border-bottom: 3px solid #bdbdbd;
+        margin-bottom: 1rem;
+        width: 305px; 
+        height: 335px; 
+    }
+
 
     .container, .header {
         padding: 0rem 0.6rem;
