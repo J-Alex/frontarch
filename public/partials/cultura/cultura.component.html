@@ -147,7 +147,6 @@
     <div class="row">
         <h1 class="equipo_maintitle red h1-responsive"><span class="punto">· </span>{{ cultura.LANG.tituloequipo }}<span class="punto"> .</span></span></h1>
         <div class="equipo">
-    
             <!-- <a href="" >
                 <figure class="integrante-equipo">
                     <img class="integrante_bg-img" src="res/img/recursos/brandon.jpg" alt="">
@@ -164,7 +163,6 @@
                 </figure>
                 <p class="equipo-nombre"><span class="cargo">Brandon Blandon</span> <br> <span>Director General</span></p>
             </a>
-
             -->
             <a  id="btn_perfil" data-ng-repeat=" integrante in cultura.integrantes" data-ng-click="cultura.abrirModal(integrante)">
                  <figure class="integrante-equipo">
@@ -198,17 +196,15 @@
 
                     <div class="content-inspiraciones">
                         <div class="intereses">
-                            <h3 class="title-linea-small">Intereses </h3>
+                            <h3 class="title-linea-small">{{ cultura.LANG.modal.intereses }}</h3>
                             <div class="linea-small"></div>
                             <p class="txt-intereses" data-ng-repeat=" intereses in cultura.miembro.intereses">
                                 {{ intereses}}
-
-                                
                             </p>
                         </div>
 
                         <div class="aficiones">
-                            <h3 class="title-linea-small">Aficiones </h3>
+                            <h3 class="title-linea-small">{{ cultura.LANG.modal.aficiones }} </h3>
                             <div class="linea-small"></div>
 
                             <p class="txt-intereses"data-ng-repeat=" aficiones in cultura.miembro.aficiones">
@@ -242,7 +238,7 @@
 
                     <div class="content-inspiraciones movil">
                         <div class="intereses">
-                            <h3 class="title-linea-small">Intereses </h3>
+                            <h3 class="title-linea-small">{{ cultura.LANG.modal.intereses }} </h3>
                             <div class="linea-small"></div>
 
                             <p class="txt-intereses" data-ng-repeat=" intereses in cultura.miembro.intereses">
@@ -251,7 +247,7 @@
                         </div>
 
                         <div class="aficiones">
-                            <h3 class="title-linea-small">Aficiones </h3>
+                            <h3 class="title-linea-small">{{ cultura.LANG.modal.aficiones }}</h3>
                             <div class="linea-small"></div>
 
                             <p class="txt-intereses" data-ng-repeat=" aficiones in cultura.miembro.aficiones">
@@ -261,7 +257,7 @@
                     </div>
                     
 
-                    <h3 class="title-linea">Referencias e inspiraciones </h3>
+                    <h3 class="title-linea">{{ cultura.LANG.modal.titleref }}</h3>
                     <div class="linea"></div>
 
                     <div class="cont-inspiracion">

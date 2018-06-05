@@ -35,17 +35,17 @@ class serviciosCtrl {
             servicios1:{
                 titulo1: "Web",
                 titulo2: "development",
-                parrafo: "Creemos que la optimización y automatización de procesos mediante nuestros softwares son la solución práctica para potenciarte en el mercado."
+                parrafo: "We believe that the optimization and automation of processes through our software are the practical solution to empower you in the market."
             },
             servicios2:{
                 titulo1: "Graphic",
                 titulo2: "design",
-                parrafo: "Desarrollamos tus conceptos en: Identidad corporativa (logotipo y marca), papelería, cartelería, expresiones editoriales, diseño publicitario y web."
+                parrafo: "We develop your concepts in: Corporate identity (logo and brand), stationery, posters, editorial expressions, advertising design and web."
             },
             servicios3:{
                 titulo1: "Digital",
                 titulo2: "marketing",
-                parrafo: "Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito empresarial. Esto lo hace posible mediante el conocimiento de las tecnologias y su aplicación."
+                parrafo: "Establishing value relationships between the client and the company is vital for business success. This makes it possible through knowledge of technologies and their application."
             }
         }
         

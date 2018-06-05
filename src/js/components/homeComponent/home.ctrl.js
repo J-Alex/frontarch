@@ -115,9 +115,9 @@ class HomeCtrl {
             },
             nosotros:{
                 tparte1: "OUR",
-                tparte2: "ENGINE is",
-                tparte3: "to BE",
-                tparte4: "THE",
+                tparte2: "ENGINE",
+                tparte3: "is to",
+                tparte4: "BE THE",
                 tparte5: "change",
                 parrafo1: "We include creativity, technology and strategy with the goal to make brands, business and people grow ",
                 parrafo2: "We transform dreams, projects, objective and goals into digital experiences for a universe in continuous expansion"

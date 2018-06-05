@@ -9,8 +9,8 @@ class integrantesService {
             .then( res => res.data )
             .catch( err => console.log(err) );
     }
-    obtenerIntegrantes() {
-        return this.$http({ method: "GET", url: 'api/integrantes.json' })
+    obtenerIntegrantes(idioma) {
+        return this.$http({ method: "GET", url: 'api/'+idioma+'.json' })
             .then( res => res.data )
             .catch( err => console.log(err) );
     }

@@ -110,6 +110,27 @@
     padding: .4em 3.4em;
     margin-top: 0.7rem;
 }
+//full resolucion
+@media screen and (min-width: 1401px){
+    .figure_services_content {
+        height: 670px;
+    }
+    .services_text_content {
+        width: 35%;
+        padding-top: 12rem;
+    }
+    .services_title {
+        font-size: 3em;
+    }
+    .services_text_content p {
+        font-weight: 500;
+        font-size: 1.3em;
+    }
+    .btn-cotizar {
+        font-size: 1.1em;
+    }
+}
+
 
 /*Resolucion de pantalla tablet horizontal*/
 @media screen and (max-width: 1024px){

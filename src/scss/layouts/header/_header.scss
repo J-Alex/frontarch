@@ -28,6 +28,11 @@
     .header .header__logo, .header .header-logo {
         display: none;
     }
+    .nav .nav__link-wrapper {
+        width: 70%;
+        margin-bottom: 0.2rem;
+        margin-left: 1rem;
+    }
 }
 //.logo {
     //@include md {

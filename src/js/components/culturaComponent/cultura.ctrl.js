@@ -57,7 +57,12 @@ class culturaCtrl {
                 }
             },
             pregunta: "¿Quiénes somos?",
-            tituloequipo: "El equipo"
+            tituloequipo: "El equipo",
+            modal:{
+                intereses: "Intereses",
+                aficiones: "Aficiones",
+                titleref: "Referencias e inspiraciones"
+            }
         }
         this.ENG = {
             valoresmaintitle:"Our values",
@@ -109,7 +114,12 @@ class culturaCtrl {
                 }
             },
             pregunta: "About us?",
-            tituloequipo: "Team BigBang"
+            tituloequipo: "Team BigBang",
+            modal:{
+                intereses: "Interests",
+                aficiones: "Hobbies",
+                titleref: "References and inspirations"
+            }
         }
 
         this.servicio= integrantesService;
@@ -119,15 +129,20 @@ class culturaCtrl {
     }
     $onInit(){
         
-        if(this.I18N.val === "ESP") { this.LANG = this.ESP; }
-        if(this.I18N.val === "ENG") { this.LANG = this.ENG; }       
+        if(this.I18N.val === "ESP") { this.LANG = this.ESP; 
+            this.servicio.obtenerIntegrantes("integrantes")
+                .then( res => this.integrantes = res );
+        }
+        if(this.I18N.val === "ENG") { this.LANG = this.ENG; 
+            this.servicio.obtenerIntegrantes("integrantes _Eng")
+            .then( res => this.integrantes = res );
+        }       
 
         this.$document.find('.header').toggleClass('header-cultura');
         this.$document.find('.header__logo').toggleClass('ocultar-logo');
         this.$document.find('.header-logo').toggleClass('logo-cultura');
 
-        this.servicio.obtenerIntegrantes()
-            .then( res => this.integrantes = res );
+        
 
     }
 

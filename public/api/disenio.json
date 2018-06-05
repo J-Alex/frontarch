@@ -1,23 +1,26 @@
-{
+{ 
     "maintitle":"Diseño",
     "maintitle2":"gráfico",    
-    "maindescription": "Creemos que la optimización y automatización de procesos mediante.",
+    "maindescription": "Diseñamos experiencias, comunicamos valores.",
     "mainimagen": "res/img/recursos/diseno.png",
 
     "servicios":[
         {
             "titulo":"Branding",
-            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque.",
+            "descripcion":"Diseñamos la imagen corporativa que necesitas: logotipo, papelería, indumentaria, cartelería, entre otros.)",
+            "descripcion2": ", así como el refrescamiento de tu marca actual y el manejo gráfico de tus productos.",
             "imagen": "img-branding"
         },
         {
             "titulo":"Diseño publicitario",
-            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque.",
+            "descripcion":"Vendé de formas no tradicionales, diseñamos campañas publicitarias que comuniquen los valores e ideas de tu empresa",
+            "descripcion2": ", le damos voz a tus productos. Trabajamos artes de cartelería, banners, flyers, entre otros.",
             "imagen": "img-publicitario"
         },
         {
             "titulo":"Diseño Editorial",
-            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque.",
+            "descripcion":"Contamos tus historias, le damos vida a tus textos. Los proyectos escritos deben comunicar eficientemente sus ideas",
+            "descripcion2": ", para ello trabajamos: diseño y diagramación de publicaciones, ilustración e infografía, y gestión de proyectos editoriales en formato impreso y digital (E-book).",
             "imagen": "img-editorial"
         }
     ]

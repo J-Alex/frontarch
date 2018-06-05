@@ -10,6 +10,7 @@ class servicioCtrl {
     } 
     $onInit(){
         console.log(this.servicio);
+        
     }
     scrollDown(){
         var targetOffset = this.$document.find("#conten-Service").offset().top - (parseInt(jQuery("header").css("padding-bottom")));

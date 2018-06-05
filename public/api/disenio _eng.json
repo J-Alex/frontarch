@@ -1,0 +1,28 @@
+{ 
+    "maintitle":"Graphic",
+    "maintitle2":"design",    
+    "maindescription": "We design experiences, we communicate values.",
+    "mainimagen": "res/img/recursos/diseno.png",
+
+    "servicios":[
+        {
+            "titulo":"Branding",
+            "descripcion":"Llegá a nuevos clientes en el mundo digital, nos encargamos que los que buscan, te encuentren.",
+            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "imagen": "img-branding"
+        },
+        {
+            "titulo":"Diseño publicitario",
+            "descripcion":"Llegá a nuevos clientes en el mundo digital, nos encargamos que los que buscan, te encuentren.",
+            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "imagen": "img-publicitario"
+        },
+        {
+            "titulo":"Diseño Editorial",
+            "descripcion":"Llegá a nuevos clientes en el mundo digital, nos encargamos que los que buscan, te encuentren.",
+            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "imagen": "img-editorial"
+        }
+    ]
+
+}
