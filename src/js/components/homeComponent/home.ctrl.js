@@ -127,41 +127,11 @@ class HomeCtrl {
 
     }
     $onInit() {
-<<<<<<< HEAD
-        let vidaBigbang = this.$document.find('.vidaBigbang');
-        let document = this.$document;
-        //setTimeout(()=>{this.contar()}, 2500)
-        
-        /*document.scroll(function(e) {
-            if(document.scrollTop() > 1890 ){
-                console.log("true");
-                setInterval(()=>{
-
-                    while(this.$scope.cafe < 1000) {
-                        this.$scope.cafe += 1;
-                        setTimeout(()=>{
-                            this.$scope.home.cont += 1;
-                            this.$scope.$apply();
-                        },100);
-                    }
-        
-                    if(this.$scope.cafe == 500){
-                        clearInterval(intervalo);
-                    }
-                    
-                },2500);
-           
-            }
-        });*/   
-        //console.log(this.cafe);
-        this.contar();
-=======
         setTimeout(()=>{this.contar()}, 2500)   
 
         if(this.I18N.val === "ESP") { this.LANG = this.ESP; }
         if(this.I18N.val === "ENG") { this.LANG = this.ENG; }  
         //console.log(this.cafe);         
->>>>>>> 1df5aa57a9a2b4400b97945e73d36d9373a8e05f
     }
 
     contar(){
