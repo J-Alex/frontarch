@@ -198,6 +198,18 @@ $primary-color-text:   #FFFFFF;
     padding: 8px 14px;
     cursor: pointer;
 }
+//Herald ajustes
+//full resolucion
+@media screen and (min-width: 1401px){
+    .title-mb {
+        font-size: 4.5em;
+    }
+    .contact-wrapp{
+        .txt-principal{
+            font-size: 1.3em;
+        }
+    }
+}
 /*
 *   RESPONSIVE BREAKPOINT
 */

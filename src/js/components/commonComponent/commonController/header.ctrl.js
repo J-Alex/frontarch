@@ -6,7 +6,6 @@ class HeaderCtrl {
     }
 
     $onInit(){
-        console.log("header ctrl");
     }
     showMenu(){
         this.$document.find('.menu-wrapper').toggleClass('menu-wrapper--white');

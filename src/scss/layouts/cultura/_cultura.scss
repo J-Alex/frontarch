@@ -1,0 +1,1053 @@
+//cambios de menu
+.header-cultura {
+    //padding: .5rem 1rem;
+    position: absolute;
+   // padding-left: 0rem;
+   margin-left: 4rem;
+}  
+.ocultar-logo{
+    display: none;
+}
+.header .header__logo {
+    width: 130px;
+    margin-top: -1rem;
+}
+
+.header-logo{ 
+    display: none;
+}
+
+.logo-cultura{
+    display: inline;
+    width: 130px;
+    margin-top: -1rem;
+}
+//Cultura
+.row-cultura{
+    padding: 0.5em 1em;
+    margin-top: -.5rem;
+}
+
+.banner-cultura{
+    align-items:  center;
+    background:url("../../res/img/recursos/Portada 4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 670px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -1.7rem;
+    margin-right: -1.6rem;
+    margin-top: -1rem;    
+    padding: 3rem;
+}
+
+.contenedor-valores{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+.valores_maintitle{
+    text-align: center;
+    margin-bottom: .5rem;
+    margin-top: 2.5rem;
+}
+.valores{
+    max-width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    margin-top: 2.5rem ;
+}
+.contenedor-img-valores{
+    width: 32%;
+}
+.valores-img{
+    width: 110px;
+}
+.cc{
+    width:100px;
+}
+.valores-title{
+    font-weight: 800;
+    margin-bottom: -.5rem;
+}
+.valores__text-caption{
+    width: 68%;
+
+    p{
+        font-weight: 500;
+    }
+}
+
+.video_maintitle{
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
+}
+
+.nuestro-ideales{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 2rem 0;
+    margin-top: -4rem;
+}
+
+.contenedor-title{
+    width: 35%;
+}
+
+.media-luna{
+    background-color: #E13639;
+    height: 360px;
+    margin-top: -6rem;
+    width: 360px;
+    border-radius: 50%;
+    margin-left: -16rem;
+}
+.text-contenedor-ideal{
+    margin-top: 9rem;
+    margin-left: 0;
+}
+.ideales-maintitles{
+    color: #E13639;;
+    font-size: 3em;
+    font-weight: 900;
+    line-height: 1.1;
+}
+.espaciotitle{
+    margin-left: 4.7rem;
+}
+
+.contenedor-ideales{
+    width: 65%;
+    padding-left: 1rem;
+}
+.aporte-ideales {
+    padding: 10px;
+}
+
+.ideales-titles {
+    font-size: 1.6em;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-top: 3.6rem;
+}
+
+.ideales_text {
+    font-size: 14px;
+    font-weight: 500;
+}
+.ideal_before, .ideal_before-2, .ideal_before-3{
+    width: 0;
+    height: 0;
+    max-width: 0;
+    max-height: 0;
+    display: inline;
+    position: absolute;
+}
+.ideal_before:after {
+    content: '01';
+    position: relative;
+    font-weight: 900;
+    top: 1.5rem;
+    left: -2.3rem;
+    font-size: 3em;
+    opacity: .2;
+}
+.ideal_before-2:after {
+    content: '02';
+    position: relative;
+    font-weight: 900;
+    top: 1.5rem;
+    left: -2.3rem;
+    font-size: 3em;
+    opacity: .2;
+}
+
+.ideal_before-3:after {
+    content: '03';
+    position: relative;
+    font-weight: 900;
+    top: 1.5rem;
+    left: -2.3rem;
+    font-size: 3em;
+    opacity: .2;
+}
+
+//equipo de trabajo 
+.equipo{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    justify-content: flex-start;
+}
+.equipo_maintitle{
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+.integrante-equipo {
+    position: relative;
+    overflow: hidden;
+    width: 270px;
+    height: 325px;
+    cursor: pointer;
+    margin: 1rem 0.93rem;
+}
+.integrante_bg-img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    transition: .3s ease all;
+    display: block;
+   
+}
+.integrante_text-caption {
+    position: relative;    
+    //padding: 16.6rem 0rem;
+    padding: 11.5rem 0rem;
+    transition: .3s ease all;
+    //background-color: rgba(0,0,0,0.3);
+    h3 {
+        font-size: 1.9em;
+        color: #fff;
+        line-height:1.1;
+    } 
+    p{
+        color: #fff;
+        display: none;
+        font-weight: 400;
+        text-align: center;
+    }
+    .circulo-mascara{
+        background-color: #E13639;
+        border-radius: 50%;
+        height: 230px;
+        margin-top: -13rem;
+        margin-left: -1rem;
+        margin-bottom: 0;
+        opacity: .4;
+        width: 230px;
+        z-index: 1;
+        position: absolute;
+    }
+}
+.equipo-nombre{
+    text-align: center;
+}
+.cargo{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.integrante-equipo:hover{
+    .integrante_text-caption {
+
+        .content-info-equipo{
+            margin-top: 2.2rem;
+        }
+        .integrante-txt{  
+
+            background: #323232; 
+            color: #fff;
+            display: block;
+            transition: .3s ease all;
+            padding: 1rem;
+            font-weight: 300;
+        } 
+        .txt-integrante{
+            font-weight: 500;
+        }
+    }
+    
+}
+
+//dieño del modal 
+.modal-content-perfil {
+    height: 64.5%;
+    width: 66%;
+}
+.modal-perfil-princ{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(22, 22, 22, 0.966)!important; 
+}
+.modal-perfil{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+
+}
+.modal-body-perfil {
+    position: relative;
+}
+button.closemodal-perfil {
+    color: #323232;
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    float: right;
+    font-size: 2em;
+    margin-right: 0rem;
+}
+.cont-perfil-image{
+    width: 35%;
+    
+}
+.img-perfil-BB{
+    width: 100%;
+    height: 360px;
+}
+.content-inspiraciones{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 5px 10px;
+    justify-content: space-between;
+}
+.intereses{
+    width: 48%;
+    padding-left: 10px;
+
+}
+.title-linea-small{
+    color: #7a7a7a;
+    display: inline-block;
+    margin-top: 1rem;
+    font-size: .9em;
+}
+.linea-small{
+    display: inline-block;
+    border-bottom: 1px solid #7a7a7a;
+    width: 8%;
+    margin-top: 1.6rem;
+    position: absolute;
+    margin-left: 6px;
+}
+.txt-intereses{
+    font-size: .8em;
+    font-weight: 500;
+    margin: .1rem;
+}
+.aficiones{
+    width: 48%;
+    padding-left: 10px;
+}
+
+.descipcion-personal{
+    width: 64%;
+    padding: .2rem .8rem;
+    .title-persona{
+        font-size: 1.5em;
+        font-weight: 800;
+        line-height: 1;
+    }
+    .cargo-persona{
+        color: #E13639;
+        font-weight: 500;
+        font-size: .8em;
+    }
+    .txt-descripcion-personal{
+        font-size: 1em;
+        height: 114px;
+    }
+
+    .btn-soc-perfil{
+        border-radius: 50%;
+        border: 2px solid #e13639;
+        height: 28px;
+        width: 28px;
+        display: inline-block;
+        margin-right: 1rem;
+        margin-top: .6rem;
+    }
+    .icon-social-perfil{
+        color: #E13639;
+        cursor: pointer;
+        font-size: 15px;
+        padding: 4px 6px;
+    }
+}
+
+.btn-soc-perfil:hover{
+    border: 2px solid #323232;
+    .icon-social-perfil{
+        color: #323232;
+    }
+}
+
+.cont-inspiracion{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    justify-content: space-between;
+    margin-top: -.3rem;
+}
+.title-linea{
+    color: #7a7a7a;
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-size: 1.1em;
+}
+.linea{
+    display: inline-block;
+    border-bottom: 1px solid #7a7a7a;
+    width: 32%;
+    margin-top: 2.2rem;
+    position: absolute;
+    margin-left: 6px;
+}
+.img-inspiracion{
+    width: 32.5%;
+    
+}
+.img-inspiracion img{
+    width: 100%;
+}
+
+
+.movil{
+    display: none;
+}
+
+//full resolucion
+@media screen and (min-width: 1401px){
+    .banner-cultura {
+        height: 944px;
+    }
+
+    //seccion de valores
+    .valores_maintitle .ideales-titles,.equipo_maintitle {
+        font-size: 2.3em;
+    }
+    .contenedor-valores {
+        max-width: 1650px;
+    }
+    .valores__text-caption {
+        width: 76%;
+
+        p {
+            font-weight: 500;
+            font-size: 1.1em;
+            width: 380px;
+            margin: 1rem;
+        }
+        .valores-title {
+            margin-left: 1rem;
+            font-size: 1.6em;
+        }
+    }
+    .contenedor-img-valores {
+        width: 22%;
+    }
+    .valores-img {
+        width: 125px;
+        margin-top: -.5rem;
+    }
+    .cc {
+        width: 115px;
+    }
+
+    //ideales
+    .nuestro-ideales {
+        max-width: 1650px;
+    }
+
+    .text-contenedor-ideal {
+        margin-top: 8rem;
+    }
+    .ideales-maintitles {
+        font-size: 3.5em;
+        margin-left: -2rem;
+    }
+    .media-luna {
+        height: 400px;
+        width: 400px;
+        margin-left: -20rem;
+    }
+    .ideal_text{
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+    .ideal_before:after {
+        top: .8rem;
+        left: -2.6rem;
+        font-size: 4.3em;
+    }
+    .ideal_before-2:after {
+        top: .8rem;
+        left: -2.6rem;
+        font-size: 4.3em;
+    }
+    
+    .ideal_before-3:after {
+        top: .8rem;
+        left: -2.6rem;
+        font-size: 4.3em;
+    }
+
+    //video title
+    .video_maintitle {
+        font-size: 2.3em;
+    }
+    .video_stream{
+        width: 100%;
+        height: 800px;
+    }
+
+    //equipo
+    .equipo {
+        max-width: 1700px;
+        justify-content: flex-start;
+    }
+    .integrante-equipo {
+        width: 276px;
+        height: 340px;
+        margin: 1rem 2rem;
+    }
+
+    .integrante-equipo:hover{
+        .integrante_text-caption {
+    
+            .content-info-equipo{
+                margin-top: 2rem;
+            }
+            .integrante-txt{  
+                padding: 2rem;
+            } 
+        }
+        
+    }
+
+    .modal-content-perfil {
+        height: 47.5%;
+        width: 51%;
+    }
+
+    .linea {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .figure_services_content{
+        height: 450px;
+    }
+    .servicio__text-caption p {
+        font-weight: 300;
+    }
+
+    .modal-content-perfil {
+        height: 512.38px;
+        width: 849px;
+    }
+    .modal-perfil {
+        margin-top: 2rem;
+    }
+
+    .linea {
+        width: 24.1%;
+        margin-top: 2.7rem;
+    }
+    .linea-small {
+        width: 10%;
+        margin-top: 1.5rem;
+    }
+    .title-linea {
+        margin-top: 1.7em;
+    }
+    .title-linea-small {
+        margin-bottom: .3rem;
+    }
+    .cont-perfil-image {
+        width: 42.5%;
+    }
+    .img-perfil-BB{
+        width: 100%;
+        height: 360px;
+    }
+    .descipcion-personal {
+        width: 57.5%;
+        padding: .2rem 1.2rem;
+        .txt-descripcion-personal {
+            font-size: 1em;
+            height: 120px;
+            font-weight: 300;
+            width: 463px;
+        }
+    }
+    .content-inspiraciones {
+        padding: 4px 0px;
+    }
+    .cont-inspiracion {
+        width: 460px;
+        height: 166px;
+    }
+    .img-inspiracion{
+        margin-top: -.2rem;
+        width: 146.5;
+        height: 166px;
+    } 
+    .aficiones {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .header .header__logo{
+        width: 165px;
+    }
+    .banner-cultura{
+        height: 508px;
+    }
+    .valores-img {
+        width: 90px;
+        margin-top: 10px;
+    }
+    .cc {
+        width: 80px;
+    }
+    .text-contenedor-ideal {
+        margin-top: 9.2rem;
+    }
+    .equipo {
+        max-width: 945px;
+        margin: 0 auto;
+        padding: 1rem 0;
+        justify-content: center;
+    }
+    .integrante-equipo {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header .header__icon {
+        display: block;
+        margin-top: -.8rem;;
+        margin-left: .2rem;
+    }
+    .header .header__logo, .header .header-logo {
+        display: none;
+    }
+    .header-cultura {
+        position: absolute;
+        margin-left: 0rem;
+    }
+
+    .banner-cultura {
+        height: 360px;
+    }
+
+    .valores_maintitle {
+        margin-top: 1rem;
+    }
+
+    .contenedor-valores {
+        padding: 1rem 0;
+    }
+    .valores {
+        max-width: 45%;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+    .valores-title {
+        font-size: 1.4em;
+    }
+    .valores-img {
+        width: 75px;
+        margin-top: 2rem;
+    }
+    .cc {
+        width: 70px;
+    }
+    .nuestro-ideales {
+        padding: 1rem 0;
+    }
+    .ideales-maintitles {
+        font-size: 2.2em;
+        margin-bottom: 2.6rem;
+    }
+    .text-contenedor-ideal {
+        margin-top: 12.2rem;
+    }
+    .espaciotitle {
+        margin-left: 4.4rem;
+    }
+
+    .equipo {
+        max-width: 660px;
+    }
+
+    .integrante-equipo {
+        width: 260px;
+        margin: 1.3rem 1.7rem;
+    }
+    //modal perfil
+    .modal-content-perfil {
+        height: 72%;
+        width: 440px;
+        margin-top: 1.5rem;
+    }
+    /* .modal-perfil {
+        margin-top: 1.5rem;
+        margin-top: 1.5rem;
+    } */
+    .modal-body-perfil {
+        max-height: calc(100% - 1px);
+        overflow-y: scroll;
+    }
+
+    .cont-perfil-image {
+        width: 100%;
+    }
+
+    .img-perfil-BB {
+        width: 100%;
+        height: 440px;
+    }
+
+    .content-inspiraciones{
+        display: none;
+        margin-bottom: 1rem;
+        
+    }
+
+    .cont-inspiracion {
+        width: 395px;
+        height: 170px;
+        margin-bottom: .3rem;
+    }
+    .img-inspiracion {
+        height: 146px;
+    }
+    .movil{
+        display: flex;
+        margin-bottom: -1em;
+    }
+
+
+    .intereses {
+        width: 50%;
+        padding: 0rem;
+        margin-left: -.5rem;
+    }
+    .aficiones {
+        width: 50%;
+        padding: 0rem 2rem;
+    }
+    .title-linea-small{
+        font-size: 1rem;
+    }
+
+    .descipcion-personal{
+        width: 100%;
+        padding: .2rem 1.5rem;
+        .txt-descripcion-personal {
+            height: 145px;
+            width: 400px;
+        }    
+    }
+
+    .linea {
+        width: 31%;
+    } 
+    .linea-small {
+        width: 18%;
+    }
+    button.closemodal-perfil {
+        margin-left: 24rem;
+        color: #0a0a0a;
+        margin-top: -27.5rem;
+        position: absolute;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .valores-img {
+        width: 90px;
+    }
+    .ideales-maintitles {
+        font-size: 2.5em;
+    }
+    .text-contenedor-ideal {
+        margin-top: 10.2rem;
+    }
+    .valores-title {
+        font-size: 1.2em;
+    }
+    .contenedor-ideales {
+        width: 60%;
+    }
+    .equipo {
+        justify-content: center;
+    }
+
+    .integrante-equipo {
+        width: 230px;
+        margin: 1.3rem 1rem;
+    }
+    .banner-cultura {
+        height: 318px;
+    }
+    //modal
+    .modal-content-perfil {
+        height: 80%;
+        width: 590px;
+        margin-top: -1rem;
+    }
+    .modal-body-perfil {
+        max-height: calc(100% - 1px);
+        overflow-y: scroll;
+    }
+
+    .cont-perfil-image {
+        width: 43%;
+    }
+    .content-inspiraciones{
+        display: flex;
+    }
+    .movil{
+        display: none;
+        margin-bottom: -1em;
+    }
+    
+    .img-perfil-BB {
+        height: 270px;
+    }
+
+    .descipcion-personal {
+        width: 57%;
+        padding: 0.2rem 1rem;
+        .txt-descripcion-personal {
+            font-size: 1em;
+            height: 198px;
+            width: 310px;
+        }
+    }
+    .cont-inspiracion {
+        margin-bottom: .1rem;
+        width: 310px;
+        height: 135px;
+    }
+    .img-inspiracion {
+        height: 114px;
+    }
+    .intereses {
+        width: 49%;
+        padding-left: 15px;
+    }
+    .aficiones {
+        width: 49%;
+        padding: 0rem;
+        padding-left: 5px;
+    }
+    .linea {
+        width: 12.5%;
+        margin-top: 1.8rem;
+    }
+    .linea-small {
+        width: 5%;
+    }
+    .title-linea {
+        margin-top: 1.2rem;
+        font-size: 1em;
+    }
+    button.closemodal-perfil {
+        margin-left: 18rem;
+        margin-top: 0rem;
+        position: absolute;
+    }
+
+    
+    //logo
+    .logo-cultura {
+        display: inline;
+        width: 53px;
+        margin-left: -4.5rem;
+    }
+
+
+    .valores-img {
+        width: 68px;
+        margin-top: 2rem;
+    }
+    .cc {
+        width: 65px;
+    }
+    .figure_services_content {
+        height: 355px;
+    }
+}
+
+
+@media screen and (max-width: 580px){
+    .figure_services_content {
+        height: 214px;; 
+    }
+    .nav .nav__link-wrapper {
+        margin-bottom: -1.8rem!important;
+    }
+    .banner-cultura {
+        height: 213px;
+        margin-top: .2rem;
+        background-image: url("../../res/img/recursos/baner cultura mobil.jpg");
+    }
+    .valores_maintitle {
+        margin-top: -1rem;
+    }
+    .valores {
+        max-width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .valores-img {
+        width: 90px;
+        margin-top: .5rem;
+    }
+    .cc{
+        width: 85px;
+    }
+    .nuestro-ideales {
+        margin-top: -12rem;
+    }
+    .contenedor-ideales {
+        width: 100%;
+        padding-left: 1rem;
+    }
+    .ideales-maintitles {
+        font-size: 2.5em;
+        margin-left: 2.5rem;
+    }
+    .espaciotitle {
+        margin-left: 4rem;
+    }
+    .aporte-ideales {
+        padding: 1px 20px;
+    }
+    .contenedor-title {
+        width: 100%;
+    }
+
+    .media-luna {
+        height: 220px;
+        width: 220px;
+        border-radius: 50%;
+        margin-left: -9rem;
+    }
+    .equipo {
+        justify-content: center;
+    }
+    .integrante-equipo {
+        width: 315px;
+        margin: 1.3rem auto;
+    }
+
+    //modal perfil
+    .modal-content-perfil {
+        height: 82%;
+        width: 82%;
+    }
+    .modal-perfil {
+        margin-top: 1.5rem;
+    }
+    .cont-perfil-image {
+        width: 100%;
+        margin-top: 0rem;
+    }
+    .content-inspiraciones{
+        display: none;
+    }
+
+    .movil{
+        display: flex;
+        margin-bottom: -1em;
+    }
+    .descipcion-personal {
+        width: 100%;
+        padding: 0.2rem 0.9rem;
+        .txt-descripcion-personal {
+            font-size: 1em;
+            height: 220px;
+            width: 275px;
+        }
+    }
+    .intereses {
+        width: 47%;
+    }
+
+    .aficiones {
+        width: 47%;
+        padding: 0rem;
+    }
+
+    .img-perfil-BB {
+        height: 330px;
+    }
+
+    .modal-body-perfil {
+        max-height: calc(100% - 0px);
+        overflow-y: scroll;
+    }
+    .cont-inspiracion {
+        width: 268px;
+        height: 116px;
+    }
+    .img-inspiracion {
+        height: 113px;
+    }
+    .title-linea{
+        font-size: 1em;
+    }
+    .linea {
+        width: 10%;
+    }
+    .linea-small {
+        width: 13%;
+        margin-top: 1.6rem;
+    }
+
+    button.closemodal-perfil {
+        margin-left: 16rem;
+        color: #0a0a0a;
+        margin-top: -21rem;
+        position: absolute;
+    }
+
+    .header-cultura {
+        padding: 0rem;
+        position: inherit;
+        padding-left: 0rem;
+        margin-left: 0rem;
+    } 
+
+    .header .header__icon {
+        display: block;
+        margin-top: -.0rem;
+    }
+
+    .logo-cultura {
+        display: inline;
+        width: 80px;
+        margin-left: .5rem;
+        margin-top: 0rem;
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "maintitle":"Web",
+    "maintitle2":"development",
+    "maindescription": "We design to succeed, so that it looks good and works.",
+    "mainimagen": "res/img/recursos/Desarrollo.png",
+
+    "servicios":[
+        {
+            "titulo":"Websites",
+            "descripcion":"Llegá a nuevos clientes en el mundo digital, nos encargamos que los que buscan, te encuentren.",
+            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "imagen": "img-sitioweb"
+        },
+        {
+            "titulo":"Mobile apps",
+            "descripcion":"Nos encargamos de mostrar tu negocio en el mundo digital, que esté bien posicionado en google",
+            "descripcion2": ", utilizando alto estándares de calidad y con tecnología y normas actuales.",
+            "imagen": "img-aplicaciones"
+        }
+    ]
+
+}

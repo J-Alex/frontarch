@@ -1,13 +1,33 @@
 class NavCtrl {
 
-    constructor($document){
+    constructor($document, $scope, I18N){
         'ngInject';
 
         this.$document = $document;
+        this.$scope = $scope;
+        this.I18N = I18N;
+
+        this.ESP = {
+            inicio: "Inicio",
+            servicios: "Servicios",
+            portafolio: "Portafolio",
+            cultura: "Cultura",
+            contacto: "Contácto"
+        }
+        this.ENG = {
+            inicio: "Home",
+            servicios: "Services",
+            portafolio: "Portfolio",
+            cultura: "Culture", 
+            contacto: "Contact"
+        }
+        
+        this.LANG;
     }
 
     $onInit(){
-        console.log("nav ctrl");
+        if(this.I18N.val === "ESP") { this.LANG = this.ESP; }
+        if(this.I18N.val === "ENG") { this.LANG = this.ENG; }
     }
 
     closeMenu(){

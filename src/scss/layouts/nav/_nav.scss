@@ -20,6 +20,7 @@
     height: 100vh;
     background-color: rgba(0,0,0, .93);
     color: $white;
+    margin-top: -1.6em;
     .row {
         display: flex;
         align-items: center;
@@ -34,8 +35,11 @@
     .nav__link-wrapper {
         display: flex;
         flex-direction: column;
-        width: 80%;
-        margin-bottom: 4.2rem;
+        // width: 80%;
+        // margin-bottom: 4.2rem;
+        width: 70%;
+        margin-bottom: 0.2rem;
+        margin-left: 1rem;
 
         //@include md {
         //    display: block;
@@ -52,9 +56,9 @@
 }
 .menu-icon {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
-    width: 78px;
+    top: 16px;
+    left: 1.9rem;
+    width: 70px;
     display: block;
 }
 .nav--is-visible {
@@ -94,4 +98,9 @@
     //@include md {
     //    color: $black;
     //}
+}
+.idiomas{
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
 }

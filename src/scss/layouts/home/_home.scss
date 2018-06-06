@@ -8,6 +8,10 @@ body{
 .row {
     padding: 1.5em 1em;
 }
+
+.row-new{
+    margin: 2.5rem 0rem;
+}
 //Tamaño del logo de Bigbang
 .logo{
     width: 100px!important;
@@ -141,6 +145,7 @@ body{
     text-align: center;
     font-size: 14px;
     font-weight: 500;
+    width: 295px;
 }
 .ideales_maintitle{
     text-align: center;
@@ -190,10 +195,11 @@ body{
 .vidaBigbang{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
     justify-content: space-around;
     align-items:  center;
+    margin-bottom: 1rem;
 
 }
 .actividades{
@@ -215,37 +221,50 @@ body{
     font-size: 2.6em;
 }
 
-.conten_pasion{
-    background-color: #495966;
-    margin-left: -.6rem;
-    margin-right: -.6rem;
-}
 .pasion{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1100px;
-    margin: 0 auto;
     justify-content: space-around;
     align-content:center;
-    padding: 50px 0px;
+    margin-left: -.6rem;
+    margin-right: -.6rem;
 }
-.pasion_item{
-    width: 31%; 
+.pasionBlack{
+    background-color: #323232;
+    padding:0px;
+    width: 50%; 
 }
-.pasion_text{
+.contentPasionTitle{
     color: #fff;
+    margin-left: 5rem;
+    width: 523px;
+    height: 362px;
 }
-.pasion_image{
-    width: 80px;
+.pasionTitle{
+    font-weight: 900;
+    font-size: 5.8em;
+    text-transform: uppercase;
+    line-height: .8;
+    margin-top: -.13em;
 }
-.pasion_maintitle{
-    color: #fff;
-    text-align: center;
+.pasionRed{
+    background-color: #E13639;
+    padding: 3rem 0px;
+    width: 50%; 
 }
-.pasion_title{
-    color: #fff;
-    font-size: 1.7em;
+
+.contentPasionTex{
+    border: solid 2px #f2f2f2;
+    margin-left: -2.5rem;
+    padding: 2rem 0rem;
+    padding-left: 6rem;
+    width: 640px;
+    p{
+        color: #f2f2f2;
+        font-size: 1.2em;
+    }
 }
+
 
 .clientes_maintitle{
     text-align: center;
@@ -275,6 +294,99 @@ body{
     height: 500px;
 }
 
+//full resolucion
+@media screen and (min-width: 1401px){
+    .header .header__logo {
+        width: 150px!important;
+    }
+    .logo-cultura {
+        width: 150px!important;
+    }
+    .nav .nav__link-wrapper {
+        font-size: 1.1em;
+    }
+
+
+    .portada {
+        height: 760px;
+    }
+    .main-title {
+        font-size: 8em;
+        width: 1300px;
+    }
+    //slogan
+    .slogan {
+        max-width: 1450px;
+    }
+    .slogan_image {
+        width: 450px;
+    }
+    .slogan_text {
+        font-size: 1.9em;
+    }
+    .red-dot {
+        width: 45px;
+        height: 45px;
+    }
+    .slogan_link {
+        font-size: 1.4em;
+    }
+    //ideales
+    .ideales_maintitle, .vidaBigbang_maintitle, .clientes_maintitle {
+        font-size: 2.5em;
+    }
+    .ideales {
+        max-width: 1600px;
+    }
+    .aporte {
+        width: 430px!important;
+        padding: 2.5rem!important;
+    }
+    .ideales_title {
+        font-size: 2.2em;
+        margin-top: 3.6rem;
+    }
+    .ideales_text {
+        font-size: 16px!important;
+    }
+
+    .ideales_before:after, .ideales_before-2:after,.ideales_before-3:after {
+        top: -1rem;
+        left: 1rem;
+        font-size: 7em;
+    }
+    
+    .vidaBigbang {
+        max-width: 1600px;
+        margin: 1rem auto;
+    }
+    //nos mueve
+    .pasionTitle {
+        font-size: 8.3em;
+    }
+    .pasionBlack {
+        height: 500px;
+        padding-left: 3rem;
+    }
+    .contentPasionTex {
+        margin-left: -3.5rem;
+        width: 850px;
+        margin-top: 4rem;
+        p{
+            font-size: 1.5em;  
+        }
+    }
+
+    //clientes
+    .clientes {
+        max-width: 1600px;
+    }
+    .clientes_image {
+        width: 170px!important;
+    }
+}
+
+
 @media screen and (min-width: 580px) {
     .dirigible {        
         margin-right: 5rem;
@@ -301,10 +413,29 @@ body{
         100%{  left: 40%; }
     }
 }
+@media screen and (max-width: 1024px){
+    .contentPasionTex {
+        margin-left: -1.9rem;
+        padding-left: 4rem;
+        width: 500px;
+    }
+    .contentPasionTitle {
+        margin-left: 2rem;
+        width: 500px;
+    }
+    .pasionRed{
+        padding: 2.5rem 0px;
+    }
+}
+
 
 @media screen and (max-width: 768px){
     .aporte{
-        width: 33%;
+        width: 32.6%;
+        padding: 2px 20px;
+    }
+    .ideales_title {
+        margin-top: 4.2rem;
     }
     .logo_clientes{
         width: 33%;
@@ -324,9 +455,100 @@ body{
         50% {  left: 50%;}
         100%{  left: 10%; }
     }
+
+    .main-title {
+        width: 580px;
+    }
+
+    .contentPasionTex {
+        width: 400px;
+    }
+    .contentPasionTitle {
+        margin-left: 10px;
+        width: 300px;
+        align-content: center;
+    }
+    .pasionTitle {
+        font-size: 4.6em;
+    }
+    .pasionBlack {
+        padding: 5rem 0;
+        padding-bottom: 3rem;
+    }
+    .pasionRed{
+        padding: 5rem 0px;
+        padding-bottom: 3rem;
+    }
+}
+
+
+@media screen and (max-width: 720px){
+    .ideales_title {
+        font-size: 1.4em;
+    }
+    .pasionBlack{
+        padding: 1.5rem 10rem;
+        padding-bottom: 3rem;
+        width: 100%; 
+    }
+    .contentPasionTitle{
+        margin-left: 0px;
+        color: #f2f2f2;
+        margin-left: 15px;
+        width: 300px!important;
+        height: 282px;
+    }
+    .pasionTitle{
+        font-weight: 900;
+        font-size: 4.3em;
+        text-transform: uppercase;
+        line-height: .8;
+        margin-top: .5rem;
+    }
+    .pasionRed{
+        padding: 1rem 0px;
+        width: 100%; 
+    }
+
+    .contentPasionTex{
+        border: 2px solid #f2f2f2;
+        margin-left: 0;
+        margin: 0 auto;
+        margin-top: -3rem;
+        padding: 2.5rem 0;
+        padding-top: 4rem;
+        padding-left: 10px;
+        width: 500px;
+        p{
+            color: #f2f2f2;
+            font-size: .8em;
+        }
+    }
+
+    .main-title {
+        width: 450px;
+        font-size: 4em;
+        margin-top: -18rem;
+    }
+
+    .slogan_image-wrappper{
+        margin-top: -18rem;
+    }
+    .slogan_text-wrappper {
+        margin: -0.5rem auto;
+    }
+    .hiden-movil{
+        display: none;
+    } 
+    .slogan_text {
+        width: 530px;
+    }
 }
 
 @media screen and (max-width: 580px){
+    .idiomas {
+        color: #fff;
+    }
     .logo{
         width: 60px;
     }
@@ -339,6 +561,10 @@ body{
     .aporte{        
         width: 100%;
         margin-bottom: 1rem;
+        height: 308px;
+    }
+    .ideales_title {
+        margin-top: 5.6rem;
     }
     .main-title{
         font-size: 2.3em;
@@ -349,6 +575,25 @@ body{
         width: 100%;
         line-height: 1.1;
 
+    }
+    .ideales_text {
+        font-size: 14px;
+        font-weight: 500;
+        width: 232px;
+        margin: 10px auto;
+    }
+    .ideales_before-2:after, .ideales_before:after {
+        top: 1.2rem;
+    }
+    .ideales_before-1:after, .ideales_before-2:after, .ideales_before-3:after {
+        top: 1.2rem;
+    }
+    
+    .slogan_image-wrappper{
+        margin-top: 0rem;
+    }
+    .slogan_text-wrappper {
+        margin: 0rem auto;
     }
     .hiden-movil{
         display: none;
@@ -373,6 +618,7 @@ body{
     }
     .slogan_text {
         font-size: 1em;
+        width: 330px;
     }
     .red-dot{
         height: 25px;
@@ -397,23 +643,48 @@ body{
         margin-bottom: 15px;
     }
 
-    .pasion_item{
-        padding: 1rem 3rem;
-        width: 100%; 
-    }
-    .pasion_image{
-        width: 100px;
-    }
-
     @keyframes mover_dirigible {
         0%  {  left: 10%; }
         50% {  left: 40%; }
         100%{  left: 10%; }
     }
 
-/*    @keyframes mover_edificio{
-        0%  {  top: 90%; right:15%;}
-        50% {  top: 100%;right:15%; }
-        100%{  top: 90%; right:15%;}
-    }*/
+
+    .pasionBlack{
+        padding: 1.5rem 10px;
+        padding-bottom: 3rem;
+        width: 100%; 
+    }
+    .contentPasionTitle{
+        color: #f2f2f2;
+        margin-left: 15px;
+        width: 300px!important;
+        height: 282px;
+    }
+    .pasionTitle{
+        font-weight: 900;
+        font-size: 4.3em;
+        text-transform: uppercase;
+        line-height: .8;
+        margin-top: .5rem;
+    }
+    .pasionRed{
+        padding: 1rem 0px;
+        width: 100%; 
+    }
+    
+    .contentPasionTex{
+        border: 2px solid #f2f2f2;
+        margin-left: 0;
+        margin: 0 auto;
+        margin-top: -3rem;
+        padding: 1rem 0;
+        padding-top: 3rem;
+        padding-left: 10px;
+        width: 300px;
+        p{
+            color: #f2f2f2;
+            font-size: .8em;
+        }
+    }
 }

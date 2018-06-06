@@ -2,11 +2,16 @@
     <div class="row">
         <img class="menu-icon" src="res/img/B.png" alt="menu-icon">
         <div class="nav__link-wrapper">
-            <a class="nav__link" data-ui-sref="/" data-ui-sref-active="nav__link--is-active" data-ng-click="nav.closeMenu()"> Inicio </a>
-            <!--<a class="nav__link" data-ui-sref="servicios" data-ui-sref-active="nav__link--is-active" data-ng-click="nav.closeMenu()"> Servicios </a>
-            <a class="nav__link" data-ui-sref="#" data-ui-sref-active="nav__link--is-active" data-ng-click="nav.closeMenu()"> Portafolio </a>
-            <a class="nav__link" data-ui-sref="#" data-ui-sref-active="nav__link--is-active"> Cultura </a>-->
-            <a class="nav__link" data-ui-sref="contacto" data-ui-sref-active="nav__link--is-active" data-ng-click="nav.closeMenu()"> Contacto </a>
+            <a class="nav__link" data-ui-sref="/" data-ui-sref-active="nav__link--is-active" data-ng-click="nav.closeMenu()"> {{ nav.LANG.inicio }}</a>
+            <a class="nav__link" data-ui-sref="servicios" data-ui-sref-active="nav__link--is-active" data-ng-click="nav.closeMenu()"> {{ nav.LANG.servicios }} </a>
+            <a class="nav__link" data-ui-sref="portafolio" data-ui-sref-active="nav__link--is-active" data-ng-click="nav.closeMenu()"> {{ nav.LANG.portafolio }} </a>
+            <a class="nav__link" data-ui-sref="cultura" data-ui-sref-active="nav__link--is-active"> {{ nav.LANG.cultura }} </a>
+            <a class="nav__link" data-ui-sref="contacto" data-ui-sref-active="nav__link--is-active" data-ng-click="nav.closeMenu()"> {{ nav.LANG.contacto }} </a>
+            <span class="idiomas"> 
+                <span data-ng-click=" nav.LANG = nav.ESP; nav.I18N.setLang('ESP') "> ESP </span>
+                | 
+                <span data-ng-click=" nav.LANG = nav.ENG; nav.I18N.setLang('ENG') "> ENG </span>
+            </span>
         </div>
     </div>
 </nav>

@@ -9,12 +9,26 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
         })
         .state('contacto', {
             url: '/contacto',
-            component: 'contactoComponent'
+            component: 'contactoComponent',
+            onExit: function(){
+                $('.hablemos').toggleClass('ocultar');
+                console.log('Saliendo...');
+            }
             //template: '<h1>HOMEINICIOINDEX</h1>'
         })
         .state('servicios', {
             url: '/servicios',
             component: 'serviciosComponent'
+        })
+        .state('servicio', {
+            url: '/servicio/{servicio}',
+            component: 'servicioComponent',
+            resolve: {
+                servicio: function(servicioService,$transition$,$stateParams) {
+                    'ngInject'
+                    return servicioService.obtenerServicio($transition$.params().servicio) 
+                }
+            }
         })
         .state('servicioDev',{
             url:'/servicio-desarrollo',
@@ -34,6 +48,30 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
         .state('portafolio',{
             url:'/portafolio',
             component: 'portafolioComponent'
+
+        })
+        .state('portafolioDev',{
+            url:'/portafolioDev',
+            component: 'portafolioDevComponent'
+
+        })
+        .state('cultura',{
+            url:'/cultura',
+            component: 'culturaComponent',
+            onEnter: function(){
+                /*$('.header').toggleClass('header-cultura');
+                $('.header__logo').toggleClass('ocultar-logo');
+                $('.header-logo').toggleClass('logo-cultura');*/
+                console.log('Entrando...');
+            },
+            onExit: function(){
+                $('.header').toggleClass('header-cultura');
+                $('.header__logo').toggleClass('ocultar-logo');
+                $('.header-logo').toggleClass('logo-cultura');
+                console.log('Saliendo...');
+
+
+            }
 
         })
         /*.state('/home',{

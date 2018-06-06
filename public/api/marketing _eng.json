@@ -1,0 +1,21 @@
+{
+    "maintitle":"Digital",
+    "maintitle2":"marketing",
+    "maindescription": "Descubre planes y objetivos diseñados para fortalecer el vínculo entre el usuario y tu marca.",
+    "mainimagen": "res/img/recursos/Marketing.png",
+
+    "servicios":[
+        {
+            "titulo":"Social media",
+            "descripcion":"En BigBang concebimos las redes sociales como una estrategia que debe estar alineada con la comunicación y los objetivos de negocio de la marca",
+            "descripcion2": ", donde el cliente está en el centro y la marca cumple el papel de un amigo.",
+            "imagen": "img-socialmedia"
+        },
+        {
+            "titulo":"Diseño publicitario",
+            "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque.",
+            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "imagen": "img-publicidad-google"
+        }
+    ]
+}
