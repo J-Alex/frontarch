@@ -128,7 +128,7 @@ class culturaCtrl {
         this.integrantes=[];
     }
     $onInit(){
-        
+
         if(this.I18N.val === "ESP") { this.LANG = this.ESP; 
             this.servicio.obtenerIntegrantes("integrantes")
                 .then( res => this.integrantes = res );
@@ -137,13 +137,15 @@ class culturaCtrl {
             this.servicio.obtenerIntegrantes("integrantes _Eng")
             .then( res => this.integrantes = res );
         }       
+        
+        this.$scope.$on('changeLang', (event, args) => {
+            if (args == 'ESP'){ this.LANG = this.ESP; }
+            else { this.LANG = this.ENG; }            
+        });
 
         this.$document.find('.header').toggleClass('header-cultura');
         this.$document.find('.header__logo').toggleClass('ocultar-logo');
         this.$document.find('.header-logo').toggleClass('logo-cultura');
-
-        
-
     }
 
     abrirModal(integrante){

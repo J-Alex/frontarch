@@ -63,6 +63,11 @@ class contactoCtrl {
         
         if(this.I18N.val === "ESP") { this.LANG = this.ESP; }
         if(this.I18N.val === "ENG") { this.LANG = this.ENG; } 
+        
+        this.$scope.$on('changeLang', (event, args) => {
+            if (args == 'ESP'){ this.LANG = this.ESP; }
+            else { this.LANG = this.ENG; }            
+        });
 
         this.$document.find('.hablemos').toggleClass('ocultar');
     }

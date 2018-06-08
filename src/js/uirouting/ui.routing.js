@@ -62,15 +62,13 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
                 /*$('.header').toggleClass('header-cultura');
                 $('.header__logo').toggleClass('ocultar-logo');
                 $('.header-logo').toggleClass('logo-cultura');*/
-                console.log('Entrando...');
+                //console.log('Entrando...');
             },
             onExit: function(){
                 $('.header').toggleClass('header-cultura');
                 $('.header__logo').toggleClass('ocultar-logo');
                 $('.header-logo').toggleClass('logo-cultura');
-                console.log('Saliendo...');
-
-
+                //console.log('Saliendo...');
             }
 
         })

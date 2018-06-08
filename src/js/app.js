@@ -20,7 +20,7 @@ angular
     .constant('API', 'http://api.express-jenniercruz.c9users.io')
     .component('rootComponent', rootComponent)
     .constant('I18N', {
-        val: 'ESP',
+        val: undefined,
         setLang: function(value) { return this.val = value }
     })
     .name;

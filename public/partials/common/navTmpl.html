@@ -8,9 +8,9 @@
             <a class="nav__link" data-ui-sref="cultura" data-ui-sref-active="nav__link--is-active" data-ng-click="nav.closeMenu()"> {{ nav.LANG.cultura }} </a>
             <a class="nav__link" data-ui-sref="contacto" data-ui-sref-active="nav__link--is-active" data-ng-click="nav.closeMenu()"> {{ nav.LANG.contacto }} </a>
             <span class="idiomas"> 
-                <span data-ng-click=" nav.LANG = nav.ESP; nav.I18N.setLang('ESP') "> ESP </span>
+                <span data-ng-click=" nav.changeLang('ESP') "> ESP </span>
                 | 
-                <span data-ng-click=" nav.LANG = nav.ENG; nav.I18N.setLang('ENG') "> ENG </span>
+                <span data-ng-click=" nav.changeLang('ENG') "> ENG </span>
             </span>
         </div>
     </div>
