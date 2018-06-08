@@ -50,13 +50,12 @@
         </a>
         
         <a href="" data-ui-sref="">
-            <figure class="portafolio disenio">
-                <img class="portafolio__bg-img" src="res/img/recursos/La Colonia.jpg" alt="">
+            <figure class="portafolio {{ portafolio.LANG.proyectos.lacolonia.tipo }}">
+                <img class="portafolio__bg-img" src="{{ portafolio.LANG.proyectos.lacolonia.imagen }}" alt="">
                 <figcaption class="portafolio__text-caption">
-                    <h3>La Colonia<br> Mundial 2018</h3>
+                    <h3>{{ portafolio.LANG.proyectos.lacolonia.empresa }}<br> {{ portafolio.LANG.proyectos.lacolonia.servicio }}</h3>
                     <p class="portafolio-txt">
-                        Establecer relaciones de valor entre el cliente y la empresa es vital para el éxito
-                        empresarial.
+                        {{ portafolio.LANG.proyectos.lacolonia.brevedescripcion }}
                     </p>
                 </figcaption>
             </figure>
@@ -139,7 +138,7 @@
             <figure class="portafolio {{ portafolio.LANG.proyectos.hospitalmilitar.tipo }}">
                 <img class="portafolio__bg-img" src="{{ portafolio.LANG.proyectos.hospitalmilitar.imagen }}" alt="">
                 <figcaption class="portafolio__text-caption">
-                    <h3 class="title-proyect">{{ portafolio.LANG.proyectos.hospitalmilitar.empresa }} <br>{{ portafolio.LANG.proyectos.hospitalmilitar.servicio }}</h3>
+                    <h3 class="title-proyect title-hop">{{ portafolio.LANG.proyectos.hospitalmilitar.empresa }} <br>{{ portafolio.LANG.proyectos.hospitalmilitar.servicio }}</h3>
                     <p class="portafolio-txt">
                         {{ portafolio.LANG.proyectos.hospitalmilitar.brevedescripcion  }}
                     </p>

@@ -28,14 +28,14 @@ class portafolioCtrl {
                     imagen: "res/img/recursos/La Colonia.jpg",
                     empresa: "La Colonia",
                     servicio: "Mundial 2018",
-                    brevedescripcion: "El trabajo de redes que hemos realizado con Jaliskos es más que gratificante. Es el ejemplo vivo de conversión de seguidores a consumidores."
+                    brevedescripcion: "La Colonia es “El super de Nicaragua” y fuimos sus cómplices al llevar un poco de la pasión del mundial a todos los nicaragüenses."
                 },                
                 jaliskos:{
                     tipo: "marketing",
                     imagen: "res/img/recursos/Jaliskos SM.jpg",
                     empresa: "Jaliskos",
                     servicio: "Social media",
-                    brevedescripcion: " El trabajo de redes que hemos realizado con Jaliskos es más que gratificante. Es el ejemplo vivo de conversión de seguidores a consumidores."
+                    brevedescripcion: "El trabajo que hemos realizado con Jaliskos es más que gratificante. Es un ejemplo de conversión de seguidores a consumidores."
                 },
                 mundo:{
                     tipo: "disenio",
@@ -48,7 +48,7 @@ class portafolioCtrl {
                     tipo: "marketing",
                     imagen: "res/img/recursos/Pink Party.jpg",
                     empresa: "Pink Party",
-                    servicio: "Social media",
+                    servicio: "Publicidad",
                     brevedescripcion: "Con Pink Party hicimos de todo: rebranding, fotografía, social media y una que otra locura publicitaria."
                 },
                 isnaya :{
@@ -84,14 +84,14 @@ class portafolioCtrl {
                     imagen: "res/img/recursos/Hosptal Militar.jpg",
                     empresa: "Hospital Militar:",
                     servicio: " Simposio Diabetes",
-                    brevedescripcion: "El Simposio de Diabetes del Hospital Militar en su décima edición tuvo por primera vez una imágen de marca de la cual fuimos responsables."
+                    brevedescripcion: "El Simposio de Diabetes del Hospital Militar en su X edición tuvo por 1ra vez una imágen de marca de la cual fuimos responsables."
                 },
                 melany:{
                     tipo: "disenio",
                     imagen: "res/img/recursos/Melany.jpg",
                     empresa: "Melany",
                     servicio: "Imagen de marca",
-                    brevedescripcion: "Melany el salón oficial de BigBang, fué más que un honor realizar su imagen corporativa y el resultado nos encantó."
+                    brevedescripcion: "Melany es el salón oficial de BigBang, fué más que un honor realizar su imagen corporativa y el resultado nos encantó."
                 },
                 jaliskos2:{
                     tipo: "disenio",
@@ -112,7 +112,7 @@ class portafolioCtrl {
                     imagen: "res/img/recursos/Samcora.jpg",
                     empresa: "Samcora",
                     servicio: "Imagen de marca",
-                    brevedescripcion: "Samcora es una empresa muy femenina pero capaz de triunfar en el duro rubro de la construcción y su imagen refleja es esencia."
+                    brevedescripcion: "Samcora es una empresa muy femenina pero capaz de triunfar en el duro rubro de la construcción y su imagen refleja esa esencia."
                 }, 
                 lindocruz:{
                     tipo: "disenio",

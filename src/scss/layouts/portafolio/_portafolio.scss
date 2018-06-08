@@ -12,6 +12,7 @@
 }
 .portfolioFilter a:focus, .portfolioFilter a:hover {
     color: #E13639;
+    cursor: pointer;
 }
 
 .portfolioFilter .active {
@@ -48,7 +49,7 @@
 }
 .portafolio__text-caption {
     position: relative;    
-    padding: 16.6rem 2rem 2.2rem 2rem;
+    padding: 16.6rem 2rem 4.2rem 2rem;
     transition: .3s ease all;
     background-color: rgba(0,0,0,0.3);
     h3 {
@@ -93,6 +94,11 @@
 
 .title-proyect{
     margin-top: -2rem;
+    width: 299px;
+}
+
+.title-hop{
+    margin-top: 0rem!important;
 }
 
 .icon-portafolio{
