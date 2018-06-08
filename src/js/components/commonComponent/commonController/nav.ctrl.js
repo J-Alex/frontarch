@@ -12,7 +12,7 @@ class NavCtrl {
             servicios: "Servicios",
             portafolio: "Portafolio",
             cultura: "Cultura",
-            contacto: "Contácto"
+            contacto: "Contacto"
         }
         this.ENG = {
             inicio: "Home",

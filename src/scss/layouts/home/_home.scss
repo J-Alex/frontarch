@@ -295,7 +295,7 @@ body{
 }
 
 //full resolucion
-@media screen and (min-width: 1401px){
+@media screen and (min-width: 1600px){
     .header .header__logo {
         width: 150px!important;
     }
@@ -347,6 +347,9 @@ body{
         margin-top: 3.6rem;
     }
     .ideales_text {
+        text-align: center;
+        width: 261px;
+        margin: 0 auto;
         font-size: 16px!important;
     }
 

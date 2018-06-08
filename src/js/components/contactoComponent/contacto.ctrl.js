@@ -29,7 +29,7 @@ class contactoCtrl {
             },
             contactos:{
                 telefono: "Llámanos",
-                titulodireccion: "Visitanos",
+                titulodireccion: "Visítanos",
                 direccion: "Semáforo viejo 1 1/2 cuadras al norte Estelí, Nic.",
                 correo: "Escríbenos"
             }

@@ -428,7 +428,7 @@ button.closemodal-perfil {
 }
 
 //full resolucion
-@media screen and (min-width: 1401px){
+@media screen and (min-width: 1600px){
     .banner-cultura {
         height: 944px;
     }
@@ -537,7 +537,7 @@ button.closemodal-perfil {
     }
 
     .modal-content-perfil {
-        height: 47.5%;
+        height: 556px;
         width: 51%;
     }
 
@@ -986,7 +986,7 @@ button.closemodal-perfil {
         padding: 0.2rem 0.9rem;
         .txt-descripcion-personal {
             font-size: 1em;
-            height: 220px;
+            height: 230px;
             width: 275px;
         }
     }
@@ -1026,10 +1026,10 @@ button.closemodal-perfil {
     }
 
     button.closemodal-perfil {
-        margin-left: 16rem;
+        margin-left: 15.4rem;
         color: #0a0a0a;
         margin-top: -21rem;
-        position: absolute;
+        position: fixed;
     }
 
     .header-cultura {

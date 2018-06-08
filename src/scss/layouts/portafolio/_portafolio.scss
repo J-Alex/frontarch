@@ -216,6 +216,15 @@ button.close-md-portafolio {
     }
 }
 
+@media screen and (min-width: 1600px){
+    .portfolioFilter {
+        font-size: 1.4em;
+    }
+    .portafolioGaleria {
+        max-width: 1600px;
+    }
+}
+
 @media screen and (max-width: 1024px){
     .portafolioGaleria {
         max-width: 950px;

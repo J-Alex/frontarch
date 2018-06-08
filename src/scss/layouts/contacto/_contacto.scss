@@ -40,8 +40,9 @@ $primary-color-text:   #FFFFFF;
     width: 90%
 }
 .title-mb {
-    font-size: 2.5em;
+    font-size: 5em;
     font-weight: 800;
+    line-height: 1;
 }
 .contact-form {
     width: 75%;
@@ -200,9 +201,9 @@ $primary-color-text:   #FFFFFF;
 }
 //Herald ajustes
 //full resolucion
-@media screen and (min-width: 1401px){
+@media screen and (min-width: 1600px){
     .title-mb {
-        font-size: 4.5em;
+        font-size: 5.5em;
     }
     .contact-wrapp{
         .txt-principal{
