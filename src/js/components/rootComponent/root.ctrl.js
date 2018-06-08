@@ -5,7 +5,7 @@ class RootCtrl {
     }
 
     $onInit(){
-        console.log("root ctrl");
+        //console.log("root ctrl");
     }
 
 }

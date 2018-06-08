@@ -9,15 +9,29 @@ class HomeCtrl {
         this.API = API;
         this.TestService = TestService;
 
+        this.contadorTotal = {
+            cafe: 100,
+            fifa: 200,
+            chistes: 560,
+            clientes: 35,
+            proyectos: 40
+        }
         this.contador = {
             cafe: 0,
             fifa: 0,
-            chistes: 500,
-            clientes: 500,
-            proyectos: 500
+            chistes: 0,
+            clientes: 0,
+            proyectos: 0
         }
-        this.cafe = 0;
-        this.cont = 0;
+        this.contadorBind = {
+            cafe: 0,
+            fifa: 0,
+            chistes: 0,
+            clientes: 0,
+            proyectos: 0
+        }
+        /*this.cafe = 0;
+        this.cont = 0;*/
 
 
         this.I18N = I18N;
@@ -127,31 +141,64 @@ class HomeCtrl {
 
     }
     $onInit() {
-        setTimeout(()=>{this.contar()}, 2500)   
+        //setTimeout(()=>{this.contar()}, 2500)   
 
         if(this.I18N.val === "ESP") { this.LANG = this.ESP; }
-        if(this.I18N.val === "ENG") { this.LANG = this.ENG; }  
-        //console.log(this.cafe);         
+        if(this.I18N.val === "ENG") { this.LANG = this.ENG; }
+        
+        this.$scope.$on('changeLang', (event, args) => {
+            if (args == 'ESP'){ this.LANG = this.ESP; }
+            else { this.LANG = this.ENG; }            
+        });
+
+        let vidaBigbang = document.getElementById('vidaBigbang');
+        let viewportH = window.innerHeight;
+        this.$document.scroll( (ev) => {
+            //console.log(vidaBigbang.getBoundingClientRect().top, viewportH/2 );
+            if(vidaBigbang.getBoundingClientRect().top < viewportH/2){
+                console.log( "llegaste a la mitad" );
+                this.contar()
+            }
+        });
     }
 
     contar(){
-        let intervalo = setInterval(()=>{
-            //console.log("start");
+        while(this.contador.cafe < this.contadorTotal.cafe) {
+            setTimeout(()=>{
+                this.$scope.home.contadorBind.cafe += 1;
+                this.$scope.$apply();
+            },100);
+            this.contador.cafe += 1;
+        }
+        while(this.contador.fifa < this.contadorTotal.fifa) {
+            setTimeout(()=>{
+                this.$scope.home.contadorBind.fifa += 1;
+                this.$scope.$apply();
+            },100);
+            this.contador.fifa += 1;
+        }
+        while(this.contador.chistes < this.contadorTotal.chistes) {
+            setTimeout(()=>{
+                this.$scope.home.contadorBind.chistes += 1;
+                this.$scope.$apply();
+            },100);
+            this.contador.chistes += 1;
+        }
+        while(this.contador.clientes < this.contadorTotal.clientes) {
+            setTimeout(()=>{
+                this.$scope.home.contadorBind.clientes += 1;
+                this.$scope.$apply();
+            },100);
+            this.contador.clientes += 1;
+        }
+        while(this.contador.proyectos < this.contadorTotal.proyectos) {
+            setTimeout(()=>{
+                this.$scope.home.contadorBind.proyectos += 1;
+                this.$scope.$apply();
+            },100);
+            this.contador.proyectos += 1;
+        }
 
-            while(this.cafe < 1000) {
-                this.cafe += 1;
-                setTimeout(()=>{
-                    this.$scope.home.cont += 1;
-                    this.$scope.$apply();
-                },100);
-                //console.log(this.cafe);
-            }
-
-            if(this.cafe == 500){
-                //console.log("end");
-                clearInterval(intervalo);
-            }
-        },2500);
     }
 
     scrollDown(){
