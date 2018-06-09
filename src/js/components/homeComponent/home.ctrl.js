@@ -1,3 +1,5 @@
+import { setInterval } from "timers";
+
 class HomeCtrl {
     
     constructor($document, $scope, TestService, API, I18N) {
@@ -9,6 +11,7 @@ class HomeCtrl {
         this.API = API;
         this.TestService = TestService;
 
+        this.cuentador = true;
         this.contadorTotal = {
             cafe: 100,
             fifa: 200,
@@ -30,8 +33,6 @@ class HomeCtrl {
             clientes: 0,
             proyectos: 0
         }
-        /*this.cafe = 0;
-        this.cont = 0;*/
 
 
         this.I18N = I18N;
@@ -156,48 +157,35 @@ class HomeCtrl {
         this.$document.scroll( (ev) => {
             //console.log(vidaBigbang.getBoundingClientRect().top, viewportH/2 );
             if(vidaBigbang.getBoundingClientRect().top < viewportH/2){
-                console.log( "llegaste a la mitad" );
-                this.contar()
+                (this.cuentador) ? this.contar() : console.log("ya lo hizo una vez");
             }
         });
     }
 
     contar(){
-        while(this.contador.cafe < this.contadorTotal.cafe) {
-            setTimeout(()=>{
-                this.$scope.home.contadorBind.cafe += 1;
-                this.$scope.$apply();
-            },100);
-            this.contador.cafe += 1;
-        }
-        while(this.contador.fifa < this.contadorTotal.fifa) {
-            setTimeout(()=>{
-                this.$scope.home.contadorBind.fifa += 1;
-                this.$scope.$apply();
-            },100);
-            this.contador.fifa += 1;
-        }
-        while(this.contador.chistes < this.contadorTotal.chistes) {
-            setTimeout(()=>{
-                this.$scope.home.contadorBind.chistes += 1;
-                this.$scope.$apply();
-            },100);
-            this.contador.chistes += 1;
-        }
-        while(this.contador.clientes < this.contadorTotal.clientes) {
-            setTimeout(()=>{
-                this.$scope.home.contadorBind.clientes += 1;
-                this.$scope.$apply();
-            },100);
-            this.contador.clientes += 1;
-        }
-        while(this.contador.proyectos < this.contadorTotal.proyectos) {
+        console.log( "llegaste a la mitad" );
+        this.cuentador = false;
+        
+        this.$document.find('.cantidad').each(function () {
+            console.log("cuentandoUP");
+
+            $(this).prop('Counter',0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function (now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
+        });
+        /*while(this.contador.proyectos < this.contadorTotal.proyectos) {
             setTimeout(()=>{
                 this.$scope.home.contadorBind.proyectos += 1;
                 this.$scope.$apply();
             },100);
             this.contador.proyectos += 1;
-        }
+        }*/
 
     }
 
