@@ -1,6 +1,6 @@
 {
-    "maintitle":"Digital",
-    "maintitle2":"marketing",
+    "maintitle":"Marketing",
+    "maintitle2":"digital",
     "maindescription": "Descubre planes y objetivos diseñados para fortalecer el vínculo entre el usuario y tu marca.",
     "mainimagen": "res/img/recursos/Marketing.png",
 
@@ -12,7 +12,7 @@
             "imagen": "img-socialmedia"
         },
         {
-            "titulo":"Diseño publicitario",
+            "titulo":"Publicidad en Google",
             "descripcion":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque.",
             "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
             "imagen": "img-publicidad-google"

@@ -219,21 +219,24 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
 
-                    <p class="title-persona"> {{ cultura.miembro.name }} <br><span class="cargo-persona">{{ cultura.miembro.cargo }}</span></p>
+                    <div class="contenedor-des">
+                        <p class="title-persona"> {{ cultura.miembro.name }} <br><span class="cargo-persona">{{ cultura.miembro.cargo }}</span></p>
 
-                    <p class="txt-descripcion-personal">
-                        {{ cultura.miembro.descripcion }} 
-                    </p>
-
-                    <div class="btn_social-perfil" >
-        
-                        <div class="btn-soc-perfil" data-ng-repeat="red in cultura.miembro.redsocial" >
-                            <a href="{{ red.enlace}}"  target="_black">
-                                <i class="fab {{ red.icono }} icon-social-perfil"></i>
-                            </a>
+                        <p class="txt-descripcion-personal">
+                            {{ cultura.miembro.descripcion }} 
+                        </p>
+    
+                        <div class="btn_social-perfil" >
+            
+                            <div class="btn-soc-perfil" data-ng-repeat="red in cultura.miembro.redsocial" >
+                                <a href="{{ red.enlace}}"  target="_black">
+                                    <i class="fab {{ red.icono }} icon-social-perfil"></i>
+                                </a>
+                            </div>
+    
                         </div>
-
                     </div>
+
 
 
                     <div class="content-inspiraciones movil">

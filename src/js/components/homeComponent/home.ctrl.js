@@ -90,7 +90,7 @@ class HomeCtrl {
         this.ENG = {
             maintitle:{
                 parte1:"The starting",
-                parte2: "point of",
+                parte2: "point for",
                 parte3: "your ideas.",
             },
             title2:{
@@ -104,22 +104,24 @@ class HomeCtrl {
                 ideales1:{
                     titulo1: "Social",
                     titulo2: "Growth",
-                    parrafo: "Technology has become a promoter of social changes, so we use digital marketing and business strategy to increase productivity, profitability and economy of cities"
+                    parrafo: "Technology has become a promoter of social changes, so we use digital marketing and business strategy to increase the productivity, profitability and economy of cities"
                 },
                 ideales2:{
                     titulo1: "Cultural",
                     titulo2: "Contribution",
-                    parrafo: "Our goal is to grow the visual culture through the good Branding and Graphic Design of our projects"
+                    parrafo: "Our goal is to grow the visual culture through the good branding and graphic design of our projects"
                 },
                 ideales3:{
                     titulo1: "Technological",
                     titulo2: "development",
-                    parrafo: "We are true promoters of digital technology, we believe in digital marketing, branding, social networks, graphic design and web development as drivers of success"
+                    parrafo: "We are faithful  promoters of digital technology, we believe in Digital Marketing, Branding, Social Networks, Graphic Design and Web Development as drivers of success"
                 }
             },
             contador:{
-                tazascafe: "coffee cups",
-                fifa: "FIFA matchs",
+                tazascafe: "coffee",
+                tazascafe2: "cups",
+                fifa: "FIFA",
+                fifa2: "Matchs",
                 chistes1: "Bad", 
                 chistes2: "jokes",
                 clientes1: "Happy", 
@@ -133,8 +135,8 @@ class HomeCtrl {
                 tparte3: "is to",
                 tparte4: "BE THE",
                 tparte5: "change",
-                parrafo1: "We include creativity, technology and strategy with the goal to make brands, business and people grow ",
-                parrafo2: "We transform dreams, projects, objective and goals into digital experiences for a universe in continuous expansion"
+                parrafo1: "We integrate creativity, technology and strategy with the aim to make brands, business and people grow",
+                parrafo2: "We transform dreams, projects, aims and goals into digital experiences for an universe in continuous expansion"
             },
             clientestitle: "OUR CLIENTS"
         }

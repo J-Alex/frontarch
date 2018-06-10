@@ -1,16 +1,40 @@
 
 class servicioCtrl {
-    constructor($document, $http){
+    constructor($document, $http, $scope, $location, servicioService){
         'ngInject'
         this.$document = $document;
-
+        this.$scope = $scope;
         this.$http=$http;
+        this.$location = $location;
+
+        this.servicioService = servicioService;
 
         this.mailObj={};
     } 
+    reverseString(str) {
+        return str.split("").reverse().join("");
+    }
     $onInit(){
-        console.log(this.servicio);
-        
+        let address = this.$location.path();
+        let match = '';
+        let bar = true;
+
+        for (let i = address.length - 1; bar == true; i--) {
+            if(address[i] != '/'){
+                match += address[i];
+            } else {
+                bar = false;
+            }
+        }
+
+        let servicio = this.reverseString(match);
+
+        this.$scope.$on('changeLang', (event, args) => {
+            this.servicioService.obtenerServicio(servicio)
+            .then( servicio => this.servicio = servicio )
+            .catch( err => console.log(err) );
+        });
+
     }
     scrollDown(){
         var targetOffset = this.$document.find("#conten-Service").offset().top - (parseInt(jQuery("header").css("padding-bottom")));

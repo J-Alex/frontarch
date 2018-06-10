@@ -4,21 +4,21 @@
         "cargo":"",
         "mainimagen": "res/img/recursos/integrantes/Ana.jpg",
         "imagenperfil": "res/img/recursos/integrantes/AnaM.jpg",
-        "descripcion": "Carol is nuestra contadora y gestora de buena conducta. Sueña con ser un Picasso dentro de la cocina mientras lleva las cuentas, y si, últimamente se ha contagiado de la invalidez del personal, pero es nuestra figura adulta en el equipo. Es perfeccionista, adicta al café y combina bien las cuentas con el óleo y los pañales.",
+        "descripcion": "Carol it’s our accountant and good behavior manager. She dream of being Picasso in the kitchen while she do the numbers; and yes, lately she has caught the joking spirit of the team, even so, it’s the adult figure of the team. She is a perfectionist, addicted to coffee and combines accounting with paints and diapers.",
         "saludo": "",
         "fan": "",
         "broma": "",
-        "intereses": [ "Pintura","Contabilidad","Cocina","No cambiar pañales","Viajar" ],
+        "intereses": [ "Painting","Accounting","Kitchen","To not change daipers","Travel" ],
         "aficiones": [ "Grace Anatomy","Gatos y boas","Sagas de ciencia ficción","Tacos","Piano" ],
         "referencia": [
             {
-                "enlace": "res/img/recursos/referencias/Byron-01.jpg"
+                "enlace": "res/img/recursos/referencias/Karol1.jpg"
             },
             {
-                "enlace": "res/img/recursos/referencias/Byron-02.jpg"
+                "enlace": "res/img/recursos/referencias/Karol2.jpg"
             },
             {
-                "enlace": "res/img/recursos/referencias/Byron-03.jpg"
+                "enlace": "res/img/recursos/referencias/Karol3.jpg"
             }
         ],
         "redsocial":
@@ -39,25 +39,25 @@
     },
 
     {
-        "name":"Brandon Blandón",
+        "name":"Brandon Blandón", 
         "cargo":"Lorem ipsum",
         "mainimagen": "res/img/recursos/integrantes/Brandon.jpg",
         "imagenperfil": "res/img/recursos/integrantes/BrandonB.png",
-        "descripcion": "Ingeniero en sistemas especializado en desarrollo web, apasionado por los negocios, el marketing y el SEO. A su vez, ejerce como docente universitario. Es el encargado de imponer orden en el equipo, siguiendo las normas y principios de Darth Vader. Tras realizar una pasantía en Falls Comunications y participar en el programa YLAI, su visión de trabajo se vio completamente transformada.",
+        "descripcion": "System engineer specialized in web development, his passion are the business, marketing and SEO. He is an university teacher. It’s the one in charge to bring order to all the team, following darth vader principles. After completing a fellowship at Falls Communications and participating the YLAI program, his work vision was completely transformed.",
         "saludo": "Hellow",
         "fan": "Startwars lover",
         "broma": "El dueño del local",
-        "intereses": [ "Marketing","Posicionamiento web","Desarrollo web","Project Management","Fotografía" ],
+        "intereses": [ "Digital marketing","Search engine optimization","Productivity","Project Management","Photography" ],
         "aficiones": [ "Star Wars","Yankees Fan.","The lord of the rings.","Hamburguesas","Thinking outside the box" ],
         "referencia": [
             {
-                "enlace": "res/img/recursos/referencias/Byron-01.jpg"
+                "enlace": "res/img/recursos/referencias/Brandon1.jpg"
             },
             {
-                "enlace": "res/img/recursos/referencias/Byron-02.jpg"
+                "enlace": "res/img/recursos/referencias/Brandon2.jpg"
             },
             {
-                "enlace": "res/img/recursos/referencias/Byron-03.jpg"
+                "enlace": "res/img/recursos/referencias/Brandon3.jpg"
             }
         ],
         "redsocial": 
@@ -125,7 +125,7 @@
         "cargo":"Director General",
         "mainimagen": "res/img/recursos/integrantes/Christhopher.jpg",
         "imagenperfil": "res/img/recursos/integrantes/Chris.jpg",
-        "descripcion": "Christhopher es un fotógrafo animador con visión de ser cineasta algún día, la organización de ideas no es uno de sus fuertes pero trata dar lo mejor de sí mismo, cursa la carrera de periodismo queriendo encontrar su vocación en ella, experto en contar los mejores chistes malos y espera que sus compañeros se rían.",
+        "descripcion": "Christhopher is an photographer and graphic animator,that dream to be a filmmaker. Although we wish that his FIFA skills were better,their willingness to learn and work make up for it. He is a journalism student and he’s an expert in telling the best bad jokes, with the eternal hope of the laughs of his friends.",
         "saludo": "Hola a todos",
         "fan": "Startwars lover",
         "broma": "El dueño del local",
@@ -165,7 +165,7 @@
         "cargo":"Desarrollador web",
         "mainimagen": "res/img/recursos/integrantes/Herald.jpg",
         "imagenperfil": "res/img/recursos/integrantes/Herald-Flores.jpg",
-        "descripcion": "Es un ingeniero en sistemas que se unió al Team BigBang para realizar una pasantía después de que uno de sus profesores le invitara a formar parte de este al terminar un partido de fútbol. Aporta sus conocimientos en  desarrollo web y experiencia en el área de soporte técnico. Le gusta mucho tomar café y es fan del Barcelona ,  el anime y las películas de superhéroes en especial las de Marvel Studio.",
+        "descripcion": "Es ingeniero en sistemas. Al terminar un partido de fútbol, uno de sus profesores le ofreció realizar una pasantía. Así fue como se unió a BigBang. Aporta de sus conocimientos y experiencia en desarrollo web y en el área de soporte técnico. Le apasiona tomar café y es fan del Barcelona. Disfruta el ánime y las películas de superhéroes, en especial las de Marvel Studio.",
         "saludo": "Hola a todos",
         "fan": "Comic y anime",
         "broma": "El dueño del local",
@@ -173,13 +173,13 @@
         "aficiones": [ "FC Barcelona","Anime y comics","FIFA", "Pan y Café" ],
         "referencia": [
             {
-                "enlace": "res/img/recursos/referencias/Byron-01.jpg"
+                "enlace": "res/img/recursos/referencias/Herald1.jpg"
             },
             {
-                "enlace": "res/img/recursos/referencias/Byron-02.jpg"
+                "enlace": "res/img/recursos/referencias/Herald2.jpg"
             },
             {
-                "enlace": "res/img/recursos/referencias/Byron-03.jpg"
+                "enlace": "res/img/recursos/referencias/Herald3.jpg"
             }
         ],
         "redsocial":
@@ -204,12 +204,12 @@
         "cargo":"Lorem ipsum",
         "mainimagen": "res/img/recursos/integrantes/Jennier.jpg",
         "imagenperfil": "res/img/recursos/integrantes/Jennier-Cruz.jpg",
-        "descripcion": "Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda quisquam dignissimos tempore ipsum ad inventore rerum dicta eligendi eveniet earum itaque. Iste enim reiciendis fugit autem, quasi veritatis assumenda.",
+        "descripcion": "El monito chino del equipo, autodidacta empedernido entusiasta de las tecnologías web, le hace al Javascript, su lema de vida es: “eso puede hacerse mejor” cosa que ocasionalmente le genera problemas por lo exigente de la frase, quiere ser y hacer de todo a la vez en cuanto a proyectos web se refiere por lo tanto aspira al título de FullStack Web Developer, insiste en que uno de sus secretos para ser buen desarrollador es ver series japonesas; también tiene un título en Ingeniería en Sistemas de Información.",
         "saludo": "Hola a todos",
         "fan": "Startwars lover",
         "broma": "El dueño del local",
-        "intereses": [ "Diseño Web","UI/UX","SEO","Marketing Diigtal","Packing" ],
-        "aficiones": [ "Star Wars","Game of Trones","FIFA" ],
+        "intereses": [ "Ingenieria y Arquitectura de Proyectos Web","Diseño y Programación Web y UI","Javascript" ],
+        "aficiones": [ "Paseos de montaña","Fotografía como Hobbie","Series chinas","Café y Postres" ],
         "referencia": [
             {
                 "enlace": "res/img/recursos/referencias/Byron-01.jpg"
@@ -243,7 +243,7 @@
         "cargo":"Sistemas de Información.",
         "mainimagen": "res/img/recursos/integrantes/Jerson.jpg",
         "imagenperfil": "res/img/recursos/integrantes/JersonD.jpg",
-        "descripcion": "Jerson se involucra en marketing digital además aporta visión estratégica a BigBang. Lo único que hace relacionado a su carrera es la docencia universitaria, bebe el café fuerte y sin azúcar, él es conocido como el “Deus” del FIFA.Su forma de pensar : ”Si tiene solución ¿Por qué te preocupas? Y si no tiene solución ¿Por qué te preocupas?”.",
+        "descripcion": "Jerson, gets involved in digital marketing, in addition to providing strategic vision to BigBang. He also is a professor. Drink strong coffee without sugar. Is known as the “Deus” of FIFA. Philosophy: “If it has a solution, why do you care?” “And if it does not have a solution, why do you care?” “Don´t worry, Be happy”.",
         "saludo": "Hola a todos",
         "fan": "Startwars lover",
         "broma": "El general",
@@ -290,13 +290,13 @@
         "aficiones": [ "La Casa de Papel (serie)","Los monos","Mamma Mía","Pizza","Jazz" ],
         "referencia": [
             {
-                "enlace": "res/img/recursos/referencias/Byron-01.jpg"
+                "enlace": "res/img/recursos/referencias/Marvin1.jpg"
             },
             {
-                "enlace": "res/img/recursos/referencias/Byron-02.jpg"
+                "enlace": "res/img/recursos/referencias/Marvin2.jpg"
             },
             {
-                "enlace": "res/img/recursos/referencias/Byron-03.jpg"
+                "enlace": "res/img/recursos/referencias/Marvin3.jpg"
             }
         ],
         "redsocial":

@@ -19,7 +19,7 @@ const transitionRunner = ($window, $rootScope, $state, $trace, I18N) => {
 
         let userLang = navigator.language || navigator.userLanguage;
         //console.log("The language is: " + navigator.language +" "+ navigator.userLanguage);
-        if(userLang == 'es'){
+        if(userLang == 'es' || userLang == 'es-ES'){
             I18N.setLang('ESP');
             $window.localStorage['I18N'] = 'ESP';
         } else {

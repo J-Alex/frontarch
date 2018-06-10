@@ -89,6 +89,7 @@
 .services_title{
     font-size: 2.5em;
     font-weight: 800;
+    width: 230px;
 }
 .btn {
     background-color: #E13639;
@@ -111,7 +112,7 @@
     margin-top: 0.7rem;
 }
 //full resolucion
-@media screen and (min-width: 1401px){
+@media screen and (min-width: 1600px){
     .figure_services_content {
         height: 670px;
     }

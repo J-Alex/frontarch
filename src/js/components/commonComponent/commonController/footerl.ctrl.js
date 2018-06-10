@@ -13,14 +13,16 @@ class FooterCtrl {
             boton: "¡Hablemos!",
             direccion: "Semáforo viejo 1 1/2 cuadras al norte. Estelí, Nicaragua.",
             correo: "contacto@bigbangnica.studio ",
-            telefono: "Tel.: (505) 8853 9870"
+            telefono: "Tel.: (505) 8853 9870",
+            copy: "TODOS LOS DERECHOS RESERVADOS"
         }
         this.ENG = {
             maintitle: "Your project begin here",
             boton: "¡Lets talk!",
             direccion: "Visit us semaforo viejo 1 and a half block norht, Estelí, Nicaragua.",
-            correo: "Email us contacto@bigbangnica.studio ",
-            telefono: "Call us (505) 8853 9870" 
+            correo: "contacto@bigbangnica.studio ",
+            telefono: "Call us (505) 8853 9870",
+            copy: "ALL RIGHTS RESERVED" 
         }
         
         this.LANG;

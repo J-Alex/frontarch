@@ -10,8 +10,8 @@ class serviciosCtrl {
         this.LANG;
         this.ESP = {
             maintitle: "servicios",
-            maintext: "El mundo, los negocios y la comunicación han cambiado, ¿y vos? Descubrí y explotá(como musulmán) el potencial de tu empresa con nosotros. Conocé de lo que somos capaces.",
-            secondtitle: "Lorem ipsum dolor sit amet elit.",
+            maintext: "El mundo, los negocios y la comunicación han cambiado, ¿y vos? Descubrí y explotá el potencial de tu empresa con nosotros.",
+            secondtitle: "Conocé de lo que somos capaces.",
             servicios1:{
                 titulo1: "Desarrollo",
                 titulo2: "web",
@@ -29,9 +29,9 @@ class serviciosCtrl {
             }
         }
         this.ENG = {
-            maintitle: "service",
+            maintitle: "services",
             maintext: "The world, business and communication have changed, and you? Discover and exploit (as a Muslim) the potential of your company with us. Know what we are capable of.",
-            secondtitle: "Lorem ipsum dolor sit amet elit.",
+            secondtitle: "Know what we are capable of.",
             servicios1:{
                 titulo1: "Web",
                 titulo2: "development",
