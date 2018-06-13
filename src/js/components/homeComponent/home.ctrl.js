@@ -156,7 +156,7 @@ class HomeCtrl {
         let viewportH = window.innerHeight;
         this.$document.scroll( (ev) => {
             //console.log(vidaBigbang.getBoundingClientRect().top, viewportH/2 );
-            if(vidaBigbang.getBoundingClientRect().top < viewportH/2){
+            if(vidaBigbang.getBoundingClientRect().top < viewportH / 0.45){
                 (this.cuentador) ? this.contar() : console.log("ya lo hizo una vez");
             }
         });
@@ -167,8 +167,6 @@ class HomeCtrl {
         this.cuentador = false;
         
         this.$document.find('.cantidad').each(function () {
-            console.log("cuentandoUP");
-
             $(this).prop('Counter',0).animate({
                 Counter: $(this).text()
             }, {
