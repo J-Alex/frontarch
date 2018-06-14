@@ -4,7 +4,7 @@ class culturaCtrl {
         'ngInject'
         this.$document = $document;
         this.$scope = $scope;
-        
+
         this.I18N = I18N;
         this.LANG;
         this.ESP = {
@@ -126,6 +126,7 @@ class culturaCtrl {
 
         this.$http=$http;
         this.integrantes=[];
+
     }
     $onInit(){
 
@@ -148,17 +149,24 @@ class culturaCtrl {
         this.$document.find('.header-logo').toggleClass('logo-cultura');
     }
 
-    abrirModal(integrante){
+    abrirModal(integrante, ev){
+
         this.miembro = integrante;
         this.$document.find('#Modalperfil').css('display', 'block');
 
+        /*this.$document.find('#Modalperfil').show({
+            parent: angular.element(document.body),
+            targetEvent: ev,
+            clickOutsideToClose:true
+        }) */
         console.log(this);
     }
 
     cerrarmodal(){
-        this.$document.find('#Modalperfil').css('display', 'none');
+        this.$document.find('#Modalperfil').css('display', 'none');   
+    }   
 
-    }
+
     
 }
 export default culturaCtrl;

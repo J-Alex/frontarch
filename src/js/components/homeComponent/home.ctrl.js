@@ -68,8 +68,10 @@ class HomeCtrl {
                 }
             },
             contador:{
-                tazascafe: "tazas de café",
-                fifa: "Juegos de FIFA",
+                tazascafe: "tazas",
+                tazascafe2: "de café",
+                fifa: "Juegos",
+                fifa2: "de FIFA",
                 chistes1: "Chistes", 
                 chistes2: "Malos",
                 clientes1: "clientes", 

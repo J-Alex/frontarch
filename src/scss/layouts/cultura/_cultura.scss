@@ -230,18 +230,18 @@
         font-weight: 400;
         text-align: center;
     }
-    .circulo-mascara{
-        background-color: #E13639;
-        border-radius: 50%;
-        height: 230px;
-        margin-top: -13rem;
-        margin-left: -1rem;
-        margin-bottom: 0;
-        opacity: .4;
-        width: 230px;
-        z-index: 1;
-        position: absolute;
-    }
+    // .circulo-mascara{
+    //     background-color: #E13639;
+    //     border-radius: 50%;
+    //     height: 230px;
+    //     margin-top: -13rem;
+    //     margin-left: -1rem;
+    //     margin-bottom: 0;
+    //     opacity: .4;
+    //     width: 230px;
+    //     z-index: 1;
+    //     position: absolute;
+    // }
 }
 .equipo-nombre{
     text-align: center;
@@ -257,21 +257,24 @@
 
 .integrante-equipo:hover{
     .integrante_text-caption {
-
+        padding: 10.5rem 0rem;
         .content-info-equipo{
             margin-top: 2.2rem;
         }
         .integrante-txt{  
-
             background: #323232; 
             color: #fff;
             display: block;
             transition: .3s ease all;
             padding: 1rem;
             font-weight: 300;
+            height: 90px;
         } 
         .txt-integrante{
             font-weight: 500;
+        }
+        .gustoculp{
+            padding-bottom: 2rem!important;
         }
     }
     
