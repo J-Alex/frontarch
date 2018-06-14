@@ -1,6 +1,9 @@
 const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
     'ngInject';
 
+    $locationProvider.html5Mode(true);
+    $locationProvider.hashPrefix('!');
+    
     $stateProvider
         .state('/', {
             url: '/',
@@ -83,7 +86,7 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
                 }
             }
         });*/
-        
+
     $urlRouterProvider
         .otherwise('/');
 }
