@@ -1,8 +1,8 @@
 const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
     'ngInject';
 
-    $locationProvider.html5Mode(true);
-    $locationProvider.hashPrefix('!');
+    //$locationProvider.html5Mode(true);
+    //$locationProvider.hashPrefix('!');
     
     $stateProvider
         .state('/', {
@@ -15,7 +15,6 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
             component: 'contactoComponent',
             onExit: function(){
                 $('.hablemos').toggleClass('ocultar');
-                console.log('Saliendo...');
             }
             //template: '<h1>HOMEINICIOINDEX</h1>'
         })

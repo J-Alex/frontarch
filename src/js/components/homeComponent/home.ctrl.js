@@ -161,7 +161,8 @@ class HomeCtrl {
         this.$document.scroll( (ev) => {
             //console.log(vidaBigbang.getBoundingClientRect().top, viewportH/2 );
             if(vidaBigbang.getBoundingClientRect().top < viewportH / 0.45){
-                (this.cuentador) ? this.contar() : console.log("ya lo hizo una vez");
+                //(this.cuentador) ? this.contar() : console.log("ya lo hizo una vez");
+                if(this.cuentador){ this.contar() }
             }
         });
     }
