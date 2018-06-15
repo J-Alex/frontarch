@@ -17,6 +17,14 @@ angular
     .module('app', [services, uiRouter, common, components])
     .config(uiRouting)
     .run(transitionRunnner)
+    .controller('headCtrl', ($window, $rootScope, $state, $trace, $transitions, I18N) => {
+        'ngInject';
+
+        console.log("SEO CONTROLADOR");
+        $transitions.onStart({},function(transition){
+            console.log(`${transition.to().name}${I18N.val}`);
+        });
+    })
     .constant('API', 'http://api.express-jenniercruz.c9users.io')
     .component('rootComponent', rootComponent)
     .constant('I18N', {
