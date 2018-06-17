@@ -13,22 +13,17 @@ import rootComponent from './components/rootComponent/root.component';
 import common from './components/commonComponent/common.module';
 import components from './components/components.module';
 
+import HeadCtrl from './controllers/head.controller';
+
 angular
     .module('app', [services, uiRouter, common, components])
     .config(uiRouting)
     .run(transitionRunnner)
-    .controller('headCtrl', ($window, $rootScope, $state, $trace, $transitions, I18N) => {
-        'ngInject';
-
-        console.log("SEO CONTROLADOR");
-        $transitions.onStart({},function(transition){
-            console.log(`${transition.to().name}${I18N.val}`);
-        });
-    })
+    .controller('headCtrl', HeadCtrl)
     .constant('API', 'http://api.express-jenniercruz.c9users.io')
     .component('rootComponent', rootComponent)
     .constant('I18N', {
-        val: undefined,
+        val: 'ESP',
         setLang: function(value) { return this.val = value }
     })
     .name;

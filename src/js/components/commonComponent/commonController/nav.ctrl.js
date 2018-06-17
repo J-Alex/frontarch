@@ -1,8 +1,9 @@
 class NavCtrl {
 
-    constructor($window, $document, $rootScope, $scope, I18N){
+    constructor($window, $document, $rootScope, $scope, $transitions, I18N){
         'ngInject';
-
+        
+        this.$transitions = $transitions;
         this.$window = $window;
         this.$document = $document;
         this.$scope = $scope;
@@ -25,9 +26,20 @@ class NavCtrl {
         }
         
         this.LANG;
+
+        this.location = '';
     }
 
     $onInit(){
+        this.$transitions.onSuccess({}, (transition) => {
+            //console.log(this.$scope)
+            if(transition.params().servicio) { this.location = transition.params().servicio; }
+            else { this.location = transition.to().name }
+            //console.log('cambiando..')
+            //console.log(this.location);
+            //console.log(transition.params().servicio);
+        });
+        
         if(this.I18N.val === "ESP") { this.LANG = this.ESP; }
         if(this.I18N.val === "ENG") { this.LANG = this.ENG; }
     }
@@ -41,17 +53,6 @@ class NavCtrl {
         this.$rootScope.$broadcast('changeLang', language);
 
     }
-    /*langToEng(){
-        this.LANG = this.ENG;
-        this.I18N.setLang('ENG')
-        this.$rootScope.$broadcast('ENG');
-    }
-    langToEsp(){
-        this.LANG = this.ESP;
-        this.I18N.setLang('ESP')
-        this.$rootScope.$broadcast('ESP');
-    }*/
-
     closeMenu(){
         this.$document.find('.menu-wrapper').toggleClass('menu-wrapper--white');
         this.$document.find('.hamburger').toggleClass('togle');

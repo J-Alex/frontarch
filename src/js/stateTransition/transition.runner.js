@@ -1,9 +1,9 @@
 const transitionRunner = ($window, $rootScope, $state, $trace, I18N) => {
     'ngInject';
     
-    /*$trace.enable('TRANSITION');
+    //$trace.enable('TRANSITION');
     
-    $rootScope.$on('$stateChangeStart', (evt, toState, toParams, fromState, fromParams) => {
+    /*$rootScope.$on('$stateChangeStart', (evt, toState, toParams, fromState, fromParams) => {
         console.log("$stateChangeStart " + fromState.name + JSON.stringify(fromParams) + " -> " + toState.name + JSON.stringify(toParams));
     });
     $rootScope.$on('$stateChangeSuccess', () => {
