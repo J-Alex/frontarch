@@ -28,7 +28,7 @@ const uiRouting = ($stateProvider,  $urlRouterProvider, $locationProvider) => {
             resolve: {
                 servicio: function(servicioService,$transition$,$stateParams) {
                     'ngInject'
-                    return servicioService.obtenerServicio($transition$.params().servicio) 
+                    return servicioService.obtenerServicio($transition$.params().servicio);
                 }
             }
         })
