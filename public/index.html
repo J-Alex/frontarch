@@ -5,13 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title> BigBang Studio </title>
-     <link rel="shortcut icon" href="res/img/icon.png" type="image/x-icon">
+    <meta property="url" href="http://bigbang.studio"/>
+    <link rel="shortcut icon" href="res/img/icon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="res/js/styles.min.css" />
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 </head>
 <body>
-    <root-component></root-component>
+    <root-component  itemscope itemtype="http://schema.org/Organization"></root-component>
     <script type="text/javascript" src="res/js/script.min.js"></script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "http://bigbang.studio",
+            "name": "BigBang Studio",
+            "logo": "http://bigbang.studio/res/img/logo.png",
+            "description": "En BigBang Studio utilizamos estrategias para alcanzar objetivos con Marketing Digital, Diseño gráfico y Diseño web. Alcanza tus metas con nosotros",
+            "telephone": "+505 8853 9870",
+            "address" :{
+                "@type": "PostalAddress",
+                "streetAddress": "Semáforo viejo 1 1/2 cuadras al norte. Estelí, Nicaragua. ",
+                "addressLocality": "Estelí",
+                "addressRegion": "Nicaragua",
+                "postalCode": "31000",
+                "addressCountry": "NI"
+            }
+        }
+    </script>
 </body>
 </html>

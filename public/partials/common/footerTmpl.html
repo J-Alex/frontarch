@@ -1,8 +1,8 @@
 <div class="hablemos">
     <div class="hablemos_contenido">
-        <h1 class="hablemos_title">
+        <h3 class="hablemos_title">
             {{ footer.LANG.maintitle }}
-        </h1>
+        </h3>
     </div>
 
     <div class="hablemos_contenido">
@@ -20,26 +20,27 @@
         </div>
 
         <div class="footer_contacto">
+            <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
             <p>
-                {{ footer.LANG.direccion }} <br>
-                {{ footer.LANG.correo }} <br>
-                {{ footer.LANG.telefono }}
+                <span itemprop="addressLocality">{{ footer.LANG.direccion }}</span> <br>
+                <span itemprop="email">{{ footer.LANG.correo }}</span> <br>
+                <span itemprop="telephone">{{ footer.LANG.telefono }}</span>
             </p>
         </div>
 
         <div class="footer_social">
-            <a class="btn-social" href="https://www.facebook.com/bigbangnica" target="_black"><i class="fab fa-facebook-f icon-social icoface"></i></a>
-            <a class="btn-social" href="" target="_black"><i class="fab fa-twitter icon-social icotwitter"></i></a>
-            <a class="btn-social" href="https://www.instagram.com/bigbangnica/" target="_black"><i class="fab fa-instagram icon-social icoinsta"></i></a>
-            <a class="btn-social" href="https://www.behance.net/bigbangnica" target="_black"><i class="fab fa-behance icon-social icobehance"></i></a>
-            <a class="btn-social" href="" target="_black"><i class="fab fa-linkedin-in icon-social icolinkedin"></i></a>
+            <a class="btn-social" itemprop="sameAs" href="https://www.facebook.com/bigbangnica" target="_black"><i class="fab fa-facebook-f icon-social icoface"></i></a>
+            <a class="btn-social" itemprop="sameAs" href="" target="_black"><i class="fab fa-twitter icon-social icotwitter"></i></a>
+            <a class="btn-social" itemprop="sameAs" href="https://www.instagram.com/bigbangnica/" target="_black"><i class="fab fa-instagram icon-social icoinsta"></i></a>
+            <a class="btn-social" itemprop="sameAs" href="https://www.behance.net/bigbangnica" target="_black"><i class="fab fa-behance icon-social icobehance"></i></a>
+            <a class="btn-social" itemprop="sameAs" href="" target="_black"><i class="fab fa-linkedin-in icon-social icolinkedin"></i></a>
         </div>
 
         <div class="footer_copyright">
             <p class="footer_copyright_text">
-                <span class="far fa-copyright"></span> 2018 BIGBANG STUDIO. {{ footer.LANG.copy }}
+                <span class="far fa-copyright"></span> 2018 <span itemprop="name">BIGBANG STUDIO</span>. {{ footer.LANG.copy }}
             </p>
         </div>
-
+        
     </div>
 </footer>

@@ -4,7 +4,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #323232;
 }
-
+.h1-responsive{
+    font-size: 2em;
+}
 .row {
     padding: 1.5em 1em;
 }
@@ -83,7 +85,6 @@ body{
     float: right;
     position: absolute;
     animation: mover_dirigible 10s ease-in-out infinite;
-
 }
 
 @keyframes mover_dirigible {
@@ -108,7 +109,6 @@ body{
     margin-top: 6rem;
     position: absolute;
     animation: mover_red-dot 10s ease-in-out infinite;
-
 }
 .slogan_text {
     font-weight: 800;
@@ -200,7 +200,6 @@ body{
     justify-content: space-around;
     align-items:  center;
     margin-bottom: 1rem;
-
 }
 .actividades{
     text-align: center;
@@ -264,7 +263,6 @@ body{
         font-size: 1.2em;
     }
 }
-
 
 .clientes_maintitle{
     text-align: center;
