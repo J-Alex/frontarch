@@ -3,7 +3,7 @@
     //padding: .5rem 1rem;
     position: absolute;
     // padding-left: 0rem;
-    margin-left: 2.9rem;
+    margin-left: 4rem;
 }  
 .ocultar-logo{
     display: none;
@@ -980,6 +980,13 @@ button.closemodal-perfil {
     .integrante-equipo {
         width: 315px;
         margin: 1.3rem auto;
+    }
+
+    .integrante-equipo:hover{
+        .integrante_text-caption {
+            padding: 19.5rem 0rem;
+        }
+        
     }
 
     //modal perfil
