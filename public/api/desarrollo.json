@@ -7,14 +7,14 @@
     "servicios":[
         {
             "titulo":"Sitios web",
-            "descripcion":"Llegá a nuevos clientes en el mundo digital, nos encargamos que los que buscan, te encuentren.",
-            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "descripcion":"Tu web es tu nueva tarjeta de presentación por tanto nos comprometemos a que no pase desapercibida",
+            "descripcion2": ", conecte con la gente y la involucre directamente con tu marca.",
             "imagen": "img-sitioweb"
         },
         {
             "titulo":"Apps moviles",
-            "descripcion":"Nos encargamos de mostrar tu negocio en el mundo digital, que esté bien posicionado en google",
-            "descripcion2": ", utilizando alto estándares de calidad y con tecnología y normas actuales.",
+            "descripcion":"Nos encargamos de transformar tu idea a soluciones creativas, dando vida a poderosas aplicaciones",
+            "descripcion2": " pensadas para brindar una maravillosa experiencia interactiva al usuario.",
             "imagen": "img-aplicaciones"
         }
     ]

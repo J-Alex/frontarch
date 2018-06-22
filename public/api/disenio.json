@@ -7,20 +7,20 @@
     "servicios":[
         {
             "titulo":"Branding",
-            "descripcion":"Diseñamos la imagen corporativa que necesitas: logotipo, papelería, indumentaria, cartelería, entre otros.)",
-            "descripcion2": ", así como el refrescamiento de tu marca actual y el manejo gráfico de tus productos.",
+            "descripcion":"La atención al detalle y la implementación de estrategias nos permite crear marcas con verdadera personalidad y alto valor",
+            "descripcion2": "alcanzado un alto nivel estético y completa funcionalidad.",
             "imagen": "img-branding"
         },
         {
             "titulo":"Diseño publicitario",
-            "descripcion":"Vendé de formas no tradicionales, diseñamos campañas publicitarias que comuniquen los valores e ideas de tu empresa",
-            "descripcion2": ", le damos voz a tus productos. Trabajamos artes de cartelería, banners, flyers, entre otros.",
+            "descripcion":"¿No estás cansado de “más de lo mismo”? Fusionamos creatividad y estrategia en cada pieza publicitaria",
+            "descripcion2": ", así logramos la diferenciación y las ventajas competitivas de tu marca.",
             "imagen": "img-publicitario"
         },
         {
             "titulo":"Diseño Editorial",
-            "descripcion":"Contamos tus historias, le damos vida a tus textos. Los proyectos escritos deben comunicar eficientemente sus ideas",
-            "descripcion2": ", para ello trabajamos: diseño y diagramación de publicaciones, ilustración e infografía, y gestión de proyectos editoriales en formato impreso y digital (E-book).",
+            "descripcion":"La letras cobran vida cuando están bien diseñadas, por eso nuestros proyectos escritos se vuelven toda una experiencia",
+            "descripcion2": " para quien los lee ya sea en formatos impresos o digitales.",
             "imagen": "img-editorial"
         }
     ]

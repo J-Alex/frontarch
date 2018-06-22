@@ -504,6 +504,9 @@ input[type="radio"]:checked + label{
     .servicio__bg-img {
         width: 320px;
     }
+    .modal-header .close {
+        padding: .6rem .5rem;
+    }
     .modal-content {
         width: 95%;
     }
@@ -515,10 +518,18 @@ input[type="radio"]:checked + label{
         width: 32px;
     }
     .modal-form {
-        width: 80%;
+        width: 100%;
         padding: 0; 
     }
 
+    .modal-body {
+        max-height: calc(100% - 135px);
+        overflow-y: scroll;
+    }
+    .modal-footer {
+        margin-bottom: 20px;
+        width: 100%;
+    }
     .modal-form .form-group:nth-child(2), 
     .modal-form .form-group:nth-child(3) {
         width: 100%;
@@ -544,9 +555,10 @@ input[type="radio"]:checked + label{
     .modal-form .center-align{
         flex-wrap: wrap;
         width: 240px;
+        margin-left: 0.5rem;
     }
     .modal-content {
-        width: 90%;
+        width: 95%;
     }
     .modal-dialog,
     .modal-content {
@@ -560,6 +572,3 @@ input[type="radio"]:checked + label{
     }
 }
 
-.figure_services_content:nth-child(even) .services_text_content {
-    float: right;
-}

@@ -982,11 +982,18 @@ button.closemodal-perfil {
         margin: 1.3rem auto;
     }
 
-    .integrante-equipo:hover{
+    .integrante-equipo:hover, .integrante-equipo:focus{ 
         .integrante_text-caption {
-            padding: 19.5rem 0rem;
-        }
-        
+            padding: 20rem 0rem;
+
+            .content-info-equipo{
+                margin-top: 0rem;
+            }
+            .integrante-txt{  
+                display: none;
+            }   
+        } 
+    
     }
 
     //modal perfil
