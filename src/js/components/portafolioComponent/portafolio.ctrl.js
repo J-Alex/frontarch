@@ -126,14 +126,14 @@ class portafolioCtrl {
                     imagen: "res/img/recursos/Bourbon.jpg",
                     empresa: "Bourbon Café",
                     servicio: "Social media",
-                    brevedescripcion: "Ubicada en Tapachula, Chiapas. Lindo Cruz es un contructora con una visión muy clara de innovación y calidad."
+                    brevedescripcion: "La atención al detalle nos ha permitido posicionar en el mundo digital a Bourbon como lo que es: calidad, pasión y estilo."
                 },
                 cprocura:{
                     tipo: "marketing",
                     imagen: "res/img/recursos/clínicaprocura.jpg",
                     empresa: "Clínica Procura",
                     servicio: "Social media",
-                    brevedescripcion: "Ubicada en Tapachula, Chiapas. Lindo Cruz es un contructora con una visión muy clara de innovación y calidad."
+                    brevedescripcion: "Procurar que los pacientes se preocupen por su salud es el principal objetivo de esta clínica y el nuestro como sus aliados."
                 }                  
             }
         }

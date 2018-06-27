@@ -18,7 +18,7 @@ class FooterCtrl {
             frase: "Hecho en Nicaragua con gallo pinto y pinol."
         }
         this.ENG = {
-            maintitle: "Your project begin here",
+            maintitle: "Your project begins here",
             boton: "¡Lets talk!",
             direccion: "Visit us semaforo viejo 1 and a half block norht, Estelí, Nicaragua.",
             correo: "contacto@bigbangnica.studio ",

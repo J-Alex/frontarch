@@ -12,27 +12,27 @@ class culturaCtrl {
             valores: {
                 innovacion:{
                     titulo: 'Innovación',
-                    parrafo: 'Siempre pensar fuera de la caja.'
+                    parrafo: 'Siempre pensamos fuera de la caja.'
                 },
                 calidad:{
                     titulo: 'Calidad',
-                    parrafo: 'Hacer lo mejor posible en cada trabajo y el trabajo hablara por vos.'
+                    parrafo: 'Hacemos lo mejor posible en cada trabajo para que el trabaja hable por nosotros.'
                 },
                 pasion:{
                     titulo: 'Pasión',
-                    parrafo: 'Es necesario realmente amar lo que se hace, o las cosas no van a funcionar.'
+                    parrafo: 'Al amar lo que hacemos, hacemos que las cosas funcionen.'
                 },
                 aprendizaje:{
                     titulo: 'Aprendizaje',
-                    parrafo: 'Siempre aprendiendo nuevas cosas, no tenemos todas las respuestas, por eso es que seguimos estudiando.'
+                    parrafo: 'Siempre estamos aprendiendo cosas nuevas. Cuando no hemos tenido una respuesta, hemos aprendido a buscarla.'
                 },
                 cliente:{
                     titulo: 'Cliente céntrico',
-                    parrafo: 'Conocer las necesidades de tus clientes, y tratar de suplirlas.'
+                    parrafo: 'Nos interesamos por las necesidades de los clientes y nos esforzamos por suplirlas.'
                 },
                 profesionalismo:{
                     titulo: 'Profesionalismo',
-                    parrafo: ' pesar de contar con un equipo joven, contamos con expertos en las distintas áreas y con gran responsabilidad.'
+                    parrafo: 'Somos jóvenes profesionales, expertos en distintas áreas y con gran responsabilidad.'
                 }
             },
             idealesmaintitle:{

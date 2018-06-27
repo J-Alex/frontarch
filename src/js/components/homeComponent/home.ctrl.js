@@ -13,11 +13,11 @@ class HomeCtrl {
 
         this.cuentador = true;
         this.contadorTotal = {
-            cafe: 100,
-            fifa: 200,
-            chistes: 560,
+            cafe: 700,
+            fifa: 260,
+            chistes: 563,
             clientes: 35,
-            proyectos: 40
+            proyectos: 48
         }
         this.contador = {
             cafe: 0,
@@ -98,8 +98,8 @@ class HomeCtrl {
             },
             title2:{
                 parte1:"We believe in",
-                parte2:"the innovation",
-                parte3:"as foundation to growth and development...",
+                parte2:"innovation",
+                parte3:"as the foundation to growth and development...",
                 pregunta:"Do you want to know about us?"
             },
             ideales:{
@@ -133,13 +133,13 @@ class HomeCtrl {
                 proyectos2: "projects",
             },
             nosotros:{
-                tparte1: "OUR",
-                tparte2: "ENGINE",
-                tparte3: "is to",
-                tparte4: "BE THE",
+                tparte1: "WE",
+                tparte2: "AIM",
+                tparte3: "to be",
+                tparte4: "THE",
                 tparte5: "change",
-                parrafo1: "We integrate creativity, technology and strategy with the aim to make brands, business and people grow",
-                parrafo2: "We transform dreams, projects, aims and goals into digital experiences for an universe in continuous expansion"
+                parrafo1: "We integrate creativity, technology and strategy with the goal of making brands, business and people grow",
+                parrafo2: "We transform dreams, projects, aims and goals into digital experiences for a universe in continuous expansion"
             },
             clientestitle: "OUR CLIENTS"
         }
