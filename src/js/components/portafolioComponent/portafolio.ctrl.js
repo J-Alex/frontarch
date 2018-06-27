@@ -120,6 +120,20 @@ class portafolioCtrl {
                     empresa: "Lindo Cruz",
                     servicio: "Imagen de marca",
                     brevedescripcion: "Ubicada en Tapachula, Chiapas. Lindo Cruz es un contructora con una visión muy clara de innovación y calidad."
+                },
+                BourbonCafe:{
+                    tipo: "marketing",
+                    imagen: "res/img/recursos/Bourbon.jpg",
+                    empresa: "Bourbon Café",
+                    servicio: "Social media",
+                    brevedescripcion: "Ubicada en Tapachula, Chiapas. Lindo Cruz es un contructora con una visión muy clara de innovación y calidad."
+                },
+                cprocura:{
+                    tipo: "marketing",
+                    imagen: "res/img/recursos/clínicaprocura.jpg",
+                    empresa: "Clínica Procura",
+                    servicio: "Social media",
+                    brevedescripcion: "Ubicada en Tapachula, Chiapas. Lindo Cruz es un contructora con una visión muy clara de innovación y calidad."
                 }                  
             }
         }
@@ -235,7 +249,21 @@ class portafolioCtrl {
                     empresa: "Lindo Cruz",
                     servicio: "Branding",
                     brevedescripcion: "Located in Tapachula, Chiapas. Lindo Cruz its a Construction company with a very clear innovation and quality vision."
-                }      
+                },
+                BourbonCafe:{
+                    tipo: "marketing",
+                    imagen: "res/img/recursos/Bourbon.jpg",
+                    empresa: "Bourbon Café",
+                    servicio: "Social media",
+                    brevedescripcion: "Ubicada en Tapachula, Chiapas. Lindo Cruz es un contructora con una visión muy clara de innovación y calidad."
+                },
+                cprocura:{
+                    tipo: "marketing",
+                    imagen: "res/img/recursos/clínicaprocura.jpg",
+                    empresa: "Clínica Procura",
+                    servicio: "Social media",
+                    brevedescripcion: "Ubicada en Tapachula, Chiapas. Lindo Cruz es un contructora con una visión muy clara de innovación y calidad."
+                }         
             }
 
         }
