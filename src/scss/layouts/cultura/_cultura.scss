@@ -1,12 +1,13 @@
 //cambios de menu
-.header-cultura {
+ /*.header-cultura {
     position: absolute;
     // padding-left: 0rem;
     //margin-left: 1.5rem;
     .header-row{
         width: 1265px!important;
     }
-}  
+}  */
+
 .ocultar-logo{
     display: none;
 }
@@ -23,8 +24,8 @@
     display: inline;
     width: 130px;
     margin-top: -1rem;
-    margin-left: 4rem;
-}
+    //margin-left: 4rem;
+} 
 //Cultura
 .row-cultura{
     padding: 0.5em 1em;
@@ -43,7 +44,7 @@
     justify-content: center;
     margin-left: -1.7rem;
     margin-right: -1.6rem;
-    margin-top: -1rem;    
+    margin-top: -9rem;  
     padding: 3rem;
 }
 

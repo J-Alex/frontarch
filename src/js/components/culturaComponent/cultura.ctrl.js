@@ -146,7 +146,7 @@ class culturaCtrl {
 
         this.$document.find('.header').toggleClass('header-cultura');
         this.$document.find('.header__logo').toggleClass('ocultar-logo');
-        this.$document.find('.header-logo').toggleClass('logo-cultura');
+        this.$document.find('.header-logo').toggleClass('logo-cultura'); 
     }
 
     abrirModal(integrante, ev){
