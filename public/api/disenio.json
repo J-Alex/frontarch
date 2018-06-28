@@ -23,6 +23,18 @@
             "descripcion2": " para quien los lee ya sea en formatos impresos o digitales.",
             "imagen": "img-editorial"
         }
+    ],
+    "enlaces":[
+        {
+            "ruta": "servicio({servicio:'desarrollo'})",
+            "descripcion": "Desarrollo web",
+            "clase": "img-enlace-de"
+        },
+        {
+            "ruta": "servicio({servicio:'marketing'})",
+            "descripcion": "Marketing",
+            "clase": "img-enlace-ma"
+        }
     ]
 
 }

@@ -1,7 +1,7 @@
 {
     "maintitle":"Marketing",
     "maintitle2":"digital",
-    "maindescription": "Descubre planes y objetivos diseñados para fortalecer el vínculo entre el usuario y tu marca.",
+    "maindescription": "Establecer relaciones de valor entre el cliente y tu marca es vital para el éxito empresarial.",
     "mainimagen": "res/img/recursos/Marketing.png",
 
     "servicios":[
@@ -16,6 +16,18 @@
             "descripcion":"Google puede mostrar tu marca como “la solución” cuando tu clientes potenciales están en búsqueda de una",
             "descripcion2":", podemos brindarte el correcto asesoramiento para hacerlo efectivamente.",
             "imagen": "img-publicidad-google"
+        }
+    ],
+    "enlaces":[
+        {
+            "ruta": "servicio({servicio:'desarrollo'})",
+            "descripcion": "Desarrollo web",
+            "clase": "img-enlace-de"
+        },
+        {
+            "ruta": "servicio({servicio:'disenio'})",
+            "descripcion": "Diseño gráfico",
+            "clase": "img-enlace-di"
         }
     ]
 }

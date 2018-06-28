@@ -1,7 +1,7 @@
 {
     "maintitle":"Desarrollo",
     "maintitle2":"web",
-    "maindescription": "Diseñamos para triunfar, para que se vea bien y que funcione.",
+    "maindescription": "Diseñamos para triunfar, para que se vea y funcione bien. Creemos que comunicando tus ideas llegarás al éxito.",
     "mainimagen": "res/img/recursos/Desarrollo.png",
 
     "servicios":[
@@ -17,6 +17,19 @@
             "descripcion2": " pensadas para brindar una maravillosa experiencia interactiva al usuario.",
             "imagen": "img-aplicaciones"
         }
+    ],
+    "enlaces":[
+        {
+            "ruta": "servicio({servicio:'disenio'})",
+            "descripcion": "Diseño gráfico",
+            "clase": "img-enlace-di"
+        },
+        {
+            "ruta": "servicio({servicio:'marketing'})",
+            "descripcion": "Marketing",
+            "clase": "img-enlace-ma"
+        }
     ]
+
 
 }

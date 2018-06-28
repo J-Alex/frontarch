@@ -36,6 +36,18 @@
 </div>
 <!--Fín de seccion del contenido-->
 
+<!--Inicio de seccion del enlaces-->
+<div class="enlaces">
+
+    <a href="" data-ui-sref="{{ enlace.ruta }}" data-ng-repeat="enlace in servicio.servicio.enlaces">
+        <figure class="enlace {{ enlace.clase }}">
+            {{ enlace.descripcion }}
+        </figure>
+    </a>
+
+</div>
+<!--Fín de seccion del enlaces-->
+
 
 <!--Modal-->
 <div id="Modalservice" class="modal" tabindex="-1" role="dialog">

@@ -69,27 +69,27 @@ class culturaCtrl {
             valores: {
                 innovacion:{
                     titulo: 'Innovation',
-                    parrafo: 'think always outside the box.'
+                    parrafo: 'We always think outside the box.'
                 },
                 calidad:{
                     titulo: ' Quality',
-                    parrafo: 'Do the best in every job and your job will speak for you.'
+                    parrafo: 'We do our best in every job and the job will speak for us.'
                 },
                 pasion:{
                     titulo: 'Passion',
-                    parrafo: 'You need to really love what are you doing, or things are not going to work.'
+                    parrafo: 'Really loving what we do, we make the things work.'
                 },
                 aprendizaje:{
                     titulo: 'Continuous Learning',
-                    parrafo: 'Always keep learning new stuffs, we don’t have all the answers, that’s why we have to keep studying.'
+                    parrafo: 'Always keep learning new stuffs, when we haven’t had an answer, we have learned to look for it.'
                 },
                 cliente:{
                     titulo: 'Client-centric',
-                    parrafo: 'Know what our customers need, and try to fulfill it.'
+                    parrafo: 'We care for what our customers need, and try to fulfill it.'
                 },
                 profesionalismo:{
                     titulo: 'Professionalism',
-                    parrafo: 'Despite that we have a young team, we have experts in the different areas and with great responsibility.'
+                    parrafo: 'We are a professional young team, we are experts in different areas and with great responsibility.'
                 }
             },
             idealesmaintitle:{

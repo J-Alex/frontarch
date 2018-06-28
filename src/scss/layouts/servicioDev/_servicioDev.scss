@@ -89,7 +89,7 @@
     font-size: 2.5em;
     font-weight: 800;
     width: 230px;
-    margin-top: .8rem;
+    margin-top: 2.5rem;
 }
 .btn {
     background-color: #E13639;
@@ -327,7 +327,8 @@
 
         p{
             margin-left: 3.7rem;
-            width: 205px;           
+            width: 205px; 
+            font-weight: 500;          
         }
     }
 
@@ -403,4 +404,37 @@
         width: 40%;
     }
 
+}
+
+.enlaces{
+    display: flex;
+
+    a{
+        width: 50%;
+    }
+}
+
+.enlace{
+    text-align: center;
+    padding: 6rem 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #fff;
+}
+
+.img-enlace-di{
+    background-image: url(../../res/img/recursos/web-mobil.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-enlace-ma{
+    background-image: url(../../res/img/recursos/web-mobil.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img-enlace-de{
+    background-image: url(../../res/img/recursos/web-mobil.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
