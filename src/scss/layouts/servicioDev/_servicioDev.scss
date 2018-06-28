@@ -420,21 +420,18 @@
     font-size: 1.5em;
     font-weight: 600;
     color: #fff;
+    background-color: rgba(0,0,0,0.3);
 }
 
-.img-enlace-di{
-    background-image: url(../../res/img/recursos/web-mobil.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+.enlace__bg-img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    transition: .3s ease all;
+    display: block;
+    height: 223px;
 }
 
-.img-enlace-ma{
-    background-image: url(../../res/img/recursos/web-mobil.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.img-enlace-de{
-    background-image: url(../../res/img/recursos/web-mobil.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+.enlace:hover,.enlace:focus{
+    background-color: rgba(0,0,0,0.6);
 }

@@ -28,12 +28,14 @@
         {
             "ruta": "servicio({servicio:'desarrollo'})",
             "descripcion": "Web development",
-            "clase": "img-enlace-de"
+            "clase": "img-enlace-de",
+            "imagen": "res/img/recursos/web-mobil.jpg"
         },
         {
             "ruta": "servicio({servicio:'marketing'})",
             "descripcion": "Marketing",
-            "clase": "img-enlace-ma"
+            "clase": "img-enlace-ma",
+            "imagen": "res/img/recursos/web-mobil.jpg"
         }
     ]
 

@@ -22,12 +22,14 @@
         {
             "ruta": "servicio({servicio:'disenio'})",
             "descripcion": "Diseño gráfico",
-            "clase": "img-enlace-di"
+            "clase": "img-enlace-di",
+            "imagen": "res/img/recursos/web-mobil.jpg"
         },
         {
             "ruta": "servicio({servicio:'marketing'})",
             "descripcion": "Marketing",
-            "clase": "img-enlace-ma"
+            "clase": "img-enlace-ma",
+            "imagen": "res/img/recursos/web-mobil.jpg"
         }
     ]
 
