@@ -23,13 +23,13 @@
             "ruta": "servicio({servicio:'desarrollo'})",
             "descripcion": "Web development",
             "clase": "img-enlace-de",
-            "imagen": "res/img/recursos/web-mobil.jpg"
+            "imagen": "res/img/recursos/enlace-dev.jpg"
         },
         {
             "ruta": "servicio({servicio:'disenio'})",
             "descripcion": "Graphic design",
             "clase": "img-enlace-di",
-            "imagen": "res/img/recursos/web-mobil.jpg"
+            "imagen": "res/img/recursos/enlace-di.jpg"
         }
     ]
 }

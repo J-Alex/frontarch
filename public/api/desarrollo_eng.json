@@ -23,13 +23,13 @@
             "ruta": "servicio({servicio:'disenio'})",
             "descripcion": "Graphic design",
             "clase": "img-enlace-di",
-            "imagen": "res/img/recursos/web-mobil.jpg"
+            "imagen": "res/img/recursos/enlace-di.jpg"
         },
         {
             "ruta": "servicio({servicio:'marketing'})",
             "descripcion": "Marketing",
             "clase": "img-enlace-ma",
-            "imagen": "res/img/recursos/web-mobil.jpg"
+            "imagen": "res/img/recursos/enlace-mar.jpg"
         }
     ]
 
