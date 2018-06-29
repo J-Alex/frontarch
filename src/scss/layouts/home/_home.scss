@@ -4,7 +4,9 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: #323232;
 }
-
+.h1-responsive{
+    font-size: 2em;
+}
 .row {
     padding: 1.5em 1em;
 }
@@ -83,7 +85,6 @@ body{
     float: right;
     position: absolute;
     animation: mover_dirigible 10s ease-in-out infinite;
-
 }
 
 @keyframes mover_dirigible {
@@ -108,13 +109,13 @@ body{
     margin-top: 6rem;
     position: absolute;
     animation: mover_red-dot 10s ease-in-out infinite;
-
 }
 .slogan_text {
     font-weight: 800;
     font-size:  1.5em;
     margin-top: 9rem;
 }
+
 .slogan_link {
     font-weight: 700;
     //text-decoration: underline;
@@ -146,6 +147,7 @@ body{
     font-size: 14px;
     font-weight: 500;
     width: 295px;
+    margin: 0 auto;
 }
 .ideales_maintitle{
     text-align: center;
@@ -200,7 +202,6 @@ body{
     justify-content: space-around;
     align-items:  center;
     margin-bottom: 1rem;
-
 }
 .actividades{
     text-align: center;
@@ -215,6 +216,9 @@ body{
     font-size: .8em;
     text-align: center;
     text-transform: uppercase;
+    .mas{
+        font-size: 2.4em!important;
+    }
 }
 
 .cantidad{
@@ -238,18 +242,18 @@ body{
     color: #fff;
     margin-left: 5rem;
     width: 523px;
-    height: 362px;
+    height: 376px;
 }
 .pasionTitle{
     font-weight: 900;
-    font-size: 5.8em;
+    font-size: 6em;
     text-transform: uppercase;
     line-height: .8;
     margin-top: -.13em;
 }
 .pasionRed{
     background-color: #E13639;
-    padding: 3rem 0px;
+    padding: 3.7rem 0px;
     width: 50%; 
 }
 
@@ -258,13 +262,13 @@ body{
     margin-left: -2.5rem;
     padding: 2rem 0rem;
     padding-left: 6rem;
-    width: 640px;
+    width: 655px;
     p{
         color: #f2f2f2;
         font-size: 1.2em;
+        width: 530px;
     }
 }
-
 
 .clientes_maintitle{
     text-align: center;
@@ -417,6 +421,9 @@ body{
     }
 }
 @media screen and (max-width: 1024px){
+    .idiomas {
+        color: #fff;
+    }
     .contentPasionTex {
         margin-left: -1.9rem;
         padding-left: 4rem;
@@ -433,6 +440,9 @@ body{
 
 
 @media screen and (max-width: 768px){
+    .idiomas {
+        color: #fff;
+    }
     .aporte{
         width: 32.6%;
         padding: 2px 20px;
@@ -688,6 +698,7 @@ body{
         p{
             color: #f2f2f2;
             font-size: .8em;
+            width: 280px;
         }
     }
 }

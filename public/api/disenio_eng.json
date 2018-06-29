@@ -7,21 +7,35 @@
     "servicios":[
         {
             "titulo":"Branding",
-            "descripcion":"Llegá a nuevos clientes en el mundo digital, nos encargamos que los que buscan, te encuentren.",
-            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "descripcion":"The attention to every detail and the implementation of strategies allow us to create brands with personality",
+            "descripcion2": "reached a high aesthetic level, originality and complete functionality.",
             "imagen": "img-branding"
         },
         {
             "titulo":"Diseño publicitario",
-            "descripcion":"Llegá a nuevos clientes en el mundo digital, nos encargamos que los que buscan, te encuentren.",
-            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "descripcion":"Are you tired of “more of the same”? We merge creativity and strategy in each advertising piece",
+            "descripcion2": ", thus we achieve the differentiation and competitive advantages of your brand.",
             "imagen": "img-publicitario"
         },
         {
             "titulo":"Diseño Editorial",
-            "descripcion":"Llegá a nuevos clientes en el mundo digital, nos encargamos que los que buscan, te encuentren.",
-            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "descripcion":"Lyrics come alive when it are very well designed, that's why our written projects become an experience",
+            "descripcion2": " for those who read them either in printed or digital formats.",
             "imagen": "img-editorial"
+        }
+    ],
+    "enlaces":[
+        {
+            "ruta": "servicio({servicio:'desarrollo'})",
+            "descripcion": "Web development",
+            "clase": "img-enlace-de",
+            "imagen": "res/img/recursos/enlace-dev.jpg"
+        },
+        {
+            "ruta": "servicio({servicio:'marketing'})",
+            "descripcion": "Marketing",
+            "clase": "img-enlace-ma",
+            "imagen": "res/img/recursos/enlace-mar.jpg"
         }
     ]
 

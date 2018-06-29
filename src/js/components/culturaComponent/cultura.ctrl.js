@@ -12,27 +12,27 @@ class culturaCtrl {
             valores: {
                 innovacion:{
                     titulo: 'Innovación',
-                    parrafo: 'Siempre pensar fuera de la caja.'
+                    parrafo: 'Siempre pensamos fuera de la caja.'
                 },
                 calidad:{
                     titulo: 'Calidad',
-                    parrafo: 'Hacer lo mejor posible en cada trabajo y el trabajo hablara por vos.'
+                    parrafo: 'Hacemos lo mejor posible en cada trabajo para que el trabaja hable por nosotros.'
                 },
                 pasion:{
                     titulo: 'Pasión',
-                    parrafo: 'Es necesario realmente amar lo que se hace, o las cosas no van a funcionar.'
+                    parrafo: 'Al amar lo que hacemos, hacemos que las cosas funcionen.'
                 },
                 aprendizaje:{
                     titulo: 'Aprendizaje',
-                    parrafo: 'Siempre aprendiendo nuevas cosas, no tenemos todas las respuestas, por eso es que seguimos estudiando.'
+                    parrafo: 'Siempre estamos aprendiendo cosas nuevas. Cuando no hemos tenido una respuesta, hemos aprendido a buscarla.'
                 },
                 cliente:{
                     titulo: 'Cliente céntrico',
-                    parrafo: 'Conocer las necesidades de tus clientes, y tratar de suplirlas.'
+                    parrafo: 'Nos interesamos por las necesidades de los clientes y nos esforzamos por suplirlas.'
                 },
                 profesionalismo:{
                     titulo: 'Profesionalismo',
-                    parrafo: ' pesar de contar con un equipo joven, contamos con expertos en las distintas áreas y con gran responsabilidad.'
+                    parrafo: 'Somos jóvenes profesionales, expertos en distintas áreas y con gran responsabilidad.'
                 }
             },
             idealesmaintitle:{
@@ -69,27 +69,27 @@ class culturaCtrl {
             valores: {
                 innovacion:{
                     titulo: 'Innovation',
-                    parrafo: 'think always outside the box.'
+                    parrafo: 'We always think outside the box.'
                 },
                 calidad:{
                     titulo: ' Quality',
-                    parrafo: 'Do the best in every job and your job will speak for you.'
+                    parrafo: 'We do our best in every job and the job will speak for us.'
                 },
                 pasion:{
                     titulo: 'Passion',
-                    parrafo: 'You need to really love what are you doing, or things are not going to work.'
+                    parrafo: 'Really loving what we do, we make the things work.'
                 },
                 aprendizaje:{
                     titulo: 'Continuous Learning',
-                    parrafo: 'Always keep learning new stuffs, we don’t have all the answers, that’s why we have to keep studying.'
+                    parrafo: 'Always keep learning new stuffs, when we haven’t had an answer, we have learned to look for it.'
                 },
                 cliente:{
                     titulo: 'Client-centric',
-                    parrafo: 'Know what our customers need, and try to fulfill it.'
+                    parrafo: 'We care for what our customers need, and try to fulfill it.'
                 },
                 profesionalismo:{
                     titulo: 'Professionalism',
-                    parrafo: 'Despite that we have a young team, we have experts in the different areas and with great responsibility.'
+                    parrafo: 'We are a professional young team, we are experts in different areas and with great responsibility.'
                 }
             },
             idealesmaintitle:{
@@ -146,7 +146,7 @@ class culturaCtrl {
 
         this.$document.find('.header').toggleClass('header-cultura');
         this.$document.find('.header__logo').toggleClass('ocultar-logo');
-        this.$document.find('.header-logo').toggleClass('logo-cultura');
+        this.$document.find('.header-logo').toggleClass('logo-cultura'); 
     }
 
     abrirModal(integrante, ev){

@@ -7,7 +7,7 @@
     </div> 
 
     <div class="banner_services_text" >
-        <h3 class="bannerdev_title"> {{ servicio.servicio.maintitle }} <br>{{ servicio.servicio.maintitle2}}<span class='red'>.</span> </h3>
+        <h1 class="bannerdev_title"> {{ servicio.servicio.maintitle }} <br>{{ servicio.servicio.maintitle2}}<span class='red'>.</span> </h1>
         <p ng-bind="servicio.servicio.maindescription">  
         </p>
     </div>
@@ -23,9 +23,9 @@
 
     <figure class="figure_services_content {{service.imagen}}" data-ng-repeat="service in servicio.servicio.servicios">
         <figcaption class="services_text_content">
-            <h1 class="services_title"> {{service.titulo}}<span class="red">.</span></h1>
+            <h3 class="services_title"> {{service.titulo}}<span class="red">.</span></h3>
             <p >
-                {{service.descripcion}}<span class="hiden-xs"> {{service.descripcion2}}</span>
+                {{ service.descripcion }}<span class="hiden-xs">{{ service.descripcion2 }}</span>
             </p>
 
             <a href="" data-ng-click="servicio.openmodal( service.titulo )"  class="btn btn-cotizar" id="btn_open">
@@ -36,14 +36,27 @@
 </div>
 <!--Fín de seccion del contenido-->
 
+<!--Inicio de seccion del enlaces-->
+<div class="enlaces">
+
+    <a href="" data-ui-sref="{{ enlace.ruta }}" data-ng-repeat="enlace in servicio.servicio.enlaces">
+        <img class="enlace__bg-img" src="{{ enlace.imagen }}" alt="{{ enlace.descripcion }}">
+        <figure class="service-enlace {{ enlace.clase }}">
+            {{ enlace.descripcion }}
+        </figure>
+    </a>
+
+</div>
+<!--Fín de seccion del enlaces-->
+
 
 <!--Modal-->
 <div id="Modalservice" class="modal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <img src="res/img/B.png" alt="" class="fbicon">
-                <h5 class="modal-title">Cotizar {{ servicio.tituloModal }} <span class="red">.</span></h5>
+                <img src="res/img/B.png" alt="Bigbang icon blanco" class="fbicon">
+                <h4 class="modal-title">Cotizar {{ servicio.tituloModal }} <span class="red">.</span></h4>
                 <button type="button" class="close closemodal" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

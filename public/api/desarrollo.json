@@ -1,22 +1,37 @@
 {
     "maintitle":"Desarrollo",
     "maintitle2":"web",
-    "maindescription": "Diseñamos para triunfar, para que se vea bien y que funcione.",
+    "maindescription": "Diseñamos para triunfar, para que se vea y funcione bien. Creemos que comunicando tus ideas llegarás al éxito.",
     "mainimagen": "res/img/recursos/Desarrollo.png",
 
     "servicios":[
         {
             "titulo":"Sitios web",
-            "descripcion":"Llegá a nuevos clientes en el mundo digital, nos encargamos que los que buscan, te encuentren.",
-            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "descripcion":"Tu web es tu nueva tarjeta de presentación por tanto nos comprometemos a que no pase desapercibida",
+            "descripcion2": ", conecte con la gente y la involucre directamente con tu marca.",
             "imagen": "img-sitioweb"
         },
         {
             "titulo":"Apps moviles",
-            "descripcion":"Nos encargamos de mostrar tu negocio en el mundo digital, que esté bien posicionado en google",
-            "descripcion2": ", utilizando alto estándares de calidad y con tecnología y normas actuales.",
+            "descripcion":"Nos encargamos de transformar tu idea a soluciones creativas, dando vida a poderosas aplicaciones",
+            "descripcion2": " pensadas para brindar una maravillosa experiencia interactiva al usuario.",
             "imagen": "img-aplicaciones"
         }
+    ],
+    "enlaces":[
+        {
+            "ruta": "servicio({servicio:'disenio'})",
+            "descripcion": "Diseño gráfico",
+            "clase": "img-enlace-di",
+            "imagen": "res/img/recursos/enlace-di.jpg"
+        },
+        {
+            "ruta": "servicio({servicio:'marketing'})",
+            "descripcion": "Marketing",
+            "clase": "img-enlace-ma",
+            "imagen": "res/img/recursos/enlace-mar.jpg"
+        }
     ]
+
 
 }

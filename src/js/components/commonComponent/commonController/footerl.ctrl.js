@@ -14,15 +14,17 @@ class FooterCtrl {
             direccion: "Semáforo viejo 1 1/2 cuadras al norte. Estelí, Nicaragua.",
             correo: "contacto@bigbangnica.studio ",
             telefono: "Tel.: (505) 8853 9870",
-            copy: "TODOS LOS DERECHOS RESERVADOS"
+            copy: "TODOS LOS DERECHOS RESERVADOS",
+            frase: "Hecho en Nicaragua con gallo pinto y pinol."
         }
         this.ENG = {
-            maintitle: "Your project begin here",
+            maintitle: "Your project begins here",
             boton: "¡Lets talk!",
             direccion: "Visit us semaforo viejo 1 and a half block norht, Estelí, Nicaragua.",
             correo: "contacto@bigbangnica.studio ",
             telefono: "Call us (505) 8853 9870",
-            copy: "ALL RIGHTS RESERVED" 
+            copy: "ALL RIGHTS RESERVED",
+            frase: "Made in Nicaragua with gallo pinto and pinol." 
         }
         
         this.LANG;

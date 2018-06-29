@@ -30,7 +30,7 @@ class serviciosCtrl {
         }
         this.ENG = {
             maintitle: "services",
-            maintext: "The world, business and communication have changed, and you? Discover and exploit (as a Muslim) the potential of your company with us. Know what we are capable of.",
+            maintext: "The world, business and communication have changed, so, do you? Discover and exploit the potential of your company with us.",
             secondtitle: "Know what we are capable of.",
             servicios1:{
                 titulo1: "Web",

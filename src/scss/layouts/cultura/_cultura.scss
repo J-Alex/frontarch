@@ -1,10 +1,13 @@
 //cambios de menu
-.header-cultura {
-    //padding: .5rem 1rem;
+ /*.header-cultura {
     position: absolute;
     // padding-left: 0rem;
-    margin-left: 2.9rem;
-}  
+    //margin-left: 1.5rem;
+    .header-row{
+        width: 1265px!important;
+    }
+}  */
+
 .ocultar-logo{
     display: none;
 }
@@ -21,7 +24,8 @@
     display: inline;
     width: 130px;
     margin-top: -1rem;
-}
+    //margin-left: 4rem;
+} 
 //Cultura
 .row-cultura{
     padding: 0.5em 1em;
@@ -40,7 +44,7 @@
     justify-content: center;
     margin-left: -1.7rem;
     margin-right: -1.6rem;
-    margin-top: -1rem;    
+    margin-top: -9rem;  
     padding: 3rem;
 }
 
@@ -76,6 +80,7 @@
 .valores-title{
     font-weight: 800;
     margin-bottom: -.5rem;
+    font-size: 1.5em;
 }
 .valores__text-caption{
     width: 68%;
@@ -559,7 +564,7 @@ button.closemodal-perfil {
 
 @media screen and (max-width: 1400px){
     .figure_services_content{
-        height: 450px;
+        height: 475px;
     }
     .servicio__text-caption p {
         font-weight: 300;
@@ -979,6 +984,20 @@ button.closemodal-perfil {
     .integrante-equipo {
         width: 315px;
         margin: 1.3rem auto;
+    }
+
+    .integrante-equipo:hover, .integrante-equipo:focus{ 
+        .integrante_text-caption {
+            padding: 20rem 0rem;
+
+            .content-info-equipo{
+                margin-top: 0rem;
+            }
+            .integrante-txt{  
+                display: none;
+            }   
+        } 
+    
     }
 
     //modal perfil

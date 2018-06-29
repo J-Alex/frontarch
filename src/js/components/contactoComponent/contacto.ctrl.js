@@ -25,13 +25,13 @@ class contactoCtrl {
                 correo: "Correo Electrónico*",
                 empresa: "Empresa*",
                 proyecto: "Detalles del proyecto*",
-                boton: "enviar"
+                boton: "Enviar"
             },
             contactos:{
-                telefono: "Llámanos",
-                titulodireccion: "Visítanos",
+                telefono: "Llamanos",
+                titulodireccion: "Visitanos",
                 direccion: "Semáforo viejo 1 1/2 cuadras al norte Estelí, Nic.",
-                correo: "Escríbenos"
+                correo: "Escribinos"
             }
         }
         this.ENG = {

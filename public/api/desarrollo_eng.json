@@ -1,21 +1,35 @@
 {
     "maintitle":"Web",
     "maintitle2":"development",
-    "maindescription": "We design to succeed, so that it looks good and works.",
+    "maindescription": "We design to succeed, to make it work and look well. We believe that communicating your ideas in the right way will lead you to success.",
     "mainimagen": "res/img/recursos/Desarrollo.png",
 
     "servicios":[
         {
             "titulo":"Websites",
-            "descripcion":"Llegá a nuevos clientes en el mundo digital, nos encargamos que los que buscan, te encuentren.",
-            "descripcion2": "Utilizamos los más altos estándares de calidad, con tecnología actual.",
+            "descripcion":"Your website is your new business card, so we promise you will not go unnoticed",
+            "descripcion2": ", connect with people and get them directly involved with your brand.",
             "imagen": "img-sitioweb"
         },
         {
             "titulo":"Mobile apps",
-            "descripcion":"Nos encargamos de mostrar tu negocio en el mundo digital, que esté bien posicionado en google",
-            "descripcion2": ", utilizando alto estándares de calidad y con tecnología y normas actuales.",
+            "descripcion":"We take care of transforming your ideas to creative solutions, giving life to powerful applications",
+            "descripcion2": ", designed to provide a wonderful interactive experience to the user.",
             "imagen": "img-aplicaciones"
+        }
+    ],
+    "enlaces":[
+        {
+            "ruta": "servicio({servicio:'disenio'})",
+            "descripcion": "Graphic design",
+            "clase": "img-enlace-di",
+            "imagen": "res/img/recursos/enlace-di.jpg"
+        },
+        {
+            "ruta": "servicio({servicio:'marketing'})",
+            "descripcion": "Marketing",
+            "clase": "img-enlace-ma",
+            "imagen": "res/img/recursos/enlace-mar.jpg"
         }
     ]
 
