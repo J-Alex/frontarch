@@ -1,6 +1,8 @@
 const transitionRunner = ($window, $rootScope, $state, $trace, I18N) => {
     'ngInject';
-    console.log("Idioma del Navegador: " + navigator.language +" "+ navigator.userLanguage);
+    
+    console.log("Browser Lang: " + navigator.language +" "+ navigator.userLanguage);
+
     //$trace.enable('TRANSITION');
     
     /*$rootScope.$on('$stateChangeStart', (evt, toState, toParams, fromState, fromParams) => {
