@@ -1,5 +1,5 @@
-var CACHE_NAME = 'my-site-cache-v1';
-var urlsToCache = [
+/*const CACHE_NAME = 'my-site-cache-v1';
+let urlsToCache = [
   '/res/js/script.min.js',
   '/res/js/script.min.js.map',
   '/res/js/styles.min.css',
@@ -55,18 +55,21 @@ self.addEventListener('fetch', function(event) {
           );
         })
       );
-  });
+  });*/
 
   self.addEventListener('activate', function(event) {
 
-    var cacheWhitelist = ['my-site-cache-v1'];
+    let cacheWhitelist = ['my-site-cache-v1'];
   
     event.waitUntil(
       caches.keys().then(function(cacheNames) {
         return Promise.all(
           cacheNames.map(function(cacheName) {
             if (cacheWhitelist.indexOf(cacheName) === -1) {
+              console.log("eliminando...: " + cacheName);
               return caches.delete(cacheName);
+            } else {
+              console.log("no he eliminado nada!");
             }
           })
         );
