@@ -19,13 +19,37 @@
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
-                navigator.serviceWorker.register('/sw.js').then(function(registration) {
+                /*navigator.serviceWorker.register('/sw.js').then(function(registration) {
                 // Registration was successful
                 console.log('ServiceWorker registration successful with scope: ', registration.scope);
                 }).catch(function(err) {
                 // registration failed :(
                 console.log('ServiceWorker registration failed: ', err);
+                });*/
+
+                /****************************************************************************/
+                self.addEventListener('activate', function(event) {
+
+                    let cacheWhitelist = ['my-site-cache-v1'];
+
+                    event.waitUntil(
+                        caches.keys().then(function(cacheNames) {
+                            console.log(cacheNames);
+                            return Promise.all(
+                                cacheNames.map(function(cacheName) {
+                                    console.log(cacheName)
+                                    /*if (cacheWhitelist.indexOf(cacheName) === -1) {
+                                    console.log("eliminando...: " + cacheName);
+                                    return caches.delete(cacheName);
+                                    } else {
+                                    console.log("no he eliminado nada!");
+                                    }*/
+                                })
+                            );
+                        })
+                    );
                 });
+                /****************************************************************************/
             });
         }
     </script>

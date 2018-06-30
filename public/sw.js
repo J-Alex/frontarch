@@ -63,14 +63,16 @@ self.addEventListener('fetch', function(event) {
   
     event.waitUntil(
       caches.keys().then(function(cacheNames) {
+        console.log(cacheNames);
         return Promise.all(
           cacheNames.map(function(cacheName) {
-            if (cacheWhitelist.indexOf(cacheName) === -1) {
+            console.log(cacheNames)
+            /*if (cacheWhitelist.indexOf(cacheName) === -1) {
               console.log("eliminando...: " + cacheName);
               return caches.delete(cacheName);
             } else {
               console.log("no he eliminado nada!");
-            }
+            }*/
           })
         );
       })
