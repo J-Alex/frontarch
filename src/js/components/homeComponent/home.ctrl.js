@@ -146,6 +146,7 @@ class HomeCtrl {
 
     }
     $onInit() {
+        console.log("hola a todos");
         //setTimeout(()=>{this.contar()}, 2500)   
 
         if(this.I18N.val === "ESP") { this.LANG = this.ESP; }
