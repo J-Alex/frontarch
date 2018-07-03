@@ -1,6 +1,8 @@
 const transitionRunner = ($window, $rootScope, $state, $trace, I18N) => {
     'ngInject';
     
+    console.log("Browser Lang: " + navigator.language +" "+ navigator.userLanguage);
+
     //$trace.enable('TRANSITION');
     
     /*$rootScope.$on('$stateChangeStart', (evt, toState, toParams, fromState, fromParams) => {
@@ -18,7 +20,7 @@ const transitionRunner = ($window, $rootScope, $state, $trace, I18N) => {
         //console.log("NO existe y es: " + $window.localStorage['I18N']);
 
         let userLang = navigator.language || navigator.userLanguage;
-        //console.log("The language is: " + navigator.language +" "+ navigator.userLanguage);
+        
         if(userLang == 'es' || userLang == 'es-ES'){
             I18N.setLang('ESP');
             $window.localStorage['I18N'] = 'ESP';

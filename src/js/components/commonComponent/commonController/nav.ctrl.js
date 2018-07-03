@@ -27,15 +27,15 @@ class NavCtrl {
         
         this.LANG;
 
-        this.location = '';
+        this.locacion = '';
     }
 
     $onInit(){
         this.$transitions.onSuccess({}, (transition) => {
-            //console.log(this.$scope)
-            if(transition.params().servicio) { this.location = transition.params().servicio; }
-            else { this.location = transition.to().name }
-            //console.log('cambiando..')
+            
+            if(transition.params().servicio) { this.locacion = transition.params().servicio; console.log(transition.params().servicio); }
+            else { this.locacion = transition.to().name; console.log(transition.to().name)}
+            console.log(this.locacion)
             //console.log(this.location);
             //console.log(transition.params().servicio);
         });

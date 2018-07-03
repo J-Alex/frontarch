@@ -1,4 +1,15 @@
+main {
+    padding-top: 125px;
+}
+.header-cultura {
+    background-color: transparent !important;
+}
 .header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+
     #{&}-row {
         display: flex;
         /* flex-direction: row; (row default) */
@@ -22,6 +33,12 @@
     @extend .container;
 }
 @media screen and(max-width: 600px) {
+    main{
+        padding-bottom: 0;
+    }
+    .header {
+        position: initial;
+    }
     .header .header__icon {
         display: block;
     }
