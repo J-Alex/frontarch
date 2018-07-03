@@ -135,19 +135,25 @@
     background-color: rgba(0,0,0,0.3);
 }
 
-.enlace__bg-img {
-    position: absolute;
-    width: 50%;
-    z-index: -1;
-    transition: .3s ease all;
-    display: block;
-    height: 223px;
-}
-
 .service-enlace:hover,.service-enlace:focus{
     background-color: rgba(0,0,0,0.6);
 }
 
+.img-enlace-di{
+    background-image: url(../../res/img/recursos/enlace-di.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img-enlace-ma{
+    background-image: url(../../res/img/recursos/enlace-mar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.img-enlace-de{
+    background-image: url(../../res/img/recursos/enlace-dev.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 //full resolucion
 @media screen and (min-width: 1600px){
     .figure_services_content {
@@ -180,7 +186,7 @@
     }
     .figure_services_content:nth-child(2n) .services_text_content {
         float: right;
-        width: 44%;
+        width: 39%;
     }
     .services_title {
         margin-top: -1.6rem;
@@ -189,6 +195,17 @@
         float: right;
         padding: 3rem 5rem 1rem;
     }
+
+    .service-enlace {
+        padding: 4.7rem 0;
+    }
+
+    .services_text_content p {
+        font-weight: 500;
+        height: 75px;
+        width: 400px;
+    }
+
 }
 /*Resolucion de pantalla tablet vertical*/
 @media screen and (max-width: 768px){
@@ -208,7 +225,7 @@
     }
 
     .figure_services_content:nth-child(2n) .services_text_content {
-        width: 42%;
+        width: 39%;
     }
 
     .services_text_content {
@@ -219,7 +236,7 @@
         p {
             font-weight: 500;
             height: 87px;
-            width: 340px;
+            width: 320px;
         }
     }
 
@@ -255,7 +272,11 @@
         height: 169px;
     }
     .service-enlace {
-        padding: 4.3rem 0;
+        padding: 3.2rem 0;
+    }
+
+    .header {
+        height: 65px;
     }
 }
 /*Resolucion de pantalla movil vertical*/
@@ -481,7 +502,7 @@
     }
 
     .enlaces{
-        display: block;   
+        display: flex;   
         a{
             width: 100%;
         }
@@ -495,5 +516,21 @@
         height: 150px;
     }
 
+
+    .img-enlace-di{
+        background-image: url(../../res/img/recursos/enlace-di-movil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img-enlace-ma{
+        background-image: url(../../res/img/recursos/enlace-mar-movil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .img-enlace-de{
+        background-image: url(../../res/img/recursos/enlace-dev-movil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
 
 }

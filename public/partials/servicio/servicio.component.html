@@ -39,9 +39,9 @@
 <!--Inicio de seccion del enlaces-->
 <div class="enlaces">
 
-    <a href="" data-ui-sref="{{ enlace.ruta }}" data-ng-repeat="enlace in servicio.servicio.enlaces">
-        <img class="enlace__bg-img" src="{{ enlace.imagen }}" alt="{{ enlace.descripcion }}">
-        <figure class="service-enlace {{ enlace.clase }}">
+    <a href="" data-ui-sref="{{ enlace.ruta }}" data-ng-repeat="enlace in servicio.servicio.enlaces" class="{{ enlace.clase }}">
+        <!-- <img class="enlace__bg-img" src="{{ enlace.imagen }}" alt="{{ enlace.descripcion }}"> -->
+        <figure class="service-enlace">
             {{ enlace.descripcion }}
         </figure>
     </a>

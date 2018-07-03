@@ -9,6 +9,7 @@ main {
     width: 100%;
     background-color: #fff;
     z-index: 999;
+    height: 50px;
 
     #{&}-row {
         display: flex;

@@ -400,7 +400,7 @@ input[type="radio"]:checked + label{
         height: 59%;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 640px){
     
     .conten-servicios{
         background-color: #fff;
@@ -430,6 +430,10 @@ input[type="radio"]:checked + label{
     
     .servicio__bg-img {
         background: none;
+    }
+
+    main {
+        padding-top: 89px!important;
     }
 }
 @media screen and (max-width: 580px){

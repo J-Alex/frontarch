@@ -496,6 +496,10 @@ body{
 
 
 @media screen and (max-width: 720px){
+    .ideales_text {
+        width: 160px;
+    }
+
     .ideales_title {
         font-size: 1.4em;
     }
@@ -534,7 +538,9 @@ body{
         width: 500px;
         p{
             color: #f2f2f2;
-            font-size: .8em;
+            font-size: 1.2em;
+            width: 468px;
+            margin: 0 auto;
         }
     }
 
