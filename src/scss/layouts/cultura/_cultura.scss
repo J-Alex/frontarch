@@ -11,10 +11,13 @@
 .ocultar-logo{
     display: none;
 }
-.header .header__logo {
-    width: 130px;
-    margin-top: -1rem;
+.header {
+    .header__logo {
+        width: 130px;
+        margin-top: -1rem;
+    }  
 }
+
 
 .header-logo{ 
     display: none;
@@ -564,7 +567,7 @@ button.closemodal-perfil {
 
 @media screen and (max-width: 1400px){
     .figure_services_content{
-        height: 470px;
+        height: 460px;
     }
     .servicio__text-caption p {
         font-weight: 300;
@@ -631,6 +634,8 @@ button.closemodal-perfil {
     .aficiones {
         width: 49%;
     }
+
+    
 }
 
 @media screen and (max-width: 1024px){
@@ -922,8 +927,21 @@ button.closemodal-perfil {
         height: 355px;
     }
 
-    .header .header__icon {
-        width: 50px;
+    main {
+        padding-top: 0px!important;
+    }
+
+    .header {
+        position: static;
+        width: 97%;
+        .header__icon {
+            width: 65px;
+        }
+    }
+    .menu-icon {
+        width: 58px;
+        margin-top: .2rem;
+        margin-left: .1rem;
     }
 }
 
@@ -1090,22 +1108,11 @@ button.closemodal-perfil {
         margin-left: 0rem;
     } 
 
-
-    .header .header__icon {
-        margin-left: -1rem;
-        margin-top: .2rem;
-    }
-
     .logo-cultura {
         display: inline;
         width: 80px;
         margin-left: .5rem;
         margin-top: 0rem;
-    }
-    .menu-icon {
-        width: 44px;
-        margin-top: .2rem;
-        margin-left: -1rem;
     }
     .nav__link {
         font-size: 1.8em;
@@ -1118,5 +1125,15 @@ button.closemodal-perfil {
     .header {
         height: 78px;
         width: 94%;
+        .header__icon {
+            width: 65px;
+            margin-left: -.5rem;
+            margin-top: .2rem;
+        }
+    }
+    .menu-icon {
+        width: 58px;
+        margin-top: .2rem;
+        margin-left: -.5rem;
     }
 }
