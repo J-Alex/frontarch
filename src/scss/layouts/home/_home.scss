@@ -310,7 +310,6 @@ body{
         font-size: 1.1em;
     }
 
-
     .portada {
         height: 760px;
     }
@@ -352,7 +351,7 @@ body{
     }
     .ideales_text {
         text-align: center;
-        width: 261px;
+        width: 300px;
         margin: 0 auto;
         font-size: 16px!important;
     }
@@ -381,6 +380,7 @@ body{
         margin-top: 4rem;
         p{
             font-size: 1.5em;  
+            width: 756px;
         }
     }
 
@@ -424,10 +424,17 @@ body{
     .idiomas {
         color: #fff;
     }
+    .ideales_text {
+        width: 251px;
+    }
     .contentPasionTex {
         margin-left: -1.9rem;
         padding-left: 4rem;
-        width: 500px;
+        width: 510px;
+        margin-top: .5rem;
+        p {
+            width: 440px;
+        }        
     }
     .contentPasionTitle {
         margin-left: 2rem;
@@ -436,8 +443,26 @@ body{
     .pasionRed{
         padding: 2.5rem 0px;
     }
-}
 
+    .header{
+        height: 60px;
+        .header__logo {
+            display: none;
+        }
+        .header__icon {
+            display: block;
+            width: 78px;
+            margin-top: -1.3rem;
+        }
+
+        .logo-cultura {
+            display: none;
+        }
+    }
+    .menu-icon {
+        top: 10px;
+    }
+}
 
 @media screen and (max-width: 768px){
     .idiomas {
@@ -450,6 +475,9 @@ body{
     .ideales_title {
         margin-top: 4.2rem;
     }
+    .ideales_text {
+        width: 186px;
+    }
     .logo_clientes{
         width: 33%;
         text-align: center;
@@ -461,7 +489,6 @@ body{
     .btn-social {
         margin: 0.1rem;
     }
-    
 
     @keyframes mover_dirigible {
         0%  {  left: 10%; }
@@ -474,15 +501,23 @@ body{
     }
 
     .contentPasionTex {
-        width: 400px;
+        margin-left: -1rem;
+        width: 390px;
+        padding: .5rem 0;
+        padding-left: 2rem;
+        margin-top: 1.6rem;
+        p{
+            width: 350px;
+        }
     }
     .contentPasionTitle {
         margin-left: 10px;
         width: 300px;
         align-content: center;
+        height: 307px;
     }
     .pasionTitle {
-        font-size: 4.6em;
+        font-size: 4.9em;
     }
     .pasionBlack {
         padding: 5rem 0;
@@ -491,6 +526,11 @@ body{
     .pasionRed{
         padding: 5rem 0px;
         padding-bottom: 3rem;
+    }
+
+    .pasionBlack, .pasionRed {
+        padding: 0; 
+        padding-bottom: 0rem;
     }
 }
 

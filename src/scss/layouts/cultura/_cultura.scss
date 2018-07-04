@@ -669,7 +669,7 @@ button.closemodal-perfil {
 @media screen and (max-width: 768px){
     .header .header__icon {
         display: block;
-        margin-top: -.8rem;;
+        margin-top: -1rem;;
         margin-left: .2rem;
     }
     .header .header__logo, .header .header-logo {
@@ -679,6 +679,13 @@ button.closemodal-perfil {
         position: absolute;
         margin-left: 0rem;
     }
+    .menu-icon {
+        top: 16px;
+    }
+    .nav__link {
+        font-size: 3em;
+    }
+
 
     .banner-cultura {
         height: 360px;
@@ -734,10 +741,7 @@ button.closemodal-perfil {
         width: 440px;
         margin-top: 1.5rem;
     }
-    /* .modal-perfil {
-        margin-top: 1.5rem;
-        margin-top: 1.5rem;
-    } */
+
     .modal-body-perfil {
         max-height: calc(100% - 1px);
         overflow-y: scroll;
@@ -770,7 +774,6 @@ button.closemodal-perfil {
         display: flex;
         margin-bottom: -1em;
     }
-
 
     .intereses {
         width: 50%;

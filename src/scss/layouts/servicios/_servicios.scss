@@ -339,10 +339,32 @@ input[type="radio"]:checked + label{
         width: 300px;
         border-bottom: 5px solid #323232;
         overflow: hidden;
-        height: 370px;
+        height: 380px;
     }
     .servicio__bg-img { 
         width: 300px;
+    }
+    .servicio:hover .servicio__text-caption {
+        color: #323232;;
+    
+        .red
+        {
+            color: #e13639;
+        }
+    }
+    .servicio:hover, .servicio:focus {
+        .servicio__bg-img {
+            opacity: 0;
+        }
+        .vector-dev{
+            background-image: url("../../res/img/recursos/Desarrollored.png");
+        }
+        .vector-desing{
+            background-image: url("../../res/img/recursos/Disenored.png");
+        }
+        .vector-marketing{
+            background-image: url("../../res/img/recursos/Marketingred.png");
+        }    
     }
 
     .figure_services_content {
@@ -352,7 +374,6 @@ input[type="radio"]:checked + label{
     .services_text_content {
         padding-top: 4.3rem;
     }
-
 
     .modal-content {
         width: 88%;
@@ -364,18 +385,20 @@ input[type="radio"]:checked + label{
 }
 @media screen and (max-width: 768px){
     .servicios {
-        max-width: 600px;
-    }
-    .servicio__bg-img { 
-        width: 550px;
+        max-width: 500px;
     }
 
     .servicio {
-        width: 550px;
+        width: 450px;
         border-bottom: 3px solid #323232;
         overflow: hidden;
-        height: 297px;
+        height: 325px;
         margin-bottom: 2rem;
+
+        .servicio__bg-img {
+            width: 450px;
+            height: 325px;
+        }
     }
 
     .servicio__text-caption {
