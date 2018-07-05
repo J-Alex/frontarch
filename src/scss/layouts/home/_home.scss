@@ -66,15 +66,22 @@ body{
     margin: 0 auto;
 }
 .slogan_image  {
-    width: 320px;
+    width: 310px;
+    margin-top: 4.3rem;
    /* animation: mover_edificio 6s ease-in-out infinite;
     position: absolute;*/
 }
-@keyframes mover_edificio{
-  0%  {  top: 75%; right:65%;}
-  50% {  top: 95%;right:65%; }
-  100%{  top: 85%; right:65%;}
+
+.slogan_text-wrappper {
+    margin: 1.5rem auto;
+    padding-top: 3rem;
 }
+@keyframes mover_edificio{
+  0%  {  top: 70%; right:65%;}
+  50% {  top: 90%;right:65%; }
+  100%{  top: 80%; right:65%;}
+}
+
 
 .dirigible {
     /*position: static;
@@ -89,7 +96,7 @@ body{
 
 @keyframes mover_dirigible {
   0%  {  left: 50%; }
-  50% {  left: 85%; }
+  50% {  left: 75%; }
   100%{  left: 50%; }
 }
 /*
@@ -462,6 +469,11 @@ body{
     .menu-icon {
         top: 10px;
     }
+
+    .slogan_image {
+        width: 320px;
+        margin-top: 5.3rem;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -482,9 +494,16 @@ body{
         width: 33%;
         text-align: center;
     }
-
-    .slogan_text-wrappper{
+    .slogan_image-wrappper {
+        margin-bottom: -1rem;
+    }
+    .slogan_image {
+        width: 320px;
+        margin-top: 6.3rem;
+    }
+    .slogan_text-wrappper {
         margin: 1.5rem auto;
+        padding-top: 0rem;
     }
     .btn-social {
         margin: 0.1rem;
@@ -592,6 +611,11 @@ body{
 
     .slogan_image-wrappper{
         margin-top: -18rem;
+        margin-bottom: -2.3rem;
+    }
+    .slogan_image {
+        width: 320px;
+        margin-top: 0.3rem;
     }
     .slogan_text-wrappper {
         margin: -0.5rem auto;
@@ -666,6 +690,7 @@ body{
     .slogan_image-wrappper{
         width: 100%;
         text-align: center;
+        margin-bottom: -6rem;
     }
     .slogan_image{
         width: 270px;

@@ -14,10 +14,9 @@
 .header {
     .header__logo {
         width: 130px;
-        margin-top: -1rem;
+        margin-top: -2rem;
     }  
 }
-
 
 .header-logo{ 
     display: none;
@@ -667,6 +666,9 @@ button.closemodal-perfil {
 }
 
 @media screen and (max-width: 768px){
+    .header {
+        height: 70px;
+    }
     .header .header__icon {
         display: block;
         margin-top: -1rem;;
@@ -685,7 +687,6 @@ button.closemodal-perfil {
     .nav__link {
         font-size: 3em;
     }
-
 
     .banner-cultura {
         height: 360px;

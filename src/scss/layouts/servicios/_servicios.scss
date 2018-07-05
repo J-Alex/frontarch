@@ -1,5 +1,5 @@
 .row-servicios {
-    padding: 0.5em 1em;
+    padding: 0rem 1em;
 }
 .banner{
     align-items:  center;
@@ -13,7 +13,7 @@
     justify-content: center;
     margin-left: -1.7rem;
     margin-right: -1.6rem;
-    margin-top: -3rem;    
+    margin-top: -3.2rem;   
     padding: 3rem;
 }
 .banner_title{
@@ -384,6 +384,14 @@ input[type="radio"]:checked + label{
     }
 }
 @media screen and (max-width: 768px){
+   
+    .banner {
+        height: 385px;
+        margin-left: -1.7rem;
+        margin-right: -1.6rem;
+        margin-top: -2.5rem;
+        padding: 2rem;
+    }
     .servicios {
         max-width: 500px;
     }
@@ -412,8 +420,6 @@ input[type="radio"]:checked + label{
             transition: all .3s ease;
         }
     }
-
-
 
     .modal-content {
         width: 88%;
