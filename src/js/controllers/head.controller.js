@@ -7,8 +7,8 @@ class HeadCtrl {
         this.$scope = $scope;
         this.I18N = I18N;
         
-        this.$scope.title = "";
-        this.$scope.description = "";
+        this.$scope.title = "We are BigBang Studio, a Digital Transformation Agency in Nicaragua";
+        this.$scope.description = "In BigBang Studio we develop strategies to reach your goals using Digital marketing, graphic design and Web development. We want to make you grow";
 
     }
     $onInit(){
