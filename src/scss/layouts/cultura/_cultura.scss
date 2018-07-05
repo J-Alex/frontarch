@@ -14,10 +14,12 @@
 .header {
     .header__logo {
         width: 130px;
-        margin-top: -1rem;
+        margin-top: -1rem!important;
     }  
 }
-
+.nav .nav__link-wrapper {
+    margin-top: -.6rem!important;
+}
 .header-logo{ 
     display: none;
 }
