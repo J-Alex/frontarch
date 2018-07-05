@@ -126,7 +126,7 @@
 
 .service-enlace{
     text-align: center;
-    padding: 8rem 0;
+    padding: 7.5rem 0;
     font-size: 1.5em;
     font-weight: 600;
     color: #fff;
@@ -307,7 +307,7 @@
    
     .main-servicios-title {
         margin-top: 1rem;
-        margin-bottom: -0.5rem;
+        margin-bottom: 1rem;
     }
     
     .services_text_content {
@@ -371,7 +371,7 @@
         height: 150px;
     }
     .service-enlace {
-        padding: 3.8rem 0;
+        padding: 2.4rem 0;
     }
 }
 /*Resolucion de pantalla mobil vertical*/
@@ -414,9 +414,6 @@
         }
     }
 
-    .main-servicios-title {
-        margin-top: 0rem;
-    }
     .banner {
         height: 260px;
     }
@@ -486,19 +483,19 @@
         width: 40%;
     }
 
-
-    .service-enlace{
-        height: 29px;
-    }
-
     .enlaces{
         display: flex;   
         a{
             width: 100%;
         }
     }
-    .service-enlace {
-        padding: 3.8rem 0;
+    .service-enlace{
+        height: 29px;
+        p{
+           margin: 0 auto;
+           margin-top: -1rem;
+           width: 130px;
+        }
     }
 
     .enlace__bg-img {
