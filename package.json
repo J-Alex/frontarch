@@ -52,6 +52,7 @@
     "angular": "^1.6.4",
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
-    "loglevel": "^1.4.1"
+    "loglevel": "^1.4.1",
+    "typed.js": "^2.0.8"
   }
 }

@@ -4,7 +4,7 @@ class HomeCtrl {
     
     constructor($document, $scope, TestService, API, I18N) {
         'ngInject'
-
+        
         this.$document = $document;
         this.$scope = $scope;
 
@@ -146,7 +146,15 @@ class HomeCtrl {
 
     }
     $onInit() {
-        console.log("hola a todos");
+        console.log(this);
+        
+        /*let options = {
+            strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+            typeSpeed: 40
+        }
+          
+        const typed = new Typed(".typing", options);*/
+
         //setTimeout(()=>{this.contar()}, 2500)   
 
         if(this.I18N.val === "ESP") { this.LANG = this.ESP; }
@@ -154,7 +162,7 @@ class HomeCtrl {
         
         this.$scope.$on('changeLang', (event, args) => {
             if (args == 'ESP'){ this.LANG = this.ESP; }
-            else { this.LANG = this.ENG; }            
+            else { this.LANG = this.ENG; }
         });
 
         let vidaBigbang = document.getElementById('vidaBigbang');
