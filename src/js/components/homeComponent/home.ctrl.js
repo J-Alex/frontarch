@@ -147,7 +147,12 @@ class HomeCtrl {
     }
     $onInit() {
         console.log(this);
-        
+        $(".typing").typed({
+            strings: ["Tus ideas", "Tus ideas", "Tus ideas", "Tus ideas", "Tus ideas"],
+            typeSpeed: 15,
+            loop: true
+        });
+        $("img.lazy").lazyload();
         /*let options = {
             strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
             typeSpeed: 40
