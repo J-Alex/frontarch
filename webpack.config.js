@@ -14,8 +14,7 @@ module.exports = {
     devServer: {
         contentBase: path.resolve(__dirname, 'public'),
         compress: true,
-        useLocalIp: true,
-        host: '0.0.0.0',
+        //useLocalIp: true,
         port: 7500,
         open: true,
         stats: 'errors-only'

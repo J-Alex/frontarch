@@ -9,7 +9,7 @@ program
 
     if(name === undefined){
       console.log('no args given')
-    }else{
+    } else {
       console.log(name);
     
       var componentTemplate = require('./templates/component.js')(name);
@@ -36,6 +36,27 @@ program
           });
         });
       });
+
+
+      /*
+          fs.readFileSync() or fs.readFile('', (err)=>{}) ... Sync or Async
+      */
+      let rawjson = fs.readFileSync('componentServices.json');
+      let componentServices = JSON.parse(rawjson);
+
+      componentServices.components.push(name);
+
+      let processedData = JSON.stringify(componentServices, null, 2);
+      fs.writeFileSync('componentServices.json', processedData);
+
+      let processedJSON = JSON.parse(processedData);
+      let componentModuleTemplate = require('./templates/componentModule.js')(processedJSON);
+      
+      fs.writeFile(`${__dirname}/src/js/components/components.module.js`, componentModuleTemplate, (err)=>{
+          if(err)throw err;
+          console.log(`File: /src/js/components/components.module.js has been updated successfully!!`);
+      });
+
     }
   });
 program
@@ -53,4 +74,4 @@ program
       });
     }
   });
-  program.parse(process.argv);
+  
