@@ -35,7 +35,7 @@
     "babel-core": "*",
     "babel-loader": "*",
     "babel-preset-env": "*",
-    "commander": "^2.11.0",
+    "commander": "^2.16.0",
     "css-loader": "*",
     "extract-text-webpack-plugin": "^2.1.2",
     "ng-annotate-loader": "^0.6.1",
